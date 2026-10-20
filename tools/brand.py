@@ -1,7 +1,8 @@
 import os
 from PIL import Image, ImageDraw, ImageFont, ImageFilter, ImageOps
 
-S = "/tmp/claude-0/-home-claude/37eaf9a6-6769-5ff9-9f63-4801d2f782ff/scratchpad"
+import os
+S = os.environ.get("WK_WORK", os.path.expanduser("~/wk-work"))
 F = f"{S}/fonts"
 W, H = 1080, 1350
 RED = (224, 38, 59)
