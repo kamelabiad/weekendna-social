@@ -2,9 +2,19 @@
 
 How @weekendna.lb posts are made and scheduled. Written for the weekly scheduled task, which starts with no memory of earlier chats.
 
+## Strategy (Oct 2026)
+- The problem is reach, not content: ~11 followers, 1 website click in 2 weeks. Posts alone don't bring guests.
+- Many owners are also on booking.com / their own sites, so guests can book them elsewhere. Weekendna wins where booking.com is weak: **places not on booking.com** (Instagram/WhatsApp-only chalets, villas, huts), **day-use pools and wedding venues**, and the Lebanese way of booking (**WhatsApp, pay at the place, Arabic, no card**). Owners pay **0% commission** (founding owners free for 12 months).
+- So: prioritise owners not on booking.com and day-use/wedding listings; lead captions with WhatsApp booking/day use; every post gets a **Reel** (reaches non-followers) and a **story kit** the owner shares to *their* audience; weekly Facebook-group post for Kamel.
+
+## Automation
+- `posts/log.json` is the schedule. The daily task (4:52pm UK) runs `tools/publish_due.py`, which publishes what's due: feed post + Weekendna story on `date`, the Reel version on `reel_date`. No per-post scheduled tasks.
+- The weekly task (Sunday) plans and prepares the next week and adds it to the log. Kamel can reply to change/hold; otherwise it goes out.
+- Each post folder: slides `<prefix>-N.jpg`, `caption.txt`, `story.jpg` + `reel.mp4` (from `tools/make_kit.py`), `whatsapp.txt` (message Kamel forwards to the owner).
+
 ## The rules (from Kamel)
 - **Cadence:** one post every 2 days at **5pm UK time** (Europe/London; mind the BST/GMT change).
-- **Nothing goes live without Kamel's OK.** Send him previews; schedule only after he replies OK. He can change, hold or reorder any post.
+- **Instagram is fully automated.** Kamel gets the week's plan and previews; he can reply to change, hold or reorder, otherwise posts go out on schedule.
 - **New listings go first.** Then owners who have never been posted. Then second-round posts for owners posted longest ago.
 - **Skip:** owners listed in `posts/log.json` → `skip_for_now`.
 - **Collaborators:** add the owner as collaborator and tag them on slide 1 whenever they have Instagram. Only use a handle Kamel gave or confirmed. Verify it first (see below). Never guess.
@@ -16,7 +26,7 @@ How @weekendna.lb posts are made and scheduled. Written for the weekly scheduled
 - Log of every post: `posts/log.json`. **Read it first, update it after every change.**
 - Post files: `posts/<yyyy-mm>-<name>/` with `<prefix>-1.jpg…` and `caption.txt`. Images are served publicly from `https://raw.githubusercontent.com/kamelabiad/weekendna-social/main/posts/...`, which is how Instagram fetches them.
 - Design: `tools/brand.py` (colours, fonts, logo, helpers). Examples of finished carousels: `tools/examples/make_*.py`. Run `source tools/setup.sh` first to fetch fonts.
-- Publishing: `tools/ig_publish.sh <folder> <n-slides> [handle]` for carousels and `tools/ig_publish_reel.sh <folder> <video> [handle]` for Reels. Both need `IG_TOKEN` set. Add the folder→file-prefix mapping in the `case` line of `ig_publish.sh` for new folders.
+- Publishing: `tools/publish_due.py` (daily, from the log). `--dry-run` and `--date YYYY-MM-DD` to test.
 
 ## Brand
 - Colours: red `#e0263b`, ink `#222`, soft pink `#fdedef`, dark `#1a181c`. Fonts: Plus Jakarta Sans (text), Outfit (logo "weekend"), IBM Plex Sans Arabic (Arabic + "نا" in red).
@@ -27,7 +37,8 @@ How @weekendna.lb posts are made and scheduled. Written for the weekly scheduled
 ## Instagram API (Instagram Login, app "Weekendna Poster", account id 17841412894685016)
 - Base: `https://graph.instagram.com/v21.0`. Token in `IG_TOKEN` (long-lived, ~60 days; refresh with `GET /refresh_access_token?grant_type=ig_refresh_token&access_token=…` — weekly is fine).
 - Verify a handle: create an **unpublished** container `POST /{ig-id}/media` with `image_url=<any repo image>` and `collaborators=["handle"]`. An id back means the account exists; error 2207018 means invalid or private. Unpublished containers expire on their own.
+- Stories: `media_type=STORIES` + `image_url` (no collaborators). Reels: `media_type=REELS` + `video_url`, `share_to_feed=false` for Reel versions of carousels.
 - Not available: reading DMs (app is in development mode), looking up other accounts (business_discovery), adding Instagram music, editing collaborators after posting.
 
 ## Scheduling
-- Use `send_later` (one-shot, into the same chat) for each approved post at 5pm UK, with a message telling that future turn exactly which command to run. Update `posts/log.json` and push.
+- Add the post to `posts/log.json` (status/story_status/reel_status "scheduled", date, reel_date) and push. The daily task publishes it. Don't create separate scheduled tasks.
