@@ -34,11 +34,11 @@ def shade(img, start, alpha=235, k=1.6):
     img.paste(top, (0, 0), gradient(220, 120, 0).transpose(Image.FLIP_TOP_BOTTOM).transpose(Image.FLIP_TOP_BOTTOM) if False else Image.linear_gradient("L").resize((W, 220)).point(lambda v: int((255 - v) * 0.45)))
     return img
 
-def logo(d, x, y, color=WHITE, size=46):
+def logo(d, x, y, color=WHITE, size=46, accent=None):
     f1 = out(700, size); f2 = ar(700, int(size * 1.02))
     d.text((x, y), "weekend", font=f1, fill=color)
     w = d.textlength("weekend", font=f1)
-    d.text((x + w + 2, y - int(size * 0.08)), "نا", font=f2, fill=RED if color == WHITE else RED, direction="rtl")
+    d.text((x + w + 2, y - int(size * 0.08)), "نا", font=f2, fill=accent or RED, direction="rtl")
 
 def pill(d, x, y, text, font, fg=WHITE, bg=RED, pad=(22, 12)):
     w = d.textlength(text, font=font)
