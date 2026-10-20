@@ -53,7 +53,11 @@
       "instagram": null,
       "status": "scheduled",
       "folder": "2026-10-ghosta-guest-house",
-      "note": "owner has no Instagram"
+      "note": "owner has no Instagram",
+      "type": "carousel",
+      "story_status": "scheduled",
+      "reel_date": "2026-10-23",
+      "reel_status": "scheduled"
     },
     {
       "date": "2026-10-24",
@@ -65,7 +69,11 @@
       "instagram": "acamparfaraya",
       "status": "scheduled",
       "folder": "2026-11-acampar",
-      "note": "combined Small hut (39) and Big hut (40)"
+      "note": "combined Small hut (39) and Big hut (40)",
+      "type": "carousel",
+      "story_status": "scheduled",
+      "reel_date": "2026-10-26",
+      "reel_status": "scheduled"
     },
     {
       "date": "2026-10-25",
@@ -75,7 +83,11 @@
       ],
       "instagram": "bayt.baabdat.guesthouse",
       "status": "scheduled",
-      "folder": "2026-10-bayt-baabdat"
+      "folder": "2026-10-bayt-baabdat",
+      "type": "carousel",
+      "story_status": "scheduled",
+      "reel_date": "2026-10-28",
+      "reel_status": "scheduled"
     },
     {
       "date": "2026-10-27",
@@ -87,7 +99,11 @@
       ],
       "instagram": "farayavillageclub",
       "status": "scheduled",
-      "folder": "2026-10-faraya-village-club"
+      "folder": "2026-10-faraya-village-club",
+      "type": "carousel",
+      "story_status": "scheduled",
+      "reel_date": "2026-10-30",
+      "reel_status": "scheduled"
     },
     {
       "date": "2026-10-29",
@@ -97,7 +113,11 @@
       ],
       "instagram": "majesticbyblos",
       "status": "scheduled",
-      "folder": "2026-10-majestic-byblos"
+      "folder": "2026-10-majestic-byblos",
+      "type": "carousel",
+      "story_status": "scheduled",
+      "reel_date": "2026-11-01",
+      "reel_status": "scheduled"
     },
     {
       "date": "2026-10-31",
@@ -108,7 +128,11 @@
       "instagram": "graciasguesthouse_batroun",
       "status": "scheduled",
       "folder": "2026-10-gracias-guesthouse",
-      "note": "photo supplied by Kamel; listing has no photos/price on site"
+      "note": "photo supplied by Kamel; listing has no photos/price on site",
+      "type": "carousel",
+      "story_status": "scheduled",
+      "reel_date": "2026-11-03",
+      "reel_status": "scheduled"
     },
     {
       "date": "2026-11-02",
@@ -121,7 +145,9 @@
       "instagram": "aqualandbatroun",
       "status": "scheduled",
       "folder": "2026-10-aqualand-reel",
-      "note": "Reel from owner's video; video text has typo 'YOURY STARTS HERE'"
+      "note": "Reel from owner's video; video text has typo 'YOURY STARTS HERE'",
+      "type": "reel",
+      "video": "aqualand.mp4"
     }
   ],
   "owners_without_instagram": [
@@ -129,5 +155,6 @@
   ],
   "skip_for_now": [
     "Moobs House"
-  ]
+  ],
+  "_how": "tools/publish_due.py runs daily at 5pm UK and publishes: the post (status) and Weekendna story (story_status) on 'date', and the Reel version (reel_status) on 'reel_date'. Each folder's whatsapp.txt is the message Kamel forwards to the owner on post day."
 }
