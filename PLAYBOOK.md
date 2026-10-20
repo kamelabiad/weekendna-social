@@ -12,7 +12,7 @@ How @weekendna.lb posts are made and scheduled. Written for the weekly scheduled
 - **Never message owners/clients directly.** Draft any message for Kamel to send himself.
 
 ## Where things are
-- Listings: `https://weekendna.com/sitemap.xml` → `/en/stay/<slug>-<id>`. Each page has JSON-LD (name, description, amenities, occupancy) and photos at `/uploads/listings/<id>/<hash>-1600.webp` (also -800, -400). Price and host name are in the page text.
+- Listings: collect `/en/stay/<slug>-<id>` links from `https://weekendna.com/en/search`, every `/en/regions/<region>` page (linked from the homepage) **and** `sitemap.xml`. The sitemap lags behind (new listings were missing from it), so never rely on it alone. One owner can have several listings (see the "All their places" / `/en/hosts/...` link on a listing): combine them into one post. Each page has JSON-LD (name, description, amenities, occupancy) and photos at `/uploads/listings/<id>/<hash>-1600.webp` (also -800, -400). Price and host name are in the page text.
 - Log of every post: `posts/log.json`. **Read it first, update it after every change.**
 - Post files: `posts/<yyyy-mm>-<name>/` with `<prefix>-1.jpg…` and `caption.txt`. Images are served publicly from `https://raw.githubusercontent.com/kamelabiad/weekendna-social/main/posts/...`, which is how Instagram fetches them.
 - Design: `tools/brand.py` (colours, fonts, logo, helpers). Examples of finished carousels: `tools/examples/make_*.py`. Run `source tools/setup.sh` first to fetch fonts.
