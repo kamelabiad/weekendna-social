@@ -5,7 +5,7 @@ T="${IG_TOKEN:?set IG_TOKEN}"
 U=17841412894685016; DIR=$1; N=$2; COL=$3
 B=https://raw.githubusercontent.com/kamelabiad/weekendna-social/main/posts/$DIR
 NAME=$(echo $DIR | sed -E 's/^[0-9]{4}-[0-9]{2}-//')
-case $NAME in ghosta-guest-house) PRE=ghosta;; domaine-du-karst) PRE=karst;; bayt-baabdat) PRE=baabdat;; faraya-village-club) PRE=faraya;; majestic-byblos) PRE=majestic;; *) PRE=$NAME;; esac
+case $NAME in ghosta-guest-house) PRE=ghosta;; domaine-du-karst) PRE=karst;; bayt-baabdat) PRE=baabdat;; faraya-village-club) PRE=faraya;; majestic-byblos) PRE=majestic;; gracias-guesthouse) PRE=gracias;; *) PRE=$NAME;; esac
 curl -sS -m 30 -o /tmp/cap.txt "$B/caption.txt"
 IDS=""
 for i in $(seq 1 $N); do
