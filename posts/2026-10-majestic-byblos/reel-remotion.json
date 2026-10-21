@@ -1,20 +1,105 @@
 {
-  "shots": [
-    { "photo": "photos/majestic/23-03.webp", "seconds": 3.2, "move": "zoom_in", "fx": 0.6, "fy": 0.4,
-      "text": { "type": "hook", "en": "A weekend by the sea in Byblos", "ar": "ويكند عالبحر بجبيل" } },
-    { "photo": "photos/majestic/45-02.webp", "seconds": 2.6, "move": "pan_right", "fx": 0.55,
-      "text": { "type": "title", "name": "Majestic Byblos Grand Hotel", "ar": "فندق ماجستيك بيبلوس غراند", "pill": "Byblos · Jbeil" } },
-    { "photo": "photos/majestic/23-01.webp", "seconds": 2.4, "move": "pan_left", "fx": 0.35,
-      "text": { "type": "room", "name": "Deluxe Room", "en": "Twin or king bed, private balcony", "ar": "تختين أو تخت كينغ، وبلكون خاص", "price": "$130 / night" } },
-    { "photo": "photos/majestic/45-01.webp", "seconds": 2.4, "move": "zoom_in", "fx": 0.45,
-      "text": { "type": "room", "name": "Majestic Room", "en": "More space, with a sofa bed", "ar": "أوسع، مع كنباية بتصير تخت", "price": "$150 / night" } },
-    { "photo": "photos/majestic/46-01.webp", "seconds": 2.4, "move": "zoom_in", "framed": true,
-      "text": { "type": "room", "name": "Family Room", "en": "2 bedrooms for up to 4", "ar": "غرفتين نوم لـ٤ أشخاص", "price": "$250 / night" } },
-    { "photo": "photos/majestic/47-01.webp", "seconds": 2.4, "move": "pan_right", "fx": 0.6,
-      "text": { "type": "room", "name": "Family Suite", "en": "2 bedrooms, a living room and a sea-view balcony", "ar": "غرفتين نوم، صالون، وبلكون عالبحر", "price": "$305 / night" } },
-    { "photo": "photos/majestic/23-02.webp", "seconds": 2.4, "move": "zoom_out", "fx": 0.6,
-      "text": { "type": "fact", "en": "Day use from $65", "ar": "داي يوز من ٦٥ دولار" } },
-    { "photo": "photos/majestic/23-03.webp", "seconds": 3.6, "move": "zoom_out",
-      "text": { "type": "end", "name": "Majestic Byblos Grand Hotel", "price": "From $130 / night", "ar": "شوفو الأيام الفاضية واحجزو عالواتساب" } }
-  ]
+ "music": "music/lounge-aurec.mp3",
+ "musicStart": 0,
+ "bpm": 99,
+ "shots": [
+  {
+   "photo": "photos/majestic/23-03.webp",
+   "seconds": 2.724,
+   "move": "zoom_in",
+   "fx": 0.6,
+   "fy": 0.4,
+   "text": {
+    "type": "hook",
+    "en": "A weekend by the sea in Byblos",
+    "ar": "ويكند عالبحر بجبيل"
+   }
+  },
+  {
+   "photo": "photos/majestic/45-02.webp",
+   "seconds": 2.724,
+   "move": "pan_right",
+   "fx": 0.55,
+   "text": {
+    "type": "title",
+    "name": "Majestic Byblos Grand Hotel",
+    "ar": "فندق ماجستيك بيبلوس غراند",
+    "pill": "Byblos · Jbeil"
+   }
+  },
+  {
+   "photo": "photos/majestic/23-01.webp",
+   "seconds": 2.724,
+   "move": "pan_left",
+   "fx": 0.35,
+   "text": {
+    "type": "room",
+    "name": "Deluxe Room",
+    "en": "Twin or king bed, private balcony",
+    "ar": "تختين أو تخت كينغ، وبلكون خاص",
+    "price": "$130 / night"
+   }
+  },
+  {
+   "photo": "photos/majestic/45-01.webp",
+   "seconds": 2.724,
+   "move": "zoom_in",
+   "fx": 0.45,
+   "text": {
+    "type": "room",
+    "name": "Majestic Room",
+    "en": "More space, with a sofa bed",
+    "ar": "أوسع، مع كنباية بتصير تخت",
+    "price": "$150 / night"
+   }
+  },
+  {
+   "photo": "photos/majestic/46-01.webp",
+   "seconds": 2.724,
+   "move": "zoom_in",
+   "framed": true,
+   "text": {
+    "type": "room",
+    "name": "Family Room",
+    "en": "2 bedrooms for up to 4",
+    "ar": "غرفتين نوم لـ٤ أشخاص",
+    "price": "$250 / night"
+   }
+  },
+  {
+   "photo": "photos/majestic/47-01.webp",
+   "seconds": 2.724,
+   "move": "pan_right",
+   "fx": 0.6,
+   "text": {
+    "type": "room",
+    "name": "Family Suite",
+    "en": "2 bedrooms, a living room and a sea-view balcony",
+    "ar": "غرفتين نوم، صالون، وبلكون عالبحر",
+    "price": "$305 / night"
+   }
+  },
+  {
+   "photo": "photos/majestic/23-02.webp",
+   "seconds": 2.724,
+   "move": "zoom_out",
+   "fx": 0.6,
+   "text": {
+    "type": "fact",
+    "en": "Day use from $65",
+    "ar": "داي يوز من ٦٥ دولار"
+   }
+  },
+  {
+   "photo": "photos/majestic/23-03.webp",
+   "seconds": 3.936,
+   "move": "zoom_out",
+   "text": {
+    "type": "end",
+    "name": "Majestic Byblos Grand Hotel",
+    "price": "From $130 / night",
+    "ar": "شوفو الأيام الفاضية واحجزو عالواتساب"
+   }
+  }
+ ]
 }
