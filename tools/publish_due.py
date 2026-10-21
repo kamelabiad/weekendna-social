@@ -44,11 +44,12 @@ def publish(cid):
     mid = call(f"{IG}/media_publish", {"creation_id": cid})["id"]
     return call(f"{mid}?fields=permalink")["permalink"]
 
-def already_posted(caption):
-    """True when one of the last posts has the same caption start (guards against double posting after a crash)."""
+def already_posted(caption, product):
+    """True when one of the last posts of the same kind (FEED or REELS) has the same caption start
+    (guards against double posting after a crash). A carousel's Reel shares its caption, so the kind matters."""
     head = caption.strip()[:80]
-    recent = call(f"{IG}/media?fields=caption&limit=10").get("data", [])
-    return any((m.get("caption") or "").strip()[:80] == head for m in recent)
+    recent = call(f"{IG}/media?fields=caption,media_product_type&limit=10").get("data", [])
+    return any((m.get("caption") or "").strip()[:80] == head and m.get("media_product_type") == product for m in recent)
 
 def caption_of(folder):
     with open(os.path.join(ROOT, "posts", folder, "caption.txt"), encoding="utf-8") as f: return f.read().strip()
@@ -57,7 +58,7 @@ def carousel(folder, collab):
     slides = sorted(os.path.basename(p) for p in glob.glob(os.path.join(ROOT, "posts", folder, "*-[0-9].jpg")))
     if not 2 <= len(slides) <= 10: raise RuntimeError(f"{len(slides)} slides in {folder}")
     cap = caption_of(folder)
-    if already_posted(cap): return "already on Instagram"
+    if already_posted(cap, "FEED"): return "already on Instagram"
     kids = []
     for i, s in enumerate(slides):
         d = {"image_url": f"{RAW}/{folder}/{s}", "is_carousel_item": "true"}
@@ -68,7 +69,7 @@ def carousel(folder, collab):
     return publish(call(f"{IG}/media", d)["id"])
 
 def reel(folder, video, collab, caption, to_feed):
-    if already_posted(caption): return "already on Instagram"
+    if already_posted(caption, "REELS"): return "already on Instagram"
     d = {"media_type": "REELS", "video_url": f"{RAW}/{folder}/{video}", "caption": caption, "share_to_feed": "true" if to_feed else "false"}
     if collab: d["collaborators"] = json.dumps([collab])
     return publish(call(f"{IG}/media", d)["id"])
