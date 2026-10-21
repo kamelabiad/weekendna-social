@@ -1,0 +1,90 @@
+{
+ "music": "/tmp/music/calm-acoustic-andriig.mp3",
+ "start": 0,
+ "bpm": 123,
+ "photos_dir": "/tmp/claude-0/gh/src",
+ "shots": [
+  {
+   "photo": "14.webp",
+   "beats": 5,
+   "move": "zoom_in",
+   "fx": 0.5,
+   "fy": 0.5,
+   "text": {
+    "type": "hook",
+    "en": "Wake up 800 m above the coast",
+    "ar": "فيقو ٨٠٠ متر فوق البحر"
+   }
+  },
+  {
+   "photo": "20.webp",
+   "beats": 3,
+   "move": "pan_left",
+   "text": {
+    "type": "title",
+    "name": "Ghosta Guest House",
+    "pill": "Above Jounieh"
+   }
+  },
+  {
+   "photo": "19.webp",
+   "beats": 3,
+   "move": "pan_right",
+   "text": {
+    "type": "fact",
+    "en": "180° view from Beirut to Byblos",
+    "ar": "منظر من بيروت لجبيل"
+   }
+  },
+  {
+   "photo": "17.webp",
+   "beats": 3,
+   "move": "zoom_out",
+   "text": {
+    "type": "fact",
+    "en": "A 400 m² home",
+    "ar": "بيت ٤٠٠ متر مربع"
+   }
+  },
+  {
+   "photo": "08.webp",
+   "beats": 3,
+   "move": "pan_left",
+   "text": {
+    "type": "fact",
+    "en": "5 bedrooms, sleeps 12",
+    "ar": "٥ غرف نوم، لحد ١٢ شخص"
+   }
+  },
+  {
+   "photo": "01.webp",
+   "beats": 3,
+   "move": "pan_right",
+   "text": {
+    "type": "fact",
+    "en": "Bedrooms with a view",
+    "ar": "غرف نوم عالمنظر"
+   }
+  },
+  {
+   "photo": "35.webp",
+   "beats": 3,
+   "move": "pan_right",
+   "text": {
+    "type": "fact",
+    "en": "10 min to the beach, 20 to Faraya",
+    "ar": "١٠ دقايق عالبحر، ٢٠ عفاريا"
+   }
+  },
+  {
+   "photo": "26.webp",
+   "beats": 6,
+   "move": "zoom_out",
+   "text": {
+    "type": "end",
+    "name": "Ghosta Guest House",
+    "price": "From $220/night"
+   }
+  }
+ ]
+}
