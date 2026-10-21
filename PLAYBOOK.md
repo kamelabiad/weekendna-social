@@ -25,7 +25,7 @@ How @weekendna.lb posts are made and scheduled. Written for the weekly scheduled
 - **Instagram is fully automated.** Kamel gets the week's plan and previews; he can reply to change, hold or reorder, otherwise posts go out on schedule.
 - **New listings go first.** Then owners who have never been posted. Then second-round posts for owners posted longest ago.
 - **Skip:** owners listed in `posts/log.json` → `skip_for_now`.
-- **Collaborators:** add the owner as collaborator and tag them on slide 1 whenever they have Instagram. Only use a handle Kamel gave or confirmed. Verify it first (see below). Never guess.
+- **Collaborators:** add the owner as collaborator and tag them on slide 1 whenever they have Instagram. Only use a handle Kamel gave or confirmed (or that is already in posts/log.json). Don't verify handles through the API; for a new owner, ask Kamel for their Instagram username. Never guess.
 - **Captions:** English, then Arabic in **Lebanese dialect**, then hashtags. Only state facts that are on the listing (no invented distances, prices or features). If the listing has no price, leave price out.
 - **Never message owners/clients directly.** Draft any message for Kamel to send himself.
 
@@ -44,7 +44,8 @@ How @weekendna.lb posts are made and scheduled. Written for the weekly scheduled
 
 ## Instagram API (Instagram Login, app "Weekendna Poster", account id 17841412894685016)
 - Base: `https://graph.instagram.com/v21.0`. Token in `IG_TOKEN` (long-lived, ~60 days; refresh with `GET /refresh_access_token?grant_type=ig_refresh_token&access_token=…` — weekly is fine).
-- Verify a handle: create an **unpublished** container `POST /{ig-id}/media` with `image_url=<any repo image>` and `collaborators=["handle"]`. An id back means the account exists; error 2207018 means invalid or private. Unpublished containers expire on their own.
+- **API safety (Oct 2026):** Meta locked the developer account once for "unusual activity" (Kamel had to confirm it). Keep API use to what publishing needs: no test/unpublished containers, no handle checks, no polling loops, no retries beyond one. Refresh the token only in the weekly task (once a week), never in the daily one. If any call returns "API access blocked" (code 200) or a checkpoint/confirmation error, stop all API calls at once and tell Kamel; don't retry.
+- Views and reach: one call, `GET /me/media?fields=caption,timestamp,like_count,comments_count,insights.metric(views,reach)&limit=30` (weekly task only).
 - Stories: `media_type=STORIES` + `image_url` (no collaborators). Reels: `media_type=REELS` + `video_url`, `share_to_feed=false` for Reel versions of carousels.
 - Not available: reading DMs (app is in development mode), looking up other accounts (business_discovery), adding Instagram music, editing collaborators after posting.
 
