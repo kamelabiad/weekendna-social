@@ -11,7 +11,14 @@ How @weekendna.lb posts are made and scheduled. Written for the weekly scheduled
 - `posts/log.json` is the schedule. The daily task (4:52pm UK) runs `tools/publish_due.py`, which publishes what's due: feed post + Weekendna story on `date`, the Reel version on `reel_date`. No per-post scheduled tasks.
 - The weekly task (Sunday) plans and prepares the next week and adds it to the log. Kamel can reply to change/hold; otherwise it goes out.
 - Each post folder: slides `<prefix>-N.jpg`, `caption.txt`, `story.jpg` + `reel.mp4` (from `tools/make_kit.py`), `whatsapp.txt` (message Kamel forwards to the owner).
-- **Reel music (Kamel's choice):** every Reel gets one of Kamel's royalty-free tracks. See `music/README.md`: decrypt with MUSIC_KEY into /tmp (never into the repo), pick the track for the place, run `tools/add_music.py`, and set `"music"` in the log. Rotate tracks. Don't use `tools/make_music.py` (Kamel found the generated music too poor).
+- **Reels (Kamel approved this style, Oct 2026):** build every Reel with `tools/make_reel.py`, not the slideshow from make_kit.py (that one only stays as a fallback when a listing has no usable photos). Steps:
+  1. `python3 tools/reel_prep.py photos /tmp/<name>-src <listing ids>` downloads the listing's full-size photos and makes `sheet.jpg`; look at it and at the photos you pick.
+  2. Decrypt the music (see `music/README.md`) and pick a track for the place (rotate; don't repeat the previous Reel's track). `python3 tools/reel_prep.py bpm /tmp/music/<track>.mp3 [--start N]`; if it says under ~90 it is usually half-time, so double it.
+  3. Write `posts/<folder>/reel.json` (format at the top of make_reel.py): 6–8 shots. Shot 1 = hook (best photo; caption's first line, EN + Lebanese AR), shot 2 = title (name + area pill), then one short fact per shot (only facts from the listing/caption, and matching the photo shown: no "fireplace" on a TV photo), last = end card (name + price). Beats: hook 4–5, shots 3, end 5–6. Vary moves (zoom_in/out, pan_left/right, pan_up/down for tall photos).
+  4. `python3 tools/make_reel.py posts/<folder>/reel.json --still` writes one still per shot to /tmp/stillN.jpg: look at every one (text readable, subject not cut off, no empty boxes), fix, then run without --still. It writes reel.mp4 with the music.
+  - Arabic on-screen text: no "$" (write دولار), no "·", no "²", no Latin words (they render as empty boxes in the Arabic font).
+  - Small photos (would need >2.3x upscaling, e.g. 400px) are shown automatically as a framed card over a blurred background; black bars on owners' photos are trimmed automatically.
+  - Set `"music": "<track> [@start]"` in the log. Don't use `tools/make_music.py`-style generated music (Kamel found it too poor).
 
 ## The rules (from Kamel)
 - **Cadence:** one post every 2 days at **5pm UK time** (Europe/London; mind the BST/GMT change).

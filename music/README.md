@@ -6,7 +6,7 @@ instructions as MUSIC_KEY (never commit or print it).
 
 Decrypt (into a temp folder, never into the repo):
     mkdir -p /tmp/music && for f in music/*.mp3.enc; do openssl enc -d -aes-256-cbc -pbkdf2 -pass pass:"$MUSIC_KEY" -in "$f" -out "/tmp/music/$(basename "$f" .enc)"; done
-Then: python3 tools/add_music.py <post-folder> /tmp/music/<track>.mp3 [--start SECONDS]
+Then reference the track in the post's reel.json for tools/make_reel.py (add_music.py only for a fallback slideshow Reel).
 
 | Track | Mood | Use for | Start |
 |---|---|---|---|
