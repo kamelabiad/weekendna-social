@@ -63,7 +63,7 @@ for i in range(len(slides)):
         "scale=1188:2112,zoompan=z='min(1+0.0012*on,1.1)':x='iw/2-(iw/zoom/2)':y='ih/2-(ih/zoom/2)':d=90:s=1080x1920:fps=30,format=yuv420p",
         "-frames:v", "90", "-c:v", "libx264", "-preset", "medium", "-crf", "20", out], check=True)
 lst = f"{tmp}/list.txt"; open(lst, "w").write("".join(f"file '{p}'\n" for p in parts))
-# A silent audio track: Instagram handles Reels with audio more reliably; Kamel can add music in the app if he posts it himself.
+# A silent audio track for now; run tools/add_music.py <folder> <mood> afterwards to put original music on it.
 subprocess.run(["ffmpeg", "-v", "error", "-y", "-f", "concat", "-safe", "0", "-i", lst, "-f", "lavfi", "-i", "anullsrc=r=44100:cl=stereo",
     "-shortest", "-c:v", "copy", "-c:a", "aac", "-b:a", "96k", "-movflags", "+faststart", os.path.join(POST, "reel.mp4")], check=True)
 print("story.jpg and reel.mp4 written to", POST)
