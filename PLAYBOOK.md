@@ -11,7 +11,7 @@ How @weekendna.lb posts are made and scheduled. Written for the weekly scheduled
 - `posts/log.json` is the schedule. The daily task (4:52pm UK) runs `tools/publish_due.py`, which publishes what's due: feed post + Weekendna story on `date`, the Reel version on `reel_date`. No per-post scheduled tasks.
 - The weekly task (Sunday) plans and prepares the next week and adds it to the log. Kamel can reply to change/hold; otherwise it goes out.
 - Each post folder: slides `<prefix>-N.jpg`, `caption.txt`, `story.jpg` + `reel.mp4` (from `tools/make_kit.py`), `whatsapp.txt` (message Kamel forwards to the owner).
-- **Reel music:** on hold (Oct 2026). Kamel found the generated music (tools/make_music.py) too poor. Don't run add_music.py; Reels go out with the silent track until Kamel decides.
+- **Reel music (Kamel's choice):** every Reel gets one of Kamel's royalty-free tracks. See `music/README.md`: decrypt with MUSIC_KEY into /tmp (never into the repo), pick the track for the place, run `tools/add_music.py`, and set `"music"` in the log. Rotate tracks. Don't use `tools/make_music.py` (Kamel found the generated music too poor).
 
 ## The rules (from Kamel)
 - **Cadence:** one post every 2 days at **5pm UK time** (Europe/London; mind the BST/GMT change).
