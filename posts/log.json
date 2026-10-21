@@ -61,7 +61,7 @@
       "music": "calm-acoustic-andriig.mp3"
     },
     {
-      "date": "2026-10-23",
+      "date": "2026-10-24",
       "owner": "Acampar",
       "listing_ids": [
         39,
@@ -73,12 +73,12 @@
       "note": "combined Small hut (39) and Big hut (40)",
       "type": "carousel",
       "story_status": "scheduled",
-      "reel_date": "2026-10-24",
+      "reel_date": "2026-10-25",
       "reel_status": "scheduled",
       "music": "warm-acoustic-atlasaudio.mp3"
     },
     {
-      "date": "2026-10-25",
+      "date": "2026-10-26",
       "owner": "Bayt Baabdat",
       "listing_ids": [
         32
@@ -88,12 +88,12 @@
       "folder": "2026-10-bayt-baabdat",
       "type": "carousel",
       "story_status": "scheduled",
-      "reel_date": "2026-10-26",
+      "reel_date": "2026-10-27",
       "reel_status": "scheduled",
       "music": "oud-alexmorgan.mp3 @12s"
     },
     {
-      "date": "2026-10-27",
+      "date": "2026-10-28",
       "owner": "Faraya Village Club",
       "listing_ids": [
         26,
@@ -105,12 +105,12 @@
       "folder": "2026-10-faraya-village-club",
       "type": "carousel",
       "story_status": "scheduled",
-      "reel_date": "2026-10-28",
+      "reel_date": "2026-10-29",
       "reel_status": "scheduled",
       "music": "upbeat-gear-mixkit.mp3"
     },
     {
-      "date": "2026-10-29",
+      "date": "2026-10-30",
       "owner": "Majestic Byblos Grand Hotel",
       "listing_ids": [
         23
@@ -120,12 +120,12 @@
       "folder": "2026-10-majestic-byblos",
       "type": "carousel",
       "story_status": "scheduled",
-      "reel_date": "2026-10-30",
+      "reel_date": "2026-10-31",
       "reel_status": "scheduled",
       "music": "lounge-aurec.mp3"
     },
     {
-      "date": "2026-10-31",
+      "date": "2026-11-01",
       "owner": "Gracias Guesthouse",
       "listing_ids": [
         19
@@ -136,12 +136,12 @@
       "note": "photo supplied by Kamel; listing has no photos/price on site",
       "type": "carousel",
       "story_status": "scheduled",
-      "reel_date": "2026-11-01",
+      "reel_date": "2026-11-02",
       "reel_status": "scheduled",
       "music": "warm-acoustic-atlasaudio.mp3 @40s"
     },
     {
-      "date": "2026-11-02",
+      "date": "2026-10-22",
       "owner": "Aqualand Hotel & Resort",
       "listing_ids": [
         18,
@@ -156,7 +156,7 @@
       "video": "aqualand.mp4"
     },
     {
-      "date": "2026-10-22",
+      "date": "2026-10-23",
       "owner": "Weekendna (brand)",
       "listing_ids": [],
       "instagram": null,
