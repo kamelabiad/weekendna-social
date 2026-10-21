@@ -182,6 +182,12 @@ const EndCard: React.FC<{ shot: Shot }> = ({ shot }) => {
           padding: "26px 54px", borderRadius: 60, boxShadow: "0 16px 40px rgba(0,0,0,.25)" }}>
           weekendna.com · link in bio
         </div>
+        <div style={{ ...d, marginTop: 44, fontFamily: EN, fontWeight: 700, fontSize: 40, color: WHITE }}>
+          Follow @weekendna.lb
+        </div>
+        <div style={{ ...d, marginTop: 8, fontFamily: EN, fontWeight: 500, fontSize: 32, color: WHITE, opacity: d.opacity * 0.9 }}>
+          for a new place every week
+        </div>
       </AbsoluteFill>
     </AbsoluteFill>
   );
