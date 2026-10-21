@@ -25,6 +25,7 @@ How @weekendna.lb posts are made and scheduled. Written for the weekly scheduled
 
 ## The rules (from Kamel)
 - **Cadence (from Oct 2026):** a carousel every 2 days and **a Reel every day**, at **5pm UK time** (Europe/London; mind the BST/GMT change). On the days between carousels, the Reel is that carousel's Reel version (`reel_date`). On carousel days, add a standalone Reel post (`type: "reel"`, `video: "reel.mp4"`, its own folder, caption and reel-remotion.json): a roundup of 3–5 places on one theme (day-use pools, under $100, a region, sea view, mountain/fireplace) or a fresh angle on a place posted 3+ weeks ago. Roundups get saved and shared most.
+- **No empty days (Kamel, Oct 2026):** something goes out every day. If a post is moved, held or skipped, fill its day by moving the next ready post forward; never leave a day without a post, and two empty days in a row is never acceptable.
 - **Instagram is fully automated.** Kamel gets the week's plan and previews; he can reply to change, hold or reorder, otherwise posts go out on schedule.
 - **New listings go first.** Then owners who have never been posted. Then second-round posts for owners posted longest ago.
 - **Skip:** owners listed in `posts/log.json` → `skip_for_now`.
