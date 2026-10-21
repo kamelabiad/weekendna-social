@@ -24,7 +24,7 @@ How @weekendna.lb posts are made and scheduled. Written for the weekly scheduled
 - **Follow ask:** every caption ends its English block with "Follow @weekendna.lb for a new place every week 🏡" and its Arabic block with "تابعونا عـ@weekendna.lb، كل أسبوع محل جديد 🏡" (after the booking line, before hashtags).
 
 ## The rules (from Kamel)
-- **Cadence (from Oct 2026):** a carousel every 2 days and **a Reel every day**, at **5pm UK time** (Europe/London; mind the BST/GMT change). On the days between carousels, the Reel is that carousel's Reel version (`reel_date`). On carousel days, add a standalone Reel post (`type: "reel"`, `video: "reel.mp4"`, its own folder, caption and reel-remotion.json): a roundup of 3–5 places on one theme (day-use pools, under $100, a region, sea view, mountain/fireplace) or a fresh angle on a place posted 3+ weeks ago. Roundups get saved and shared most.
+- **Cadence (from Oct 2026):** **one feed post per day**, at **5pm UK time** (Europe/London; mind the BST/GMT change), alternating a carousel (with its story) and a Reel: carousel on day 1, its Reel version on day 2 (`reel_date`), next carousel on day 3, and so on. Never two feed posts on the same day (they compete with each other on a small account). Standalone Reels (`type: "reel"`: roundups of 3–5 places on one theme, a fresh angle on a place posted 3+ weeks ago, or Kamel's own videos) take their own day, never a day that already has a post. Kamel's own videos go in soon after he shares them.
 - **No empty days (Kamel, Oct 2026):** something goes out every day. If a post is moved, held or skipped, fill its day by moving the next ready post forward; never leave a day without a post, and two empty days in a row is never acceptable.
 - **Instagram is fully automated.** Kamel gets the week's plan and previews; he can reply to change, hold or reorder, otherwise posts go out on schedule.
 - **New listings go first.** Then owners who have never been posted. Then second-round posts for owners posted longest ago.
@@ -32,6 +32,9 @@ How @weekendna.lb posts are made and scheduled. Written for the weekly scheduled
 - **Collaborators:** add the owner as collaborator and tag them on slide 1 whenever they have Instagram. Only use a handle Kamel gave or confirmed (or that is already in posts/log.json). Don't verify handles through the API; for a new owner, ask Kamel for their Instagram username. Never guess.
 - **Captions:** English, then Arabic in **Lebanese dialect**, then hashtags. Only state facts that are on the listing (no invented distances, prices or features). If the listing has no price, leave price out.
 - **Never message owners/clients directly.** Draft any message for Kamel to send himself.
+
+## Assets
+- `posts/log.json` → `assets` lists photos/videos Kamel shared for later (e.g. Domaine du Karst's wedding photo). Use them when planning the matching owner's or theme's next post, then mark them used (`"used": "<folder>"`).
 
 ## Where things are
 - Listings: collect `/en/stay/<slug>-<id>` links from `https://weekendna.com/en/search`, every `/en/regions/<region>` page (linked from the homepage) **and** `sitemap.xml`. The sitemap lags behind (new listings were missing from it), so never rely on it alone. One owner can have several listings (see the "All their places" / `/en/hosts/...` link on a listing): combine them into one post. Each page has JSON-LD (name, description, amenities, occupancy) and photos at `/uploads/listings/<id>/<hash>-1600.webp` (also -800, -400). Price and host name are in the page text.

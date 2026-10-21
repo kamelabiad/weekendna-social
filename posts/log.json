@@ -45,7 +45,7 @@
       "permalink": "https://www.instagram.com/p/DeuIc9kFkpl/"
     },
     {
-      "date": "2026-11-02",
+      "date": "2026-11-03",
       "owner": "Ghosta Guest House",
       "listing_ids": [
         37
@@ -56,7 +56,7 @@
       "note": "Moved to the end: no Instagram handle yet (Kamel, 21 Oct)",
       "type": "carousel",
       "story_status": "scheduled",
-      "reel_date": "2026-11-03",
+      "reel_date": "2026-11-04",
       "reel_status": "scheduled",
       "music": "calm-acoustic-andriig.mp3"
     },
@@ -141,7 +141,7 @@
       "music": "warm-acoustic-atlasaudio.mp3 @40s"
     },
     {
-      "date": "2026-10-22",
+      "date": "2026-11-02",
       "owner": "Aqualand Hotel & Resort",
       "listing_ids": [
         18,
@@ -156,7 +156,7 @@
       "video": "aqualand.mp4"
     },
     {
-      "date": "2026-10-23",
+      "date": "2026-10-22",
       "owner": "Weekendna (brand)",
       "listing_ids": [],
       "instagram": null,
@@ -165,7 +165,7 @@
       "type": "reel",
       "video": "reel.mp4",
       "music": "original (Kamel's video)",
-      "note": "Kamel's own video, trimmed to an 8s seamless loop; carousel day standalone Reel"
+      "note": "Kamel's own video, 8s seamless loop, original music"
     }
   ],
   "owners_without_instagram": [
@@ -174,5 +174,14 @@
   "skip_for_now": [
     "Moobs House"
   ],
-  "_how": "tools/publish_due.py runs daily at 5pm UK and publishes: the post (status) and Weekendna story (story_status) on 'date', and the Reel version (reel_status) on 'reel_date'. Each folder's whatsapp.txt is the message Kamel forwards to the owner on post day."
+  "_how": "tools/publish_due.py runs daily at 5pm UK and publishes: the post (status) and Weekendna story (story_status) on 'date', and the Reel version (reel_status) on 'reel_date'. Each folder's whatsapp.txt is the message Kamel forwards to the owner on post day.",
+  "assets": [
+    {
+      "owner": "Domaine du Karst",
+      "instagram": "domainedukarst",
+      "file": "posts/assets/domaine-du-karst/wedding-couple.jpg",
+      "use": "Wedding-venue posts: Domaine du Karst second round or a wedding venues roundup. From the owner's own Instagram story (crop of their design, keeps their 'Your dream Wedding starts here' text); credit and collab @domainedukarst.",
+      "added": "2026-10-21"
+    }
+  ]
 }
