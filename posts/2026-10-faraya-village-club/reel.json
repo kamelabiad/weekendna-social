@@ -1,0 +1,83 @@
+{
+ "music": "/tmp/music/upbeat-gear-mixkit.mp3",
+ "start": 0,
+ "bpm": 126,
+ "photos_dir": "/tmp/claude-0/r/faraya",
+ "shots": [
+  {
+   "photo": "26-01.webp",
+   "beats": 5,
+   "move": "zoom_in",
+   "text": {
+    "type": "hook",
+    "en": "Ski season is almost here",
+    "ar": "موسم التزلج قرّب"
+   }
+  },
+  {
+   "photo": "26-03.webp",
+   "beats": 3,
+   "move": "zoom_out",
+   "text": {
+    "type": "title",
+    "name": "Faraya Village Club",
+    "pill": "Faraya · Mzaar"
+   }
+  },
+  {
+   "photo": "26-02.webp",
+   "beats": 3,
+   "move": "pan_right",
+   "text": {
+    "type": "fact",
+    "en": "Heated pool, spa and gym",
+    "ar": "مسبح مدفّى، سبا وجيم"
+   }
+  },
+  {
+   "photo": "27-05.webp",
+   "beats": 3,
+   "move": "zoom_in",
+   "text": {
+    "type": "fact",
+    "en": "Studio for 2, 7 min from Mzaar",
+    "ar": "ستوديو لشخصين، ٧ دقايق عن المزار"
+   }
+  },
+  {
+   "photo": "28-07.webp",
+   "beats": 3,
+   "move": "zoom_in",
+   "text": {
+    "type": "fact",
+    "en": "Two-bedroom chalet for up to 7",
+    "ar": "شاليه بغرفتين لحد ٧ أشخاص"
+   }
+  },
+  {
+   "photo": "26-06.webp",
+   "beats": 3,
+   "move": "pan_left",
+   "text": {
+    "type": "fact",
+    "en": "Suite & Spa with Jacuzzi",
+    "ar": "سويت مع جاكوزي"
+   }
+  },
+  {
+   "photo": "26-05.webp",
+   "beats": 3,
+   "move": "zoom_in"
+  },
+  {
+   "photo": "26-04.webp",
+   "beats": 6,
+   "move": "zoom_out",
+   "text": {
+    "type": "end",
+    "name": "Faraya Village Club",
+    "price": "From $150/night"
+   }
+  }
+ ]
+}

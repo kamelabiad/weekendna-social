@@ -1,0 +1,79 @@
+{
+ "music": "/tmp/music/oud-alexmorgan.mp3",
+ "start": 12,
+ "bpm": 130,
+ "photos_dir": "/tmp/claude-0/r/baabdat",
+ "shots": [
+  {
+   "photo": "32-06.webp",
+   "beats": 5,
+   "move": "zoom_in",
+   "text": {
+    "type": "hook",
+    "en": "Your own pool, your own garden",
+    "ar": "مسبحك وجنينتك إلك لحالك"
+   }
+  },
+  {
+   "photo": "32-01.webp",
+   "beats": 3,
+   "move": "pan_up",
+   "text": {
+    "type": "title",
+    "name": "Bayt Baabdat",
+    "pill": "Metn hills"
+   }
+  },
+  {
+   "photo": "32-05.webp",
+   "beats": 3,
+   "move": "zoom_out",
+   "text": {
+    "type": "fact",
+    "en": "Private pool & garden",
+    "ar": "مسبح وجنينة خاصّين"
+   }
+  },
+  {
+   "photo": "32-03.webp",
+   "beats": 3,
+   "move": "pan_down",
+   "text": {
+    "type": "fact",
+    "en": "A private apartment",
+    "ar": "شقة خاصة إلكن"
+   }
+  },
+  {
+   "photo": "32-08.webp",
+   "beats": 3,
+   "move": "zoom_in",
+   "text": {
+    "type": "fact",
+    "en": "2 bedrooms, up to 5 guests",
+    "ar": "غرفتين نوم، لحد ٥ أشخاص"
+   }
+  },
+  {
+   "photo": "32-09.webp",
+   "beats": 3,
+   "move": "pan_up",
+   "text": {
+    "type": "fact",
+    "en": "Day use or stay the night",
+    "ar": "تعو نهار أو باتو الليلة"
+   }
+  },
+  {
+   "photo": "32-05.webp",
+   "beats": 6,
+   "move": "zoom_out",
+   "fy": 0.3,
+   "text": {
+    "type": "end",
+    "name": "Bayt Baabdat",
+    "price": "From $100/night"
+   }
+  }
+ ]
+}

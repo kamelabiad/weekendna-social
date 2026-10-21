@@ -35,16 +35,52 @@ def back_out(t):
     return 1 + (c + 1) * (t - 1) ** 3 + c * (t - 1) ** 2
 
 # ---------- photos: pre-scale so that the 9:16 frame covers them with room to move ----------
+def trim_bars(im):
+    """Remove black letterbox/pillarbox bars that some owners' photos have."""
+    a = np.asarray(im.convert("L")).astype(int)
+    rows = np.where(a.mean(1) > 14)[0]; cols = np.where(a.mean(0) > 14)[0]
+    if len(rows) and len(cols): im = im.crop((cols[0], rows[0], cols[-1] + 1, rows[-1] + 1))
+    return im
+
 def load(s):
-    im = Image.open(os.path.join(spec["photos_dir"], s["photo"])).convert("RGB")
+    im = trim_bars(Image.open(os.path.join(spec["photos_dir"], s["photo"])).convert("RGB"))
+    small = s.get("frame", max(RW / im.width, RH / im.height) > 2.3)  # would need >2.3x upscale: show framed instead
+    s["_frame"] = small
+    if small:
+        return im.filter(ImageFilter.UnsharpMask(radius=1.2, percent=50, threshold=2))
     k = 1.18 * max(RW / im.width, RH / im.height)
     im = im.resize((round(im.width * k), round(im.height * k)), Image.LANCZOS)
     return im.filter(ImageFilter.UnsharpMask(radius=2, percent=70, threshold=2))
 imgs = [load(s) for s in shots]
 
+_bg_cache = {}
+def framed(i, t):
+    """Low-resolution photo: sharp rounded card over a blurred copy of itself, slow zoom + drift."""
+    im, s = imgs[i], shots[i]
+    if i not in _bg_cache:
+        bg = im.copy(); r = max(RW / bg.width, RH / bg.height)
+        bg = bg.resize((round(bg.width * r * 1.15), round(bg.height * r * 1.15))).filter(ImageFilter.GaussianBlur(45))
+        bg = Image.blend(bg, Image.new("RGB", bg.size, (10, 10, 12)), 0.35)
+        cw = RW - 2 * 64; ch = round(im.height * cw / im.width)
+        if ch > 950: ch = 950; cw = round(im.width * ch / im.height)
+        card = im.resize((cw, ch), Image.LANCZOS)
+        _bg_cache[i] = (bg, card)
+    bg, card = _bg_cache[i]; e = ease(t)
+    ox = (bg.width - RW) / 2 + (bg.width - RW) * 0.3 * (e - 0.5); oy = (bg.height - RH) / 2
+    f = bg.crop((int(ox), int(oy), int(ox) + RW, int(oy) + RH))
+    z = 1.0 + 0.06 * e; cw, ch = round(card.width * z), round(card.height * z)
+    c = card.resize((cw, ch), Image.BILINEAR)
+    m = Image.new("L", (cw, ch), 0); ImageDraw.Draw(m).rounded_rectangle((0, 0, cw - 1, ch - 1), radius=40, fill=255)
+    cx, cy = (RW - cw) // 2, int(760 - ch / 2) if ch < 900 else 150
+    sh = Image.new("L", (RW, RH), 0); ImageDraw.Draw(sh).rounded_rectangle((cx + 10, cy + 24, cx + cw + 10, cy + ch + 24), radius=44, fill=150)
+    f.paste((0, 0, 0), (0, 0), sh.filter(ImageFilter.GaussianBlur(26)))
+    f.paste(c, (cx, cy), m)
+    return f
+
 def camera(i, t):
     """Frame of shot i at progress t (0-1) of its own duration, as an RGB image."""
     im, s = imgs[i], shots[i]
+    if s.get("_frame"): return framed(i, t)
     mv = s.get("move", "zoom_in"); fx, fy = s.get("fx", 0.5), s.get("fy", 0.5)
     e = ease(t) if mv.startswith("pan") else t
     base = max(RW / im.width, RH / im.height)          # scale where the frame just covers the photo
@@ -63,10 +99,10 @@ def camera(i, t):
 def grad_mask(h, a0, a1, k=1.5):
     g = np.linspace(0, 1, h) ** k; return Image.fromarray((a0 + (a1 - a0) * g).astype("uint8")[:, None].repeat(RW, 1))
 DARK = Image.new("RGB", (RW, RH), (10, 10, 12))
-TOP = grad_mask(420, 150, 0, 0.8); BOT = grad_mask(900, 0, 225, 1.6)
+TOP = grad_mask(420, 150, 0, 0.8); BOT = grad_mask(1150, 0, 235, 1.0)
 def shade_frame(f, strong=False):
     f.paste(DARK.crop((0, 0, RW, 420)), (0, 0), TOP)
-    f.paste(DARK.crop((0, 0, RW, 900)), (0, RH - 900), BOT)
+    f.paste(DARK.crop((0, 0, RW, 1150)), (0, RH - 1150), BOT)
     if strong: f = Image.blend(f, DARK, 0.35)
     return f
 

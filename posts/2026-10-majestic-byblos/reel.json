@@ -1,0 +1,60 @@
+{
+ "music": "/tmp/music/lounge-aurec.mp3",
+ "start": 0,
+ "bpm": 99,
+ "photos_dir": "/tmp/claude-0/r/majestic",
+ "shots": [
+  {
+   "photo": "23-02.webp",
+   "beats": 4,
+   "move": "pan_right",
+   "text": {
+    "type": "hook",
+    "en": "A weekend by the sea in Byblos",
+    "ar": "ويكند عالبحر بجبيل"
+   }
+  },
+  {
+   "photo": "23-01.webp",
+   "beats": 3,
+   "move": "zoom_in",
+   "text": {
+    "type": "title",
+    "name": "Majestic Byblos Grand Hotel",
+    "pill": "Byblos"
+   }
+  },
+  {
+   "photo": "23-03.webp",
+   "beats": 3,
+   "move": "pan_left",
+   "text": {
+    "type": "fact",
+    "en": "Twin or king-size bed",
+    "ar": "تختين أو تخت كينغ"
+   }
+  },
+  {
+   "photo": "23-02.webp",
+   "beats": 3,
+   "move": "zoom_in",
+   "fx": 0.75,
+   "text": {
+    "type": "fact",
+    "en": "Private balcony over the sea or city",
+    "ar": "بلكون خاص عالبحر أو على جبيل"
+   }
+  },
+  {
+   "photo": "23-03.webp",
+   "beats": 5,
+   "move": "zoom_out",
+   "fx": 0.2,
+   "text": {
+    "type": "end",
+    "name": "Majestic Byblos",
+    "price": "From $130/night for 2"
+   }
+  }
+ ]
+}

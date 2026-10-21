@@ -1,0 +1,80 @@
+{
+ "music": "/tmp/music/warm-acoustic-atlasaudio.mp3",
+ "start": 0,
+ "bpm": 148,
+ "photos_dir": "/tmp/claude-0/r/acampar",
+ "shots": [
+  {
+   "photo": "39-01.webp",
+   "beats": 5,
+   "move": "zoom_in",
+   "text": {
+    "type": "hook",
+    "en": "Fireplace on, snow outside",
+    "ar": "الشومينيه شغّالة والتلج برّا"
+   }
+  },
+  {
+   "photo": "40-01.webp",
+   "beats": 3,
+   "move": "pan_right",
+   "text": {
+    "type": "title",
+    "name": "Acampar",
+    "pill": "Faraya · New"
+   }
+  },
+  {
+   "photo": "39-02.webp",
+   "beats": 3,
+   "move": "pan_left",
+   "text": {
+    "type": "fact",
+    "en": "Cosy wooden bungalows",
+    "ar": "بنغلوهات خشب دافية"
+   }
+  },
+  {
+   "photo": "40-03.webp",
+   "beats": 3,
+   "move": "zoom_out",
+   "text": {
+    "type": "fact",
+    "en": "Fireplace, kitchenette, mountain terrace",
+    "ar": "شومينيه، مطبخ صغير وتراس عالجبل"
+   }
+  },
+  {
+   "photo": "40-04.webp",
+   "beats": 3,
+   "move": "pan_right",
+   "text": {
+    "type": "fact",
+    "en": "Small hut for 2 · $80",
+    "ar": "البنغلو الصغير لشخصين، ٨٠ دولار"
+   }
+  },
+  {
+   "photo": "40-02.webp",
+   "beats": 3,
+   "move": "pan_left",
+   "fy": 0.6,
+   "text": {
+    "type": "fact",
+    "en": "Big hut for up to 4 · $100",
+    "ar": "البنغلو الكبير لحد ٤، ١٠٠ دولار"
+   }
+  },
+  {
+   "photo": "39-02.webp",
+   "beats": 6,
+   "move": "zoom_out",
+   "fx": 0.3,
+   "text": {
+    "type": "end",
+    "name": "Acampar, Faraya",
+    "price": "From $80/night"
+   }
+  }
+ ]
+}
