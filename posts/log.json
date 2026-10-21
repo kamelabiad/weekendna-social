@@ -57,8 +57,7 @@
       "type": "carousel",
       "story_status": "scheduled",
       "reel_date": "2026-10-23",
-      "reel_status": "scheduled",
-      "music": "calm"
+      "reel_status": "scheduled"
     },
     {
       "date": "2026-10-24",
@@ -74,8 +73,7 @@
       "type": "carousel",
       "story_status": "scheduled",
       "reel_date": "2026-10-26",
-      "reel_status": "scheduled",
-      "music": "cozy"
+      "reel_status": "scheduled"
     },
     {
       "date": "2026-10-25",
@@ -89,8 +87,7 @@
       "type": "carousel",
       "story_status": "scheduled",
       "reel_date": "2026-10-28",
-      "reel_status": "scheduled",
-      "music": "oud"
+      "reel_status": "scheduled"
     },
     {
       "date": "2026-10-27",
@@ -106,8 +103,7 @@
       "type": "carousel",
       "story_status": "scheduled",
       "reel_date": "2026-10-30",
-      "reel_status": "scheduled",
-      "music": "upbeat"
+      "reel_status": "scheduled"
     },
     {
       "date": "2026-10-29",
@@ -121,8 +117,7 @@
       "type": "carousel",
       "story_status": "scheduled",
       "reel_date": "2026-11-01",
-      "reel_status": "scheduled",
-      "music": "lounge"
+      "reel_status": "scheduled"
     },
     {
       "date": "2026-10-31",
@@ -137,8 +132,7 @@
       "type": "carousel",
       "story_status": "scheduled",
       "reel_date": "2026-11-03",
-      "reel_status": "scheduled",
-      "music": "summer"
+      "reel_status": "scheduled"
     },
     {
       "date": "2026-11-02",
