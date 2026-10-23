@@ -161,12 +161,13 @@
       "owner": "Weekendna (brand)",
       "listing_ids": [],
       "instagram": null,
-      "status": "scheduled",
+      "status": "published",
       "folder": "2026-10-lebanon-feeling",
       "type": "reel",
       "video": "reel.mp4",
       "music": "original (Kamel's video)",
-      "note": "Kamel's own video, 8s seamless loop, original music"
+      "note": "Kamel's own video, 8s seamless loop, original music",
+      "permalink": "https://www.instagram.com/reel/De17RWrDuaG/"
     }
   ],
   "owners_without_instagram": [
