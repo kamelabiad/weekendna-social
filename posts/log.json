@@ -169,6 +169,39 @@
       "music": "original (Kamel's video)",
       "note": "Kamel's own video, 8s seamless loop, original music",
       "permalink": "https://www.instagram.com/reel/De17RWrDuaG/"
+    },
+    {
+      "date": "2026-11-05",
+      "owner": "Phare du Nord Venue",
+      "listing_ids": [
+        49
+      ],
+      "instagram": "pharedunord",
+      "status": "scheduled",
+      "folder": "2026-11-phare-du-nord",
+      "note": "new listing (wedding venue); first post for this owner",
+      "type": "carousel",
+      "story_status": "scheduled",
+      "reel_date": "2026-11-06",
+      "reel_status": "scheduled",
+      "music": "lounge-aurec.mp3 @16s"
+    },
+    {
+      "date": "2026-11-07",
+      "owner": "Le Grey Apartments (Rosine Bassil)",
+      "listing_ids": [
+        48,
+        31
+      ],
+      "instagram": "legreyapt",
+      "status": "scheduled",
+      "folder": "2026-11-le-grey",
+      "note": "new listing Le Grey Haven (48) combined with Grandpa's Apartment (31), same owner; Grandpa's was posted 20 Oct without a collab",
+      "type": "carousel",
+      "story_status": "scheduled",
+      "reel_date": "2026-11-08",
+      "reel_status": "scheduled",
+      "music": "warm-acoustic-atlasaudio.mp3"
     }
   ],
   "owners_without_instagram": [

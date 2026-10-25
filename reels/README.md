@@ -19,7 +19,7 @@ Builds a 9:16 Instagram Reel (1080×1920, 30fps) from a listing's photos and a s
 4. Render:
        npx remotion render src/index.ts ListingReel ../posts/<folder>/reel-remotion.mp4 --props=../posts/<folder>/reel-remotion.json --crf=20
    In the cloud workspace add
-   `--browser-executable=/opt/pw-browsers/chromium-1194/chrome-linux/chrome --chrome-mode=chrome-for-testing`
+   `--browser-executable=/opt/pw-browsers/chromium-1243/chrome-linux64/chrome --chrome-mode=chrome-for-testing`
    (Remotion's own browser download is blocked there).
 
 Licence: Remotion is free for individuals and companies of up to 3 people.

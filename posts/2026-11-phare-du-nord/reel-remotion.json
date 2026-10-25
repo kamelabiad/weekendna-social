@@ -1,0 +1,84 @@
+{
+ "music": "music/lounge-aurec.mp3",
+ "musicStart": 16,
+ "bpm": 99,
+ "shots": [
+  {
+   "photo": "photos/phare/49-03.webp",
+   "seconds": 2.724,
+   "move": "zoom_in",
+   "fy": 0.45,
+   "text": {
+    "type": "hook",
+    "en": "Sunset weddings by the sea",
+    "ar": "عرس عالبحر وقت المغيب"
+   }
+  },
+  {
+   "photo": "photos/phare/49-01.webp",
+   "seconds": 2.724,
+   "move": "pan_right",
+   "fx": 0.55,
+   "text": {
+    "type": "title",
+    "name": "Phare du Nord",
+    "ar": "محل أعراس عالبحر بالبترون",
+    "pill": "Wedding venue · Batroun"
+   }
+  },
+  {
+   "photo": "photos/phare/49-02.webp",
+   "seconds": 2.724,
+   "move": "zoom_out",
+   "fx": 0.5,
+   "text": {
+    "type": "fact",
+    "en": "Ceremony on site",
+    "ar": "الإكليل بنفس المحل"
+   }
+  },
+  {
+   "photo": "photos/phare/49-06.webp",
+   "seconds": 2.724,
+   "move": "pan_up",
+   "text": {
+    "type": "fact",
+    "en": "Up to 450 seated guests",
+    "ar": "لحد ٤٥٠ ضيف قاعدين"
+   }
+  },
+  {
+   "photo": "photos/phare/49-05.webp",
+   "seconds": 2.724,
+   "move": "zoom_in",
+   "framed": true,
+   "text": {
+    "type": "fact",
+    "en": "Bring the caterer of your choice",
+    "ar": "جيبو الكاترينغ يلّي بدكن ياه"
+   }
+  },
+  {
+   "photo": "photos/phare/49-04.webp",
+   "seconds": 2.724,
+   "move": "pan_left",
+   "fx": 0.4,
+   "text": {
+    "type": "fact",
+    "en": "Bridal suite, dance floor, valet",
+    "ar": "جناح للعروس، دانس فلور وفاليه"
+   }
+  },
+  {
+   "photo": "photos/phare/49-03.webp",
+   "seconds": 3.936,
+   "move": "zoom_out",
+   "text": {
+    "type": "end",
+    "name": "Phare du Nord",
+    "price": "Quote on WhatsApp",
+    "ar": "ابعتو التاريخ وعدد الضيوف عالواتساب"
+   }
+  }
+ ]
+}

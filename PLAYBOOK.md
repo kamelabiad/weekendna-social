@@ -19,7 +19,7 @@ How @weekendna.lb posts are made and scheduled. Written for the weekly scheduled
   4. Render stills first and look at every one (text readable, subject not covered, Arabic renders):
      `npx remotion still src/index.ts ListingReel /tmp/still.jpg --frame=<N> --props=../posts/<folder>/reel-remotion.json` (one frame inside each shot), then render:
      `npx remotion render src/index.ts ListingReel ../posts/<folder>/reel.mp4 --props=../posts/<folder>/reel-remotion.json --crf=20`.
-     In the cloud workspace add `--browser-executable=/opt/pw-browsers/chromium-1194/chrome-linux/chrome --chrome-mode=chrome-for-testing` (Remotion's own browser download is blocked).
+     In the cloud workspace add `--browser-executable=/opt/pw-browsers/chromium-1243/chrome-linux64/chrome --chrome-mode=chrome-for-testing` (Remotion's own browser download is blocked; if that path is missing, use the chromium folder that `ls /opt/pw-browsers` shows).
   - Arabic on-screen text: no "$" (write دولار), no Latin words; only facts from the listing.
   - Set `"music": "<track> [@start]"` in the log. Don't use generated music (Kamel found it too poor).
 - **Follow ask:** every caption ends its English block with "Follow @weekendna.lb for a new place every week 🏡" and its Arabic block with "تابعونا عـ@weekendna.lb، كل أسبوع محل جديد 🏡" (after the booking line, before hashtags).

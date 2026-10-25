@@ -1,0 +1,87 @@
+{
+ "music": "music/warm-acoustic-atlasaudio.mp3",
+ "musicStart": 0,
+ "bpm": 148,
+ "shots": [
+  {
+   "photo": "photos/legrey/48-07.webp",
+   "seconds": 2.732,
+   "move": "zoom_in",
+   "fy": 0.5,
+   "text": {
+    "type": "hook",
+    "en": "Two family apartments in Batroun",
+    "ar": "شقتين للعيلة بالبترون"
+   }
+  },
+  {
+   "photo": "photos/legrey/48-02.webp",
+   "seconds": 2.732,
+   "move": "pan_down",
+   "text": {
+    "type": "title",
+    "name": "Le Grey Apartments",
+    "ar": "عند روزين بالبترون",
+    "pill": "Batroun · 45 min from Beirut"
+   }
+  },
+  {
+   "photo": "photos/legrey/48-04.webp",
+   "seconds": 2.732,
+   "move": "zoom_in",
+   "fy": 0.6,
+   "text": {
+    "type": "room",
+    "name": "Le Grey Haven",
+    "en": "2 bedrooms for up to 4, sea and mountain view",
+    "ar": "غرفتين نوم لـ٤ أشخاص",
+    "price": "$80 / night"
+   }
+  },
+  {
+   "photo": "photos/legrey/48-03.webp",
+   "seconds": 2.732,
+   "move": "pan_up",
+   "text": {
+    "type": "fact",
+    "en": "A 65-inch TV and a full kitchen",
+    "ar": "مطبخ كامل وتلفزيون ٦٥ إنش"
+   }
+  },
+  {
+   "photo": "photos/legrey/31-02.webp",
+   "seconds": 2.732,
+   "move": "zoom_out",
+   "fx": 0.5,
+   "text": {
+    "type": "room",
+    "name": "Grandpa's Apartment",
+    "en": "3 bedrooms, a spacious terrace, city center",
+    "ar": "٣ غرف نوم وتراس كبير بقلب البترون",
+    "price": "$120 / night"
+   }
+  },
+  {
+   "photo": "photos/legrey/31-06.webp",
+   "seconds": 2.732,
+   "move": "pan_right",
+   "fx": 0.4,
+   "text": {
+    "type": "fact",
+    "en": "Room for big groups, up to 9 guests",
+    "ar": "لحد ٩ أشخاص، للشلل الكبيرة"
+   }
+  },
+  {
+   "photo": "photos/legrey/48-06.webp",
+   "seconds": 4.354,
+   "move": "zoom_out",
+   "text": {
+    "type": "end",
+    "name": "Le Grey Apartments",
+    "price": "From $80 / night",
+    "ar": "شوفو الأيام الفاضية واحجزو عالواتساب"
+   }
+  }
+ ]
+}
