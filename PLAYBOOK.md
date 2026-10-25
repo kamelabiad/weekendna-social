@@ -63,3 +63,6 @@ How @weekendna.lb posts are made and scheduled. Written for the weekly scheduled
 
 ## Scheduling
 - Add the post to `posts/log.json` (status/story_status/reel_status "scheduled", date, reel_date) and push. The daily task publishes it. Don't create separate scheduled tasks.
+
+## Reel covers
+Remotion Reels start on a pure black frame 0, so Instagram showed a black preview. tools/publish_due.py now sends `thumb_offset=1000` (cover = frame at 1.0s) with every Reel. Don't remove it. The API cannot change the cover of an already-published Reel (fix those by hand: Reel > ... > Edit > Edit cover).

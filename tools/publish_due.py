@@ -70,7 +70,8 @@ def carousel(folder, collab):
 
 def reel(folder, video, collab, caption, to_feed):
     if already_posted(caption, "REELS"): return "already on Instagram"
-    d = {"media_type": "REELS", "video_url": f"{RAW}/{folder}/{video}", "caption": caption, "share_to_feed": "true" if to_feed else "false"}
+    d = {"media_type": "REELS", "video_url": f"{RAW}/{folder}/{video}", "caption": caption, "share_to_feed": "true" if to_feed else "false",
+         "thumb_offset": "1000"}  # cover = frame at 1.0s: Remotion Reels start on a black frame 0, which made black previews
     if collab: d["collaborators"] = json.dumps([collab])
     return publish(call(f"{IG}/media", d)["id"])
 
