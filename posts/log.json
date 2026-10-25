@@ -74,9 +74,10 @@
       "type": "carousel",
       "story_status": "published",
       "reel_date": "2026-10-25",
-      "reel_status": "scheduled",
+      "reel_status": "published",
       "music": "warm-acoustic-atlasaudio.mp3",
-      "permalink": "https://www.instagram.com/p/De4gA_doELg/"
+      "permalink": "https://www.instagram.com/p/De4gA_doELg/",
+      "reel_permalink": "https://www.instagram.com/reel/De7FC0KEUBl/"
     },
     {
       "date": "2026-10-26",
