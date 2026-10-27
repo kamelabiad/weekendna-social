@@ -40,7 +40,7 @@ dark = Image.new("RGB", (W, H), (10, 12, 20)); img = Image.blend(img, dark, 0.35
 img = shade(img, 500, 220, 1.0); d = ImageDraw.Draw(img); logo(d, M, 64)
 ctext(d, 740, "And this, every night ✦".replace(" ✦", ""), jak(800, 66), WHITE)
 ctext(d, 830, "From $220 a night · up to 12 guests", jak(600 if False else 500, 38), WHITE)
-ctext(d, 905, "شوفو الأيام الفاضية واحجزو عالواتساب", ar(700, 40), WHITE, rtl=True)
+ctext(d, 905, "ابعتوا تواريخكن عالواتساب، بلا ما تدفعوا شي هلّق", ar(700, 40), WHITE, rtl=True)
 button(d, 1010, "weekendna.com · link in bio")
 save(img, 4)
 print("ok")

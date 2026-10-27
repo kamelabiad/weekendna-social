@@ -21,7 +21,7 @@ img.paste(t, (M, 170), m)
 d.text((M, 790), "A Batroun stay", font=jak(800, 66), fill=WHITE)
 d.text((M, 866), "for up to 4", font=jak(800, 66), fill=WHITE)
 y = 990
-for en in ["Balcony with a sea view", "Up to 4 guests", "Hosted by Stephanie, replies on WhatsApp"]:
+for en in ["Balcony with a sea view", "Up to 4 guests", "Owner replies on WhatsApp"]:
     d.ellipse((M, y + 14, M + 16, y + 30), fill=RED); d.text((M + 36, y), en, font=jak(700, 34), fill=WHITE); y += 62
 sv(img, 2)
 
@@ -29,8 +29,8 @@ sv(img, 2)
 img = Image.new("RGB", (W, H), RED); d = ImageDraw.Draw(img); logo(d, M, 64, accent=INK)
 ctext(d, 480, "Planning a Batroun", jak(800, 76), WHITE)
 ctext(d, 570, "weekend?", jak(800, 76), WHITE)
-ctext(d, 690, "Check the free dates and book on WhatsApp", jak(500, 36), WHITE)
-ctext(d, 770, "شوفو الأيام الفاضية واحجزو عالواتساب", ar(700, 42), WHITE, rtl=True)
+ctext(d, 690, "Request your dates on WhatsApp, nothing to pay yet", jak(500, 36), WHITE)
+ctext(d, 770, "ابعتوا تواريخكن عالواتساب، بلا ما تدفعوا شي هلّق", ar(700, 42), WHITE, rtl=True)
 button(d, 900, "weekendna.com · link in bio", bg=WHITE, fg=RED)
 sv(img, 3)
 print("ok")

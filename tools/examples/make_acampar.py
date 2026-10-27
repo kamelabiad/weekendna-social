@@ -58,7 +58,7 @@ img = Image.new("RGB", (W, H), RED); d = ImageDraw.Draw(img); logo(d, M, 64, acc
 ctext(d, 470, "From $80", jak(800, 110), WHITE)
 ctext(d, 600, "a night", jak(800, 66), WHITE)
 ctext(d, 710, "Your winter escape in Faraya", jak(500, 38), WHITE)
-ctext(d, 790, "شوفو الأيام الفاضية واحجزو عالواتساب", ar(700, 42), WHITE, rtl=True)
+ctext(d, 790, "ابعتوا تواريخكن عالواتساب، بلا ما تدفعوا شي هلّق", ar(700, 42), WHITE, rtl=True)
 button(d, 920, "weekendna.com · link in bio", bg=WHITE, fg=RED)
 sv(img, 4)
 print("ok")

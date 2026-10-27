@@ -40,7 +40,7 @@ img = cover(load(32, 8), W, H, cy=0.45); img = Image.blend(img, Image.new("RGB",
 img = shade(img, 450, 225, 1.0); d = ImageDraw.Draw(img); logo(d, M, 64)
 ctext(d, 760, "From $100 a night", jak(800, 68), WHITE)
 ctext(d, 852, "Day use or overnight · up to 5 guests", jak(500, 36), WHITE)
-ctext(d, 922, "شوفو الأيام الفاضية واحجزو عالواتساب", ar(700, 40), WHITE, rtl=True)
+ctext(d, 922, "ابعتوا تواريخكن عالواتساب، بلا ما تدفعوا شي هلّق", ar(700, 40), WHITE, rtl=True)
 button(d, 1030, "weekendna.com · link in bio")
 sv(img, 4)
 

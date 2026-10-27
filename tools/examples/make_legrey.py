@@ -1,4 +1,4 @@
-"""Rosine's two Batroun apartments: Le Grey Apartments (Haven, 48) + Grandpa's Apartment (31).
+"""Two Batroun apartments by the same owner: Le Grey Apartments (Haven, 48) + Grandpa's Apartment (31).
 Photos: python3 tools/reel_prep.py photos reels/public/photos/legrey 48 31"""
 import os, sys
 sys.path.insert(0, os.path.join(os.path.dirname(__file__), ".."))
@@ -51,9 +51,9 @@ ph = cover(P("48-04"), 520, 640, cy=0.6).filter(ImageFilter.UnsharpMask(radius=1
 mask = Image.new("L", ph.size, 0); ImageDraw.Draw(mask).rounded_rectangle((0, 0, 520, 640), radius=36, fill=255)
 img.paste(ph, (W // 2 - 260, 150), mask)
 ctext(d, 840, "From $80 / night", jak(800, 66), INK)
-ctext(d, 930, "See the free dates and book on WhatsApp.", jak(500, 34), (63, 63, 63))
+ctext(d, 930, "Request your dates on WhatsApp, nothing to pay yet.", jak(500, 34), (63, 63, 63))
 ctext(d, 975, "24h electricity, Wi-Fi, free parking.", jak(500, 34), (63, 63, 63))
-ctext(d, 1040, "شوفو الأيام الفاضية واحجزو عالواتساب", ar(700, 38), INK, rtl=True)
+ctext(d, 1040, "ابعتوا تواريخكن عالواتساب، بلا ما تدفعوا شي هلّق", ar(700, 38), INK, rtl=True)
 button(d, 1150, "weekendna.com · link in bio")
 img.save(f"{OUT}/legrey-4.jpg", quality=92)
 print("ok")
