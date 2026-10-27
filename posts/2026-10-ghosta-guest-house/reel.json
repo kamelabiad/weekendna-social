@@ -2,7 +2,7 @@
  "music": "/tmp/music/calm-acoustic-andriig.mp3",
  "start": 0,
  "bpm": 123,
- "photos_dir": "/tmp/claude-0/gh/src",
+ "photos_dir": "/tmp/gh/src",
  "shots": [
   {
    "photo": "14.webp",
@@ -72,8 +72,8 @@
    "move": "pan_right",
    "text": {
     "type": "fact",
-    "en": "10 min to the beach, 20 to Faraya",
-    "ar": "١٠ دقايق عالبحر، ٢٠ عفاريا"
+    "en": "25 min from Beirut",
+    "ar": "٢٥ دقيقة عبيروت"
    }
   },
   {
