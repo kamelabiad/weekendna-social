@@ -191,7 +191,7 @@
     },
     {
       "date": "2026-11-07",
-      "owner": "Le Grey Apartments (Rosine Bassil)",
+      "owner": "Le Grey Apartments",
       "listing_ids": [
         48,
         31
@@ -269,7 +269,7 @@
       "last_published": null,
       "next_scheduled": "2026-11-05"
     },
-    "Le Grey Apartments (Rosine Bassil)": {
+    "Le Grey Apartments": {
       "last_published": null,
       "next_scheduled": "2026-11-07"
     }
