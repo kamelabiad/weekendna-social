@@ -49,14 +49,14 @@ d.text((M, 1285), "$220 a night for the whole house", font=jak(500, 30), fill=(9
 # 3 distances
 img = cover(P(20), W, H, cx=0.5); img = Image.blend(img, Image.new("RGB", (W, H), INKBG), 0.35)
 img = shade(img, 300, 245, 0.9); d = ImageDraw.Draw(img); logo(d, M, 64)
-d.text((M, 470), "Everything", font=jak(800, 96), fill=WHITE)
-d.text((M, 580), "is close", font=jak(800, 96), fill=RED)
+d.text((M, 470), "Quiet hills,", font=jak(800, 96), fill=WHITE)
+d.text((M, 580), "close to the city", font=jak(800, 96), fill=RED)
 y = 790
-for big, small in [("10 min", "to the beach"), ("25 min", "to Beirut"), ("20 min", "to the Faraya slopes")]:
+for big, small in [("800 m", "above sea level"), ("180°", "view, Beirut to Byblos"), ("25 min", "from Beirut")]:
     d.rounded_rectangle((M, y, W - M, y + 118), radius=30, fill=(255, 255, 255))
     d.text((M + 34, y + 26), big, font=jak(800, 54), fill=RED)
     d.text((M + 290, y + 36), small, font=jak(700, 40), fill=INK); y += 140
-rtext(d, W - M, 1250, "عالبحر، عبيروت وعفاريا، كلّن قريبين", ar(700, 38), WHITE); sv(img, 3)
+rtext(d, W - M, 1250, "هدوء الجبل، وبيروت على بعد ٢٥ دقيقة", ar(700, 38), WHITE); sv(img, 3)
 
 # 4 share prompt + CTA
 img = cover(P(22), W, H, cx=0.5); img = Image.blend(img, Image.new("RGB", (W, H), INKBG), 0.45)
