@@ -91,9 +91,10 @@
       "type": "carousel",
       "story_status": "published",
       "reel_date": "2026-10-27",
-      "reel_status": "scheduled",
+      "reel_status": "published",
       "music": "oud-alexmorgan.mp3 @12s",
-      "permalink": "https://www.instagram.com/p/De9p44nkadF/"
+      "permalink": "https://www.instagram.com/p/De9p44nkadF/",
+      "reel_permalink": "https://www.instagram.com/reel/DfAQYcYFGnh/"
     },
     {
       "date": "2026-10-28",
