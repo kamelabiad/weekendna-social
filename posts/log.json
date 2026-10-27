@@ -222,5 +222,56 @@
       "use": "Wedding-venue posts: Domaine du Karst second round or a wedding venues roundup. From the owner's own Instagram story (crop of their design, keeps their 'Your dream Wedding starts here' text); credit and collab @domainedukarst.",
       "added": "2026-10-21"
     }
-  ]
+  ],
+  "owner_kits": {
+    "_about": "Monthly kit tracking (Kamel, 27 Oct 2026): each owner gets one new-angle post a month. last_published and next_scheduled are the feed post dates; the weekly task updates them when it plans posts.",
+    "Aqualand Hotel & Resort": {
+      "last_published": "2026-10-22",
+      "next_scheduled": null
+    },
+    "Moobs House": {
+      "last_published": "2026-10-18",
+      "next_scheduled": null
+    },
+    "Grandpa's Apartment": {
+      "last_published": "2026-10-20",
+      "next_scheduled": null
+    },
+    "Domaine du Karst": {
+      "last_published": "2026-10-20",
+      "next_scheduled": null
+    },
+    "Ghosta Guest House": {
+      "last_published": null,
+      "next_scheduled": "2026-11-03"
+    },
+    "Acampar": {
+      "last_published": "2026-10-24",
+      "next_scheduled": null
+    },
+    "Bayt Baabdat": {
+      "last_published": "2026-10-26",
+      "next_scheduled": null
+    },
+    "Faraya Village Club": {
+      "last_published": null,
+      "next_scheduled": "2026-10-28"
+    },
+    "Majestic Byblos Grand Hotel": {
+      "last_published": null,
+      "next_scheduled": "2026-10-30"
+    },
+    "Gracias Guesthouse": {
+      "last_published": null,
+      "next_scheduled": "2026-11-01"
+    },
+    "Phare du Nord Venue": {
+      "last_published": null,
+      "next_scheduled": "2026-11-05"
+    },
+    "Le Grey Apartments (Rosine Bassil)": {
+      "last_published": null,
+      "next_scheduled": "2026-11-07"
+    }
+  }
 }
