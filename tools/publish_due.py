@@ -96,6 +96,11 @@ for p in log["posts"]:
         name = f"{p['owner']} ({kind})"
         if DRY: report.append(f"WOULD PUBLISH {name}"); continue
         try:
+            if kind != "story":  # facts must match the site before anything goes live (Kamel, 29 Oct 2026)
+                import verify_post
+                try: probs = verify_post.check(folder, quiet=True)
+                except Exception as ve: probs = []; report.append(f"WARNING could not verify {name} against the site: {ve}")
+                if probs: raise Exception("NOT PUBLISHED, text does not match the site: " + "; ".join(probs))
             link = job()
             key = {"post": "status", "story": "story_status", "reel": "reel_status"}[kind]
             p[key] = "published"
