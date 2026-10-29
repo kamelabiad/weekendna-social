@@ -96,7 +96,7 @@ for p in log["posts"]:
         name = f"{p['owner']} ({kind})"
         if DRY: report.append(f"WOULD PUBLISH {name}"); continue
         try:
-            if kind != "story":  # facts must match the site before anything goes live (Kamel, 29 Oct 2026)
+            if True:  # facts must match the site before anything goes live (Kamel, 29 Oct 2026)
                 import verify_post
                 try: probs = verify_post.check(folder, quiet=True)
                 except Exception as ve:
@@ -110,7 +110,7 @@ for p in log["posts"]:
             if kind == "post": p["permalink"] = link
             if kind == "reel": p["reel_permalink"] = link
             save(log)
-            report.append(f"OK {name}: {link}")
+            report.append(f"OK {name}: {link}" + (f" (collaborator @{collab})" if collab and kind != "story" else (" (NO collaborator: no Instagram handle on file)" if kind != "story" and p.get("listing_ids") else "")))
         except Exception as e:
             failed = True
             report.append(f"FAILED {name}: {e}")
