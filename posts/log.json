@@ -45,7 +45,7 @@
       "permalink": "https://www.instagram.com/p/DeuIc9kFkpl/"
     },
     {
-      "date": "2026-11-08",
+      "date": "2026-11-10",
       "owner": "Ghosta Guest House",
       "listing_ids": [
         37
@@ -56,7 +56,7 @@
       "note": "Moved to the end: no Instagram handle yet (Kamel, 21 Oct)",
       "type": "carousel",
       "story_status": "scheduled",
-      "reel_date": "2026-11-09",
+      "reel_date": "2026-11-11",
       "reel_status": "scheduled",
       "music": "calm-acoustic-andriig.mp3"
     },
@@ -216,6 +216,21 @@
       "story_status": "published",
       "note": "Brand post for owners: calendar, ready WhatsApp request, 0% commission (free 12 months, then $25 per listing per month, first 10 places per region), put your own Weekendna link in your bio. No collaborator, no Reel version (added 29 Oct 2026 at Kamel's request; swapped in for the Faraya Village Club Reel, now on 9 Nov).",
       "permalink": "https://www.instagram.com/p/DfFZV1FEaLu/"
+    },
+    {
+      "date": "2026-11-08",
+      "owner": "Royal Chalets and Restaurant",
+      "listing_ids": [
+        54
+      ],
+      "instagram": "dianatawkk",
+      "status": "scheduled",
+      "folder": "2026-11-royal-chalets",
+      "type": "carousel",
+      "story_status": "scheduled",
+      "reel_date": "2026-11-09",
+      "reel_status": "scheduled",
+      "music": "warm-acoustic-atlasaudio.mp3"
     }
   ],
   "owners_without_instagram": [

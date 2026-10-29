@@ -1,0 +1,19 @@
+{
+  "music": "music/warm-acoustic-atlasaudio.mp3",
+  "musicStart": 0,
+  "bpm": 74,
+  "shots": [
+    {"photo": "photos/royal/54-01.webp", "seconds": 3.24, "move": "zoom_in", "framed": true,
+     "text": {"type": "hook", "en": "Where the mountains meet the sky", "ar": "وين الجبل بيلاقي السما"}},
+    {"photo": "photos/royal/54-08.webp", "seconds": 3.24, "move": "pan_right", "framed": true,
+     "text": {"type": "title", "name": "Royal Chalets and Restaurant", "ar": "رويال شاليهات ومطعم", "pill": "Bcharre & the Cedars"}},
+    {"photo": "photos/royal/54-10.webp", "seconds": 3.24, "move": "zoom_out", "framed": true,
+     "text": {"type": "fact", "en": "6 bedrooms, up to 12 guests", "ar": "٦ غرف نوم، لحد ١٢ ضيف"}},
+    {"photo": "photos/royal/54-08.webp", "seconds": 3.24, "move": "pan_left", "framed": true,
+     "text": {"type": "fact", "en": "Near the ski slopes", "ar": "قريب من مسالك التزلج"}},
+    {"photo": "photos/royal/54-01.webp", "seconds": 3.24, "move": "pan_left", "framed": true,
+     "text": {"type": "fact", "en": "Fireplace, terrace and barbecue", "ar": "شيمينيه وتراس وشوي"}},
+    {"photo": "photos/royal/54-08.webp", "seconds": 3.936, "move": "zoom_out", "framed": true,
+     "text": {"type": "end", "name": "Royal Chalets and Restaurant", "price": "From $80 / night", "ar": "ابعتوا تواريخكن عالواتساب"}}
+  ]
+}
