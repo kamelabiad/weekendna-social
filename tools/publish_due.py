@@ -99,7 +99,10 @@ for p in log["posts"]:
             if kind != "story":  # facts must match the site before anything goes live (Kamel, 29 Oct 2026)
                 import verify_post
                 try: probs = verify_post.check(folder, quiet=True)
-                except Exception as ve: probs = []; report.append(f"WARNING could not verify {name} against the site: {ve}")
+                except Exception as ve:
+                    time.sleep(10)
+                    try: probs = verify_post.check(folder, quiet=True)  # one retry
+                    except Exception as ve2: raise Exception(f"NOT PUBLISHED, could not reach weekendna.com to check the facts ({ve2}); nothing was posted")
                 if probs: raise Exception("NOT PUBLISHED, text does not match the site: " + "; ".join(probs))
             link = job()
             key = {"post": "status", "story": "story_status", "reel": "reel_status"}[kind]
