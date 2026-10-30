@@ -319,6 +319,25 @@
    "note": "Week 1 Sun education Reel; steps from weekendna.com/en/how-it-works (30 Oct 2026). Main CTA Save."
   },
   {
+   "date": "2026-11-09",
+   "owner": "Weekendna (guide: weekends under an hour from Beirut)",
+   "listing_ids": [
+    32,
+    37,
+    18,
+    24,
+    25,
+    48
+   ],
+   "instagram": null,
+   "status": "scheduled",
+   "folder": "2026-11-under-an-hour",
+   "type": "carousel",
+   "story_status": "scheduled",
+   "kind": "pure",
+   "note": "Week 2 Mon pure guide: Bayt Baabdat 15, Ghosta 25, Aqualand 35, Le Grey Haven 45 min (listing figures). No tags. Main CTA Save."
+  },
+  {
    "date": "2026-11-10",
    "owner": "Phare du Nord Venue",
    "listing_ids": [
@@ -330,13 +349,13 @@
    "note": "new listing (wedding venue); first post for this owner; redesigned 30 Oct 2026 (Weekendna-as-hero), moved to Tue 10 Nov (wedding venues wait for spring, but this one was already built)",
    "type": "carousel",
    "story_status": "scheduled",
-   "reel_date": "2026-11-11",
+   "reel_date": "2026-11-14",
    "reel_status": "scheduled",
    "music": "lounge-aurec.mp3 @16s",
    "kind": "collab"
   },
   {
-   "date": "2026-11-17",
+   "date": "2026-11-11",
    "owner": "Ghosta Guest House",
    "listing_ids": [
     37
@@ -344,13 +363,73 @@
    "instagram": null,
    "status": "scheduled",
    "folder": "2026-10-ghosta-guest-house",
-   "note": "No Instagram handle yet (ask Kamel); redesigned 30 Oct 2026 and moved to Tue 17 Nov (owners with a handle first; Ghosta is also in Friday Drop 1)",
+   "note": "No Instagram handle yet (ask Kamel; add as collaborator if he gives it before 11 Nov). Week 2 Wed property Reel framed as a Weekendna discovery (carousel slides kept in the folder, not used). Keyword GHOSTA.",
+   "type": "reel",
+   "story_status": "scheduled",
+   "music": "calm-acoustic-andriig.mp3",
+   "kind": "collab",
+   "video": "reel.mp4"
+  },
+  {
+   "date": "2026-11-12",
+   "owner": "The Friday Drop #2",
+   "listing_ids": [
+    39,
+    40,
+    41,
+    42,
+    32,
+    48
+   ],
+   "instagram": null,
+   "status": "hold",
+   "drop": true,
+   "drop_confirmed": false,
+   "drop_places": [
+    "acampar",
+    "baabdat",
+    "legrey"
+   ],
+   "drop_reserve": "fvc",
+   "folder": "2026-11-friday-drop-2",
    "type": "carousel",
    "story_status": "scheduled",
-   "reel_date": "2026-11-18",
-   "reel_status": "scheduled",
-   "music": "calm-acoustic-andriig.mp3",
-   "kind": "collab"
+   "kind": "drop",
+   "note": "Thursday-evening Drop for Fri 13 – Sun 15 Nov. Publish only after Kamel confirms. Rebuild: python3 tools/make_drop.py 2026-11-friday-drop-2 \"Fri 13 – Sun 15 Nov\" \"الجمعة ١٣ لـ الأحد ١٥ تشرين الثاني\" <places> (reserve fvc); in the -reel json use baabdat/32-05 (32-02 has black bars) and musicStart 60, then render."
+  },
+  {
+   "date": "2026-11-13",
+   "owner": "The Friday Drop #2 (recap Reel)",
+   "listing_ids": [
+    39,
+    40,
+    41,
+    42,
+    32,
+    48
+   ],
+   "instagram": null,
+   "status": "hold",
+   "drop": true,
+   "drop_confirmed": false,
+   "drop_places": [
+    "acampar",
+    "baabdat",
+    "legrey"
+   ],
+   "folder": "2026-11-friday-drop-2-reel",
+   "type": "reel",
+   "video": "reel.mp4",
+   "story_status": "scheduled",
+   "stories": [
+    "story-1.jpg",
+    "story-2.jpg",
+    "story-3.jpg",
+    "story-4.jpg"
+   ],
+   "music": "oud-alexmorgan.mp3 @60s",
+   "kind": "drop",
+   "note": "Friday recap Reel + 4-story sequence. Publish only after Kamel confirms."
   }
  ],
  "owners_without_instagram": [
@@ -390,7 +469,7 @@
   },
   "Ghosta Guest House": {
    "last_published": null,
-   "next_scheduled": "2026-11-17"
+   "next_scheduled": "2026-11-11"
   },
   "Acampar": {
    "last_published": "2026-10-24",

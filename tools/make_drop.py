@@ -39,6 +39,21 @@ PLACES = {
                     ar="شومينيه وجنينة، ١٥ دقيقة عن بيروت", cap="a fireplace, a garden and a barbecue, 2 bedrooms for up to 5, 15 min from Beirut. $100 on Fri & Sat",
                     cap_ar="شومينيه وجنينة ومنقل، غرفتين نوم لحد ٥ أشخاص، ١٥ دقيقة عن بيروت. ١٠٠$ الجمعة والسبت",
                     reel=("A fireplace, 15 min from Beirut", "شومينيه، ١٥ دقيقة عن بيروت", "$100 Fri & Sat"), kw="BAABDAT", ar_name="بيت بعبدات، المتن"),
+    "acampar": dict(name="Acampar Faraya", where="Faraya · 45 min from Beirut", photo="acampar/42-02", scene="mountain", ids=[39, 40, 41, 42],
+                    facts=["Wooden bungalows, most with a fireplace", "From 2 up to 6 guests", "Near the ski slopes"], price="From $80 a night",
+                    ar="بنغلوهات خشب مع شومينيه بفاريا", cap="wooden bungalows near the ski slopes, most with a fireplace, for 2 to 6 guests, 45 min from Beirut. From $80/night",
+                    cap_ar="بنغلوهات خشب قريبة من التلج، أغلبها فيها شومينيه، من شخصين لـ٦، ٤٥ دقيقة عن بيروت. من ٨٠$ بالليلة",
+                    reel=("Fireplace bungalows, 2 to 6 guests", "بنغلوهات مع شومينيه، من ٢ لـ٦ أشخاص", "$80 / night"), kw="FARAYA", ar_name="Acampar، فاريا"),
+    "legrey": dict(name="Le Grey Haven", where="Batroun · 45 min from Beirut", photo="legrey/48-05", scene="sea", ids=[48],
+                   facts=["2 bedrooms, up to 4 guests", "Sea and mountain views", "Close to the beach, pubs and restaurants"], price="$80 a night",
+                   ar="منظر عالبحر والجبل، بالبترون", cap="2 bedrooms for up to 4, sea and mountain views, close to the beach, 45 min from Beirut. $80/night",
+                   cap_ar="غرفتين نوم لـ٤ أشخاص، منظر عالبحر والجبل، قريبة عالبحر، ٤٥ دقيقة عن بيروت. ٨٠$ بالليلة",
+                   reel=("Sea and mountain views, up to 4", "منظر عالبحر والجبل، لحد ٤ أشخاص", "$80 / night"), kw="BATROUN", ar_name="Le Grey Haven، البترون"),
+    "fvc": dict(name="Faraya Village Club", where="Faraya · Mzaar · 45 min from Beirut", photo="fvc/28-07", framed=True, scene="mountain", ids=[26, 27, 28],
+                facts=["Chalets with a chimney", "A heated pool on site", "From 2 up to 7 guests"], price="From $150 a night",
+                ar="شاليهات مع شومينيه ومسبح مدفّى", cap="chalets with a chimney and a heated pool on site, for 2 to 7 guests, 45 min from Beirut. From $150/night",
+                cap_ar="شاليهات مع شومينيه ومسبح مدفّى، من شخصين لـ٧، ٤٥ دقيقة عن بيروت. من ١٥٠$ بالليلة",
+                reel=("Chimney and a heated pool", "شومينيه ومسبح مدفّى", "$150 / night"), kw="FARAYA", ar_name="فاريا ڤيلادج كلوب، المزار"),
 }
 NUM_AR = "١٢٣"
 CONF, CONF_AR = "Confirmed Thursday", "تأكّدنا الخميس"

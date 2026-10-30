@@ -1,0 +1,69 @@
+{
+ "music": "music/oud-alexmorgan.mp3",
+ "musicStart": 60,
+ "bpm": 129,
+ "shots": [
+  {
+   "photo": "photos/acampar/42-02.webp",
+   "seconds": 3.091,
+   "move": "zoom_in",
+   "framed": false,
+   "text": {
+    "type": "hook",
+    "en": "The Friday Drop: 3 places free this weekend",
+    "ar": "٣ محلات فاضيين هالويكند"
+   }
+  },
+  {
+   "photo": "photos/acampar/42-02.webp",
+   "seconds": 3.091,
+   "move": "pan_right",
+   "framed": false,
+   "text": {
+    "type": "room",
+    "name": "Confirmed Thursday · Faraya",
+    "en": "Acampar Faraya: Fireplace bungalows, 2 to 6 guests",
+    "ar": "بنغلوهات مع شومينيه، من ٢ لـ٦ أشخاص",
+    "price": "$80 / night"
+   }
+  },
+  {
+   "photo": "photos/baabdat/32-05.webp",
+   "seconds": 3.091,
+   "move": "zoom_out",
+   "framed": false,
+   "text": {
+    "type": "room",
+    "name": "Confirmed Thursday · Metn",
+    "en": "Bayt Baabdat: A fireplace, 15 min from Beirut",
+    "ar": "شومينيه، ١٥ دقيقة عن بيروت",
+    "price": "$100 Fri & Sat"
+   }
+  },
+  {
+   "photo": "photos/legrey/48-05.webp",
+   "seconds": 3.091,
+   "move": "pan_left",
+   "framed": false,
+   "text": {
+    "type": "room",
+    "name": "Confirmed Thursday · Batroun",
+    "en": "Le Grey Haven: Sea and mountain views, up to 4",
+    "ar": "منظر عالبحر والجبل، لحد ٤ أشخاص",
+    "price": "$80 / night"
+   }
+  },
+  {
+   "photo": "photos/legrey/48-05.webp",
+   "seconds": 4.021,
+   "move": "zoom_out",
+   "framed": false,
+   "text": {
+    "type": "end",
+    "name": "The Friday Drop",
+    "price": "Fri 13 – Sun 15 Nov",
+    "ar": "ابعتوا تواريخكن عالواتساب"
+   }
+  }
+ ]
+}
