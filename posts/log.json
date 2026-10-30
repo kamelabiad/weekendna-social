@@ -1,525 +1,526 @@
 {
- "_about": "Every Weekendna Instagram post, past and scheduled. Listing ids match weekendna.com/en/stay/<slug>-<id>. Update this file whenever a post is scheduled, published, moved or cancelled.",
- "posts": [
-  {
-   "date": "2026-10-17",
-   "owner": "Aqualand Hotel & Resort",
-   "listing_ids": [
-    18,
-    24,
-    25
-   ],
-   "instagram": "aqualandbatroun",
-   "status": "published",
-   "note": "posted by Kamel"
+  "_about": "Every Weekendna Instagram post, past and scheduled. Listing ids match weekendna.com/en/stay/<slug>-<id>. Update this file whenever a post is scheduled, published, moved or cancelled.",
+  "posts": [
+    {
+      "date": "2026-10-17",
+      "owner": "Aqualand Hotel & Resort",
+      "listing_ids": [
+        18,
+        24,
+        25
+      ],
+      "instagram": "aqualandbatroun",
+      "status": "published",
+      "note": "posted by Kamel"
+    },
+    {
+      "date": "2026-10-18",
+      "owner": "Moobs House",
+      "listing_ids": [
+        22
+      ],
+      "instagram": "moobshouse",
+      "status": "published",
+      "note": "posted by Kamel; Kamel asked to skip Moobs for now"
+    },
+    {
+      "date": "2026-10-20",
+      "owner": "Grandpa's Apartment",
+      "listing_ids": [
+        31
+      ],
+      "instagram": null,
+      "status": "published",
+      "note": "posted by Kamel via Meta Business Suite"
+    },
+    {
+      "date": "2026-10-20",
+      "owner": "Domaine du Karst",
+      "listing_ids": [
+        21
+      ],
+      "instagram": "domainedukarst",
+      "status": "published",
+      "folder": "2026-10-domaine-du-karst",
+      "permalink": "https://www.instagram.com/p/DeuIc9kFkpl/"
+    },
+    {
+      "date": "2026-10-22",
+      "owner": "Aqualand Hotel & Resort",
+      "listing_ids": [
+        18,
+        24,
+        25
+      ],
+      "instagram": "aqualandbatroun",
+      "status": "published",
+      "folder": "2026-10-aqualand-reel",
+      "note": "Reel from owner's video; video text has typo 'YOURY STARTS HERE'",
+      "type": "reel",
+      "video": "aqualand.mp4",
+      "permalink": "https://www.instagram.com/reel/DezWk6njfph/"
+    },
+    {
+      "date": "2026-10-23",
+      "owner": "Weekendna (brand)",
+      "listing_ids": [],
+      "instagram": null,
+      "status": "published",
+      "folder": "2026-10-lebanon-feeling",
+      "type": "reel",
+      "video": "reel.mp4",
+      "music": "original (Kamel's video)",
+      "note": "Kamel's own video, 8s seamless loop, original music",
+      "permalink": "https://www.instagram.com/reel/De17RWrDuaG/"
+    },
+    {
+      "date": "2026-10-24",
+      "owner": "Acampar",
+      "listing_ids": [
+        39,
+        40
+      ],
+      "instagram": "acamparfaraya",
+      "status": "published",
+      "folder": "2026-11-acampar",
+      "note": "combined Small hut (39) and Big hut (40)",
+      "type": "carousel",
+      "story_status": "published",
+      "reel_date": "2026-10-25",
+      "reel_status": "published",
+      "music": "warm-acoustic-atlasaudio.mp3",
+      "permalink": "https://www.instagram.com/p/De4gA_doELg/",
+      "reel_permalink": "https://www.instagram.com/reel/De7FC0KEUBl/"
+    },
+    {
+      "date": "2026-10-26",
+      "owner": "Bayt Baabdat",
+      "listing_ids": [
+        32
+      ],
+      "instagram": "bayt.baabdat.guesthouse",
+      "status": "published",
+      "folder": "2026-10-bayt-baabdat",
+      "type": "carousel",
+      "story_status": "published",
+      "reel_date": "2026-10-27",
+      "reel_status": "published",
+      "music": "oud-alexmorgan.mp3 @12s",
+      "permalink": "https://www.instagram.com/p/De9p44nkadF/",
+      "reel_permalink": "https://www.instagram.com/reel/DfAQYcYFGnh/"
+    },
+    {
+      "date": "2026-10-28",
+      "owner": "Faraya Village Club",
+      "listing_ids": [
+        26,
+        27,
+        28
+      ],
+      "instagram": "farayavillageclub",
+      "status": "published",
+      "folder": "2026-10-faraya-village-club",
+      "type": "carousel",
+      "story_status": "published",
+      "reel_date": "2026-11-07",
+      "reel_status": "scheduled",
+      "music": "upbeat-gear-mixkit.mp3",
+      "permalink": "https://www.instagram.com/p/DfCzelZFO_r/",
+      "note": "Reel version rebuilt 30 Oct 2026 with Remotion + Weekendna-as-hero end card (keyword FARAYA)"
+    },
+    {
+      "date": "2026-10-29",
+      "owner": "Weekendna (for owners)",
+      "status": "published",
+      "folder": "2026-10-owner-value",
+      "type": "carousel",
+      "story_status": "published",
+      "note": "Brand post for owners: calendar, ready WhatsApp request, 0% commission (free 12 months, then $25 per listing per month, first 10 places per region), put your own Weekendna link in your bio. No collaborator, no Reel version (added 29 Oct 2026 at Kamel's request; swapped in for the Faraya Village Club Reel, now on 9 Nov).",
+      "permalink": "https://www.instagram.com/p/DfFZV1FEaLu/"
+    },
+    {
+      "date": "2026-10-30",
+      "owner": "Majestic Byblos Grand Hotel",
+      "listing_ids": [
+        23
+      ],
+      "instagram": "majesticbyblos",
+      "status": "published",
+      "folder": "2026-10-majestic-byblos",
+      "type": "carousel",
+      "story_status": "published",
+      "reel_date": "2026-10-31",
+      "reel_status": "scheduled",
+      "music": "lounge-aurec.mp3",
+      "permalink": "https://www.instagram.com/p/DfIHouVCZiM/"
+    },
+    {
+      "date": "2026-11-01",
+      "owner": "Royal Chalets and Restaurant",
+      "listing_ids": [
+        54
+      ],
+      "instagram": "dianatawkk",
+      "status": "scheduled",
+      "folder": "2026-11-royal-chalets",
+      "type": "carousel",
+      "story_status": "scheduled",
+      "reel_date": "2026-11-02",
+      "reel_status": "scheduled",
+      "music": "warm-acoustic-atlasaudio.mp3",
+      "note": "redesigned 30 Oct 2026 (Weekendna-as-hero, keyword CEDARS)",
+      "kind": "collab"
+    },
+    {
+      "date": "2026-11-02",
+      "owner": "Weekendna (roundup: cozy fireplace stays)",
+      "listing_ids": [
+        32,
+        39,
+        40,
+        41,
+        42,
+        26,
+        27,
+        28,
+        54
+      ],
+      "instagram": null,
+      "status": "scheduled",
+      "folder": "2026-11-cozy-weekend",
+      "type": "carousel",
+      "story_status": "scheduled",
+      "kind": "pure",
+      "note": "Week 1 Mon pure roundup: Bayt Baabdat, Acampar, Faraya Village Club, Royal Chalets. No collaborator, no owner tags. Main CTA Save. No Reel version."
+    },
+    {
+      "date": "2026-11-03",
+      "owner": "Le Grey Apartments",
+      "listing_ids": [
+        48,
+        31
+      ],
+      "instagram": "legreyapt",
+      "status": "scheduled",
+      "folder": "2026-11-le-grey",
+      "note": "new listing Le Grey Haven (48) combined with Grandpa's Apartment (31), same owner; Grandpa's was posted 20 Oct without a collab",
+      "type": "carousel",
+      "story_status": "scheduled",
+      "reel_date": "2026-11-05",
+      "reel_status": "scheduled",
+      "music": "warm-acoustic-atlasaudio.mp3",
+      "kind": "collab"
+    },
+    {
+      "date": "2026-11-04",
+      "owner": "Acampar",
+      "listing_ids": [
+        39,
+        40,
+        41,
+        42
+      ],
+      "instagram": "acamparfaraya",
+      "status": "scheduled",
+      "folder": "2026-11-acampar-bungalows",
+      "type": "reel",
+      "video": "reel.mp4",
+      "story_status": "scheduled",
+      "music": "calm-acoustic-andriig.mp3 @30s",
+      "kind": "collab",
+      "note": "Week 1 Wed collab Reel: the 2 new bungalows (41, 42) as a Weekendna discovery; second round for Acampar (first 24 Oct). Keyword FARAYA."
+    },
+    {
+      "date": "2026-11-05",
+      "owner": "The Friday Drop #1",
+      "listing_ids": [
+        54,
+        37,
+        18,
+        24,
+        25
+      ],
+      "instagram": null,
+      "status": "hold",
+      "drop": true,
+      "drop_confirmed": false,
+      "drop_places": [
+        "royal",
+        "ghosta",
+        "aqualand"
+      ],
+      "drop_reserve": "majestic",
+      "folder": "2026-11-friday-drop-1",
+      "type": "carousel",
+      "story_status": "scheduled",
+      "kind": "drop",
+      "note": "Thursday-evening Drop for Fri 6 – Sun 8 Nov. Publish only after Kamel confirms. To change places: python3 tools/make_drop.py 2026-11-friday-drop-1 \"Fri 6 – Sun 8 Nov\" \"الجمعة ٦ لـ الأحد ٨ تشرين الثاني\" <places> (keys in tools/make_drop.py; reserve majestic), then render the -reel folder."
+    },
+    {
+      "date": "2026-11-06",
+      "owner": "The Friday Drop #1 (recap Reel)",
+      "listing_ids": [
+        54,
+        37,
+        18,
+        24,
+        25
+      ],
+      "instagram": null,
+      "status": "hold",
+      "drop": true,
+      "drop_confirmed": false,
+      "drop_places": [
+        "royal",
+        "ghosta",
+        "aqualand"
+      ],
+      "folder": "2026-11-friday-drop-1-reel",
+      "type": "reel",
+      "video": "reel.mp4",
+      "story_status": "scheduled",
+      "stories": [
+        "story-1.jpg",
+        "story-2.jpg",
+        "story-3.jpg",
+        "story-4.jpg"
+      ],
+      "music": "oud-alexmorgan.mp3 @12s",
+      "kind": "drop",
+      "note": "Friday recap Reel + 4-story sequence (Sea or mountain / confirmed mountain place / group size / WhatsApp). Publish only after Kamel confirms."
+    },
+    {
+      "date": "2026-11-07",
+      "owner": "Weekendna (roundup: friends' weekend)",
+      "listing_ids": [
+        31,
+        32,
+        42,
+        28
+      ],
+      "instagram": null,
+      "status": "scheduled",
+      "folder": "2026-11-friends-weekend",
+      "type": "carousel",
+      "story_status": "scheduled",
+      "kind": "pure",
+      "note": "Week 1 Sat: no guest reviews/clips with permission yet, so a pure Weekendna post (groups of friends, per-person split). Main CTA Save."
+    },
+    {
+      "date": "2026-11-08",
+      "owner": "Weekendna (How booking works)",
+      "listing_ids": [],
+      "instagram": null,
+      "status": "scheduled",
+      "folder": "2026-11-how-booking-works",
+      "type": "reel",
+      "video": "reel.mp4",
+      "music": "lounge-aurec.mp3 @40s",
+      "kind": "pure",
+      "note": "Week 1 Sun education Reel; steps from weekendna.com/en/how-it-works (30 Oct 2026). Main CTA Save."
+    },
+    {
+      "date": "2026-11-09",
+      "owner": "Weekendna (guide: weekends under an hour from Beirut)",
+      "listing_ids": [
+        32,
+        37,
+        18,
+        24,
+        25,
+        48
+      ],
+      "instagram": null,
+      "status": "scheduled",
+      "folder": "2026-11-under-an-hour",
+      "type": "carousel",
+      "story_status": "scheduled",
+      "kind": "pure",
+      "note": "Week 2 Mon pure guide: Bayt Baabdat 15, Ghosta 25, Aqualand 35, Le Grey Haven 45 min (listing figures). No tags. Main CTA Save."
+    },
+    {
+      "date": "2026-11-10",
+      "owner": "Phare du Nord Venue",
+      "listing_ids": [
+        49
+      ],
+      "instagram": "pharedunord",
+      "status": "scheduled",
+      "folder": "2026-11-phare-du-nord",
+      "note": "new listing (wedding venue); first post for this owner; redesigned 30 Oct 2026 (Weekendna-as-hero), moved to Tue 10 Nov (wedding venues wait for spring, but this one was already built)",
+      "type": "carousel",
+      "story_status": "scheduled",
+      "reel_date": "2026-11-14",
+      "reel_status": "scheduled",
+      "music": "lounge-aurec.mp3 @16s",
+      "kind": "collab"
+    },
+    {
+      "date": "2026-11-11",
+      "owner": "Ghosta Guest House",
+      "listing_ids": [
+        37
+      ],
+      "instagram": null,
+      "status": "scheduled",
+      "folder": "2026-10-ghosta-guest-house",
+      "note": "No Instagram handle yet (ask Kamel; add as collaborator if he gives it before 11 Nov). Week 2 Wed property Reel framed as a Weekendna discovery (carousel slides kept in the folder, not used). Keyword GHOSTA.",
+      "type": "reel",
+      "story_status": "scheduled",
+      "music": "calm-acoustic-andriig.mp3",
+      "kind": "collab",
+      "video": "reel.mp4"
+    },
+    {
+      "date": "2026-11-12",
+      "owner": "The Friday Drop #2",
+      "listing_ids": [
+        39,
+        40,
+        41,
+        42,
+        32,
+        48
+      ],
+      "instagram": null,
+      "status": "hold",
+      "drop": true,
+      "drop_confirmed": false,
+      "drop_places": [
+        "acampar",
+        "baabdat",
+        "legrey"
+      ],
+      "drop_reserve": "fvc",
+      "folder": "2026-11-friday-drop-2",
+      "type": "carousel",
+      "story_status": "scheduled",
+      "kind": "drop",
+      "note": "Thursday-evening Drop for Fri 13 – Sun 15 Nov. Publish only after Kamel confirms. Rebuild: python3 tools/make_drop.py 2026-11-friday-drop-2 \"Fri 13 – Sun 15 Nov\" \"الجمعة ١٣ لـ الأحد ١٥ تشرين الثاني\" <places> (reserve fvc); in the -reel json use baabdat/32-05 (32-02 has black bars) and musicStart 60, then render."
+    },
+    {
+      "date": "2026-11-13",
+      "owner": "The Friday Drop #2 (recap Reel)",
+      "listing_ids": [
+        39,
+        40,
+        41,
+        42,
+        32,
+        48
+      ],
+      "instagram": null,
+      "status": "hold",
+      "drop": true,
+      "drop_confirmed": false,
+      "drop_places": [
+        "acampar",
+        "baabdat",
+        "legrey"
+      ],
+      "folder": "2026-11-friday-drop-2-reel",
+      "type": "reel",
+      "video": "reel.mp4",
+      "story_status": "scheduled",
+      "stories": [
+        "story-1.jpg",
+        "story-2.jpg",
+        "story-3.jpg",
+        "story-4.jpg"
+      ],
+      "music": "oud-alexmorgan.mp3 @60s",
+      "kind": "drop",
+      "note": "Friday recap Reel + 4-story sequence. Publish only after Kamel confirms."
+    }
+  ],
+  "owners_without_instagram": [
+    "Ghosta Guest House"
+  ],
+  "skip_for_now": [
+    "Moobs House",
+    "Gracias Guesthouse"
+  ],
+  "_how": "tools/publish_due.py runs daily (19:24 Beirut) and publishes: the post (status) and Weekendna story (story_status; 'stories' list for a sequence) on 'date', and the Reel version (reel_status) on 'reel_date'. Items with drop: true publish only when drop_confirmed is true (Kamel confirms). Each folder's whatsapp.txt is the message Kamel forwards to the owner on post day.",
+  "assets": [
+    {
+      "owner": "Domaine du Karst",
+      "instagram": "domainedukarst",
+      "file": "posts/assets/domaine-du-karst/wedding-couple.jpg",
+      "use": "Wedding-venue posts: Domaine du Karst second round or a wedding venues roundup. From the owner's own Instagram story (crop of their design, keeps their 'Your dream Wedding starts here' text); credit and collab @domainedukarst.",
+      "added": "2026-10-21"
+    }
+  ],
+  "owner_kits": {
+    "_about": "Monthly kit tracking (Kamel, 27 Oct 2026): each owner gets one new-angle post a month. last_published and next_scheduled are the feed post dates; the weekly task updates them when it plans posts.",
+    "Aqualand Hotel & Resort": {
+      "last_published": "2026-10-22",
+      "next_scheduled": null
+    },
+    "Moobs House": {
+      "last_published": "2026-10-18",
+      "next_scheduled": null
+    },
+    "Grandpa's Apartment": {
+      "last_published": "2026-10-20",
+      "next_scheduled": null
+    },
+    "Domaine du Karst": {
+      "last_published": "2026-10-20",
+      "next_scheduled": null
+    },
+    "Ghosta Guest House": {
+      "last_published": null,
+      "next_scheduled": "2026-11-11"
+    },
+    "Acampar": {
+      "last_published": "2026-10-24",
+      "next_scheduled": "2026-11-04"
+    },
+    "Bayt Baabdat": {
+      "last_published": "2026-10-26",
+      "next_scheduled": null
+    },
+    "Faraya Village Club": {
+      "last_published": "2026-10-28",
+      "next_scheduled": null
+    },
+    "Majestic Byblos Grand Hotel": {
+      "last_published": null,
+      "next_scheduled": "2026-10-30"
+    },
+    "Gracias Guesthouse": {
+      "last_published": null,
+      "next_scheduled": null
+    },
+    "Phare du Nord Venue": {
+      "last_published": null,
+      "next_scheduled": "2026-11-10"
+    },
+    "Le Grey Apartments": {
+      "last_published": null,
+      "next_scheduled": "2026-11-03"
+    },
+    "Royal Chalets and Restaurant": {
+      "last_published": null,
+      "next_scheduled": "2026-11-01"
+    }
   },
-  {
-   "date": "2026-10-18",
-   "owner": "Moobs House",
-   "listing_ids": [
-    22
-   ],
-   "instagram": "moobshouse",
-   "status": "published",
-   "note": "posted by Kamel; Kamel asked to skip Moobs for now"
-  },
-  {
-   "date": "2026-10-20",
-   "owner": "Grandpa's Apartment",
-   "listing_ids": [
-    31
-   ],
-   "instagram": null,
-   "status": "published",
-   "note": "posted by Kamel via Meta Business Suite"
-  },
-  {
-   "date": "2026-10-20",
-   "owner": "Domaine du Karst",
-   "listing_ids": [
-    21
-   ],
-   "instagram": "domainedukarst",
-   "status": "published",
-   "folder": "2026-10-domaine-du-karst",
-   "permalink": "https://www.instagram.com/p/DeuIc9kFkpl/"
-  },
-  {
-   "date": "2026-10-22",
-   "owner": "Aqualand Hotel & Resort",
-   "listing_ids": [
-    18,
-    24,
-    25
-   ],
-   "instagram": "aqualandbatroun",
-   "status": "published",
-   "folder": "2026-10-aqualand-reel",
-   "note": "Reel from owner's video; video text has typo 'YOURY STARTS HERE'",
-   "type": "reel",
-   "video": "aqualand.mp4",
-   "permalink": "https://www.instagram.com/reel/DezWk6njfph/"
-  },
-  {
-   "date": "2026-10-23",
-   "owner": "Weekendna (brand)",
-   "listing_ids": [],
-   "instagram": null,
-   "status": "published",
-   "folder": "2026-10-lebanon-feeling",
-   "type": "reel",
-   "video": "reel.mp4",
-   "music": "original (Kamel's video)",
-   "note": "Kamel's own video, 8s seamless loop, original music",
-   "permalink": "https://www.instagram.com/reel/De17RWrDuaG/"
-  },
-  {
-   "date": "2026-10-24",
-   "owner": "Acampar",
-   "listing_ids": [
-    39,
-    40
-   ],
-   "instagram": "acamparfaraya",
-   "status": "published",
-   "folder": "2026-11-acampar",
-   "note": "combined Small hut (39) and Big hut (40)",
-   "type": "carousel",
-   "story_status": "published",
-   "reel_date": "2026-10-25",
-   "reel_status": "published",
-   "music": "warm-acoustic-atlasaudio.mp3",
-   "permalink": "https://www.instagram.com/p/De4gA_doELg/",
-   "reel_permalink": "https://www.instagram.com/reel/De7FC0KEUBl/"
-  },
-  {
-   "date": "2026-10-26",
-   "owner": "Bayt Baabdat",
-   "listing_ids": [
-    32
-   ],
-   "instagram": "bayt.baabdat.guesthouse",
-   "status": "published",
-   "folder": "2026-10-bayt-baabdat",
-   "type": "carousel",
-   "story_status": "published",
-   "reel_date": "2026-10-27",
-   "reel_status": "published",
-   "music": "oud-alexmorgan.mp3 @12s",
-   "permalink": "https://www.instagram.com/p/De9p44nkadF/",
-   "reel_permalink": "https://www.instagram.com/reel/DfAQYcYFGnh/"
-  },
-  {
-   "date": "2026-10-28",
-   "owner": "Faraya Village Club",
-   "listing_ids": [
-    26,
-    27,
-    28
-   ],
-   "instagram": "farayavillageclub",
-   "status": "published",
-   "folder": "2026-10-faraya-village-club",
-   "type": "carousel",
-   "story_status": "published",
-   "reel_date": "2026-11-07",
-   "reel_status": "scheduled",
-   "music": "upbeat-gear-mixkit.mp3",
-   "permalink": "https://www.instagram.com/p/DfCzelZFO_r/",
-   "note": "Reel version rebuilt 30 Oct 2026 with Remotion + Weekendna-as-hero end card (keyword FARAYA)"
-  },
-  {
-   "date": "2026-10-29",
-   "owner": "Weekendna (for owners)",
-   "status": "published",
-   "folder": "2026-10-owner-value",
-   "type": "carousel",
-   "story_status": "published",
-   "note": "Brand post for owners: calendar, ready WhatsApp request, 0% commission (free 12 months, then $25 per listing per month, first 10 places per region), put your own Weekendna link in your bio. No collaborator, no Reel version (added 29 Oct 2026 at Kamel's request; swapped in for the Faraya Village Club Reel, now on 9 Nov).",
-   "permalink": "https://www.instagram.com/p/DfFZV1FEaLu/"
-  },
-  {
-   "date": "2026-10-30",
-   "owner": "Majestic Byblos Grand Hotel",
-   "listing_ids": [
-    23
-   ],
-   "instagram": "majesticbyblos",
-   "status": "scheduled",
-   "folder": "2026-10-majestic-byblos",
-   "type": "carousel",
-   "story_status": "scheduled",
-   "reel_date": "2026-10-31",
-   "reel_status": "scheduled",
-   "music": "lounge-aurec.mp3"
-  },
-  {
-   "date": "2026-11-01",
-   "owner": "Royal Chalets and Restaurant",
-   "listing_ids": [
-    54
-   ],
-   "instagram": "dianatawkk",
-   "status": "scheduled",
-   "folder": "2026-11-royal-chalets",
-   "type": "carousel",
-   "story_status": "scheduled",
-   "reel_date": "2026-11-02",
-   "reel_status": "scheduled",
-   "music": "warm-acoustic-atlasaudio.mp3",
-   "note": "redesigned 30 Oct 2026 (Weekendna-as-hero, keyword CEDARS)",
-   "kind": "collab"
-  },
-  {
-   "date": "2026-11-02",
-   "owner": "Weekendna (roundup: cozy fireplace stays)",
-   "listing_ids": [
-    32,
-    39,
-    40,
-    41,
-    42,
-    26,
-    27,
-    28,
-    54
-   ],
-   "instagram": null,
-   "status": "scheduled",
-   "folder": "2026-11-cozy-weekend",
-   "type": "carousel",
-   "story_status": "scheduled",
-   "kind": "pure",
-   "note": "Week 1 Mon pure roundup: Bayt Baabdat, Acampar, Faraya Village Club, Royal Chalets. No collaborator, no owner tags. Main CTA Save. No Reel version."
-  },
-  {
-   "date": "2026-11-03",
-   "owner": "Le Grey Apartments",
-   "listing_ids": [
-    48,
-    31
-   ],
-   "instagram": "legreyapt",
-   "status": "scheduled",
-   "folder": "2026-11-le-grey",
-   "note": "new listing Le Grey Haven (48) combined with Grandpa's Apartment (31), same owner; Grandpa's was posted 20 Oct without a collab",
-   "type": "carousel",
-   "story_status": "scheduled",
-   "reel_date": "2026-11-05",
-   "reel_status": "scheduled",
-   "music": "warm-acoustic-atlasaudio.mp3",
-   "kind": "collab"
-  },
-  {
-   "date": "2026-11-04",
-   "owner": "Acampar",
-   "listing_ids": [
-    39,
-    40,
-    41,
-    42
-   ],
-   "instagram": "acamparfaraya",
-   "status": "scheduled",
-   "folder": "2026-11-acampar-bungalows",
-   "type": "reel",
-   "video": "reel.mp4",
-   "story_status": "scheduled",
-   "music": "calm-acoustic-andriig.mp3 @30s",
-   "kind": "collab",
-   "note": "Week 1 Wed collab Reel: the 2 new bungalows (41, 42) as a Weekendna discovery; second round for Acampar (first 24 Oct). Keyword FARAYA."
-  },
-  {
-   "date": "2026-11-05",
-   "owner": "The Friday Drop #1",
-   "listing_ids": [
-    54,
-    37,
-    18,
-    24,
-    25
-   ],
-   "instagram": null,
-   "status": "hold",
-   "drop": true,
-   "drop_confirmed": false,
-   "drop_places": [
-    "royal",
-    "ghosta",
-    "aqualand"
-   ],
-   "drop_reserve": "majestic",
-   "folder": "2026-11-friday-drop-1",
-   "type": "carousel",
-   "story_status": "scheduled",
-   "kind": "drop",
-   "note": "Thursday-evening Drop for Fri 6 – Sun 8 Nov. Publish only after Kamel confirms. To change places: python3 tools/make_drop.py 2026-11-friday-drop-1 \"Fri 6 – Sun 8 Nov\" \"الجمعة ٦ لـ الأحد ٨ تشرين الثاني\" <places> (keys in tools/make_drop.py; reserve majestic), then render the -reel folder."
-  },
-  {
-   "date": "2026-11-06",
-   "owner": "The Friday Drop #1 (recap Reel)",
-   "listing_ids": [
-    54,
-    37,
-    18,
-    24,
-    25
-   ],
-   "instagram": null,
-   "status": "hold",
-   "drop": true,
-   "drop_confirmed": false,
-   "drop_places": [
-    "royal",
-    "ghosta",
-    "aqualand"
-   ],
-   "folder": "2026-11-friday-drop-1-reel",
-   "type": "reel",
-   "video": "reel.mp4",
-   "story_status": "scheduled",
-   "stories": [
-    "story-1.jpg",
-    "story-2.jpg",
-    "story-3.jpg",
-    "story-4.jpg"
-   ],
-   "music": "oud-alexmorgan.mp3 @12s",
-   "kind": "drop",
-   "note": "Friday recap Reel + 4-story sequence (Sea or mountain / confirmed mountain place / group size / WhatsApp). Publish only after Kamel confirms."
-  },
-  {
-   "date": "2026-11-07",
-   "owner": "Weekendna (roundup: friends' weekend)",
-   "listing_ids": [
-    31,
-    32,
-    42,
-    28
-   ],
-   "instagram": null,
-   "status": "scheduled",
-   "folder": "2026-11-friends-weekend",
-   "type": "carousel",
-   "story_status": "scheduled",
-   "kind": "pure",
-   "note": "Week 1 Sat: no guest reviews/clips with permission yet, so a pure Weekendna post (groups of friends, per-person split). Main CTA Save."
-  },
-  {
-   "date": "2026-11-08",
-   "owner": "Weekendna (How booking works)",
-   "listing_ids": [],
-   "instagram": null,
-   "status": "scheduled",
-   "folder": "2026-11-how-booking-works",
-   "type": "reel",
-   "video": "reel.mp4",
-   "music": "lounge-aurec.mp3 @40s",
-   "kind": "pure",
-   "note": "Week 1 Sun education Reel; steps from weekendna.com/en/how-it-works (30 Oct 2026). Main CTA Save."
-  },
-  {
-   "date": "2026-11-09",
-   "owner": "Weekendna (guide: weekends under an hour from Beirut)",
-   "listing_ids": [
-    32,
-    37,
-    18,
-    24,
-    25,
-    48
-   ],
-   "instagram": null,
-   "status": "scheduled",
-   "folder": "2026-11-under-an-hour",
-   "type": "carousel",
-   "story_status": "scheduled",
-   "kind": "pure",
-   "note": "Week 2 Mon pure guide: Bayt Baabdat 15, Ghosta 25, Aqualand 35, Le Grey Haven 45 min (listing figures). No tags. Main CTA Save."
-  },
-  {
-   "date": "2026-11-10",
-   "owner": "Phare du Nord Venue",
-   "listing_ids": [
-    49
-   ],
-   "instagram": "pharedunord",
-   "status": "scheduled",
-   "folder": "2026-11-phare-du-nord",
-   "note": "new listing (wedding venue); first post for this owner; redesigned 30 Oct 2026 (Weekendna-as-hero), moved to Tue 10 Nov (wedding venues wait for spring, but this one was already built)",
-   "type": "carousel",
-   "story_status": "scheduled",
-   "reel_date": "2026-11-14",
-   "reel_status": "scheduled",
-   "music": "lounge-aurec.mp3 @16s",
-   "kind": "collab"
-  },
-  {
-   "date": "2026-11-11",
-   "owner": "Ghosta Guest House",
-   "listing_ids": [
-    37
-   ],
-   "instagram": null,
-   "status": "scheduled",
-   "folder": "2026-10-ghosta-guest-house",
-   "note": "No Instagram handle yet (ask Kamel; add as collaborator if he gives it before 11 Nov). Week 2 Wed property Reel framed as a Weekendna discovery (carousel slides kept in the folder, not used). Keyword GHOSTA.",
-   "type": "reel",
-   "story_status": "scheduled",
-   "music": "calm-acoustic-andriig.mp3",
-   "kind": "collab",
-   "video": "reel.mp4"
-  },
-  {
-   "date": "2026-11-12",
-   "owner": "The Friday Drop #2",
-   "listing_ids": [
-    39,
-    40,
-    41,
-    42,
-    32,
-    48
-   ],
-   "instagram": null,
-   "status": "hold",
-   "drop": true,
-   "drop_confirmed": false,
-   "drop_places": [
-    "acampar",
-    "baabdat",
-    "legrey"
-   ],
-   "drop_reserve": "fvc",
-   "folder": "2026-11-friday-drop-2",
-   "type": "carousel",
-   "story_status": "scheduled",
-   "kind": "drop",
-   "note": "Thursday-evening Drop for Fri 13 – Sun 15 Nov. Publish only after Kamel confirms. Rebuild: python3 tools/make_drop.py 2026-11-friday-drop-2 \"Fri 13 – Sun 15 Nov\" \"الجمعة ١٣ لـ الأحد ١٥ تشرين الثاني\" <places> (reserve fvc); in the -reel json use baabdat/32-05 (32-02 has black bars) and musicStart 60, then render."
-  },
-  {
-   "date": "2026-11-13",
-   "owner": "The Friday Drop #2 (recap Reel)",
-   "listing_ids": [
-    39,
-    40,
-    41,
-    42,
-    32,
-    48
-   ],
-   "instagram": null,
-   "status": "hold",
-   "drop": true,
-   "drop_confirmed": false,
-   "drop_places": [
-    "acampar",
-    "baabdat",
-    "legrey"
-   ],
-   "folder": "2026-11-friday-drop-2-reel",
-   "type": "reel",
-   "video": "reel.mp4",
-   "story_status": "scheduled",
-   "stories": [
-    "story-1.jpg",
-    "story-2.jpg",
-    "story-3.jpg",
-    "story-4.jpg"
-   ],
-   "music": "oud-alexmorgan.mp3 @60s",
-   "kind": "drop",
-   "note": "Friday recap Reel + 4-story sequence. Publish only after Kamel confirms."
-  }
- ],
- "owners_without_instagram": [
-  "Ghosta Guest House"
- ],
- "skip_for_now": [
-  "Moobs House",
-  "Gracias Guesthouse"
- ],
- "_how": "tools/publish_due.py runs daily (19:24 Beirut) and publishes: the post (status) and Weekendna story (story_status; 'stories' list for a sequence) on 'date', and the Reel version (reel_status) on 'reel_date'. Items with drop: true publish only when drop_confirmed is true (Kamel confirms). Each folder's whatsapp.txt is the message Kamel forwards to the owner on post day.",
- "assets": [
-  {
-   "owner": "Domaine du Karst",
-   "instagram": "domainedukarst",
-   "file": "posts/assets/domaine-du-karst/wedding-couple.jpg",
-   "use": "Wedding-venue posts: Domaine du Karst second round or a wedding venues roundup. From the owner's own Instagram story (crop of their design, keeps their 'Your dream Wedding starts here' text); credit and collab @domainedukarst.",
-   "added": "2026-10-21"
-  }
- ],
- "owner_kits": {
-  "_about": "Monthly kit tracking (Kamel, 27 Oct 2026): each owner gets one new-angle post a month. last_published and next_scheduled are the feed post dates; the weekly task updates them when it plans posts.",
-  "Aqualand Hotel & Resort": {
-   "last_published": "2026-10-22",
-   "next_scheduled": null
-  },
-  "Moobs House": {
-   "last_published": "2026-10-18",
-   "next_scheduled": null
-  },
-  "Grandpa's Apartment": {
-   "last_published": "2026-10-20",
-   "next_scheduled": null
-  },
-  "Domaine du Karst": {
-   "last_published": "2026-10-20",
-   "next_scheduled": null
-  },
-  "Ghosta Guest House": {
-   "last_published": null,
-   "next_scheduled": "2026-11-11"
-  },
-  "Acampar": {
-   "last_published": "2026-10-24",
-   "next_scheduled": "2026-11-04"
-  },
-  "Bayt Baabdat": {
-   "last_published": "2026-10-26",
-   "next_scheduled": null
-  },
-  "Faraya Village Club": {
-   "last_published": "2026-10-28",
-   "next_scheduled": null
-  },
-  "Majestic Byblos Grand Hotel": {
-   "last_published": null,
-   "next_scheduled": "2026-10-30"
-  },
-  "Gracias Guesthouse": {
-   "last_published": null,
-   "next_scheduled": null
-  },
-  "Phare du Nord Venue": {
-   "last_published": null,
-   "next_scheduled": "2026-11-10"
-  },
-  "Le Grey Apartments": {
-   "last_published": null,
-   "next_scheduled": "2026-11-03"
-  },
-  "Royal Chalets and Restaurant": {
-   "last_published": null,
-   "next_scheduled": "2026-11-01"
-  }
- },
- "parked": [
-  {
-   "owner": "Gracias Guesthouse",
-   "listing_ids": [
-    19
-   ],
-   "instagram": "graciasguesthouse_batroun",
-   "status": "parked",
-   "folder": "2026-10-gracias-guesthouse",
-   "note": "photo supplied by Kamel; listing has no photos/price on site",
-   "type": "carousel",
-   "story_status": "parked",
-   "reel_status": "parked",
-   "music": "warm-acoustic-atlasaudio.mp3 @40s",
-   "parked_on": "2026-10-30",
-   "parked_reason": "Kamel 30 Oct 2026: skip for now, put at the bottom of the list (listing has no photos or price on the site). Built files stay in the folder. Re-plan only when Kamel says so; redesign to the new look then (balcony photo supplied by Kamel)."
-  }
- ]
+  "parked": [
+    {
+      "owner": "Gracias Guesthouse",
+      "listing_ids": [
+        19
+      ],
+      "instagram": "graciasguesthouse_batroun",
+      "status": "parked",
+      "folder": "2026-10-gracias-guesthouse",
+      "note": "photo supplied by Kamel; listing has no photos/price on site",
+      "type": "carousel",
+      "story_status": "parked",
+      "reel_status": "parked",
+      "music": "warm-acoustic-atlasaudio.mp3 @40s",
+      "parked_on": "2026-10-30",
+      "parked_reason": "Kamel 30 Oct 2026: skip for now, put at the bottom of the list (listing has no photos or price on the site). Built files stay in the folder. Re-plan only when Kamel says so; redesign to the new look then (balcony photo supplied by Kamel)."
+    }
+  ]
 }
