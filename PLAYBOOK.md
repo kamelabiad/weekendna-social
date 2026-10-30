@@ -2,6 +2,16 @@
 
 How @weekendna.lb posts are made and scheduled. Written for the weekly scheduled task, which starts with no memory of earlier chats.
 
+## DESIGN + COPY RULES (Kamel, 30 Oct 2026) — SUPERSEDE any conflicting rule below
+Goal: every post pushes people to follow @weekendna.lb. Posts must feel like "Weekendna found this place for you", not a hotel ad. Weekendna is the hero.
+- **Slide 1 / hook:** benefit-led headline ("Your Byblos weekend, found for you") plus a BIG red "Found on Weekendna" badge placed HIGH (just under the logo, ~46px bold) so it's visible in the first second. The place name is small print. Collab posts may say "Now on Weekendna" instead. Reference: `tools/examples/make_majestic_v2.py` (copy it for each new post: it renders slide 1, last slide, story).
+- **Middle slide(s):** the features (keep as before).
+- **Last slide:** "Your <place> weekend starts here" + one benefit line + a white card as the MAIN action ("Want this place? Comment <KEYWORD> and we'll check availability for you"; keyword = region or place in caps, e.g. BYBLOS, BATROUN) + big dark "Follow @weekendna.lb" button placed right under the card + a prominent "New places every week" line + the small "Request your dates on WhatsApp · nothing to pay yet · link in bio" line. Arabic lines contain no Latin letters on images.
+- **Story:** same idea in 9:16, framed photo, "Found on Weekendna" badge, short white box "Reply <KEYWORD> for availability", large red Follow button, "New places every week".
+- **Caption template:** line 1 = benefit hook; "Found on Weekendna: <facts from the listing, price>"; ONE main CTA "💬 Want this place? Comment <KEYWORD> and we'll check availability for you."; the WhatsApp line "Request your dates on WhatsApp, nothing to pay yet. Link in bio 📅"; LAST "👉 Follow @weekendna.lb so you don't miss the next one. We find a new place for your weekend every week 🏡". Then the Lebanese-dialect Arabic version, then hashtags. "Comment <KEYWORD>" means Kamel replies to those comments/DMs himself; never promise availability, and never message anyone yourself.
+- **Reels:** hook on the benefit, small "Found on Weekendna" tag from the first second, end card with the same comment-keyword + big follow button.
+- **Cadence / times:** the daily task runs 19:24 Beirut; The Friday Drop goes out Thursday evening; the "Follow first" rule below is replaced by "comment CTA first, follow last".
+
 ## Strategy (Oct 2026)
 - The problem is reach, not content: ~11 followers on 20 Oct, 17 on 24 Oct, 1 website click in 2 weeks. Posts alone don't bring guests.
 - **What worked (results to 24 Oct 2026):** almost every post gets 4–20 views. The two hits were both **Aqualand Hotel & Resort** (a resort with its own audience): the 17 Oct sea-view suites feed post (1,904 views, 988 reached, no music) and the 22 Oct Reel made from the owner's own video (394 views, 259 reached). So the engine is **big-audience owners + real sea-view / room footage** (sea view from the bed, the bath, the jacuzzi), not music or posting volume. Whether Aqualand's audience or the content itself drove it isn't known yet: compare the next big-audience owner's results.
