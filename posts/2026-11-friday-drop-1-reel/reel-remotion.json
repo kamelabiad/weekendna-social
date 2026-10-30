@@ -1,0 +1,69 @@
+{
+ "music": "music/oud-alexmorgan.mp3",
+ "musicStart": 12,
+ "bpm": 129,
+ "shots": [
+  {
+   "photo": "photos/royal/54-01.webp",
+   "seconds": 3.091,
+   "move": "zoom_in",
+   "framed": true,
+   "text": {
+    "type": "hook",
+    "en": "The Friday Drop: 3 places free this weekend",
+    "ar": "٣ محلات فاضيين هالويكند"
+   }
+  },
+  {
+   "photo": "photos/royal/54-01.webp",
+   "seconds": 3.091,
+   "move": "pan_right",
+   "framed": true,
+   "text": {
+    "type": "room",
+    "name": "Confirmed Thursday · Bcharre & the Cedars",
+    "en": "Royal Chalets and Restaurant: Fireplace, up to 12 guests",
+    "ar": "شومينيه، لحد ١٢ شخص",
+    "price": "$80 / night"
+   }
+  },
+  {
+   "photo": "photos/ghosta/37-14.webp",
+   "seconds": 3.091,
+   "move": "zoom_out",
+   "framed": false,
+   "text": {
+    "type": "room",
+    "name": "Confirmed Thursday · Above Jounieh",
+    "en": "Ghosta Guest House: A 180° view, up to 12 guests",
+    "ar": "منظر من بيروت لجبيل، لحد ١٢ شخص",
+    "price": "$220 / night"
+   }
+  },
+  {
+   "photo": "photos/aqualand/24-02.webp",
+   "seconds": 3.091,
+   "move": "pan_left",
+   "framed": false,
+   "text": {
+    "type": "room",
+    "name": "Confirmed Thursday · Batroun",
+    "en": "Aqualand Hotel & Resort: Sea views and beach access",
+    "ar": "منظر عالبحر ونزلة عالبحر",
+    "price": "$150 / night"
+   }
+  },
+  {
+   "photo": "photos/aqualand/24-02.webp",
+   "seconds": 4.021,
+   "move": "zoom_out",
+   "framed": false,
+   "text": {
+    "type": "end",
+    "name": "The Friday Drop",
+    "price": "Fri 6 – Sun 8 Nov",
+    "ar": "ابعتوا تواريخكن عالواتساب"
+   }
+  }
+ ]
+}

@@ -1,0 +1,92 @@
+{
+ "music": "music/upbeat-gear-mixkit.mp3",
+ "musicStart": 0,
+ "bpm": 126,
+ "shots": [
+  {
+   "photo": "photos/fvc/26-05.webp",
+   "move": "zoom_in",
+   "framed": true,
+   "text": {
+    "type": "hook",
+    "en": "Your Faraya weekend, found for you",
+    "ar": "لقينالك ويكند بفاريا"
+   },
+   "seconds": 3.157
+  },
+  {
+   "photo": "photos/fvc/26-01.webp",
+   "move": "pan_right",
+   "framed": true,
+   "text": {
+    "type": "title",
+    "name": "Faraya Village Club",
+    "ar": "فاريا ڤيلادج كلوب",
+    "pill": "Faraya · Mzaar"
+   },
+   "seconds": 3.157
+  },
+  {
+   "photo": "photos/fvc/27-05.webp",
+   "move": "zoom_in",
+   "framed": true,
+   "text": {
+    "type": "room",
+    "name": "Studio Chalet",
+    "en": "King bed and a chimney, 7 min from Mzaar",
+    "ar": "تخت كينغ وشومينيه، ٧ دقايق عن المزار",
+    "price": "$150 / night"
+   },
+   "seconds": 3.157
+  },
+  {
+   "photo": "photos/fvc/28-07.webp",
+   "move": "zoom_out",
+   "framed": true,
+   "text": {
+    "type": "room",
+    "name": "Two Bedroom Chalet",
+    "en": "Up to 7 guests, with a chimney",
+    "ar": "لحد ٧ أشخاص، مع شومينيه",
+    "price": "$450 / night"
+   },
+   "seconds": 3.157
+  },
+  {
+   "photo": "photos/fvc/26-06.webp",
+   "move": "pan_left",
+   "framed": true,
+   "text": {
+    "type": "room",
+    "name": "Suite Spa with Jacuzzi",
+    "en": "Jacuzzi, chimney and floor heating",
+    "ar": "جاكوزي، شومينيه وتدفئة أرضية",
+    "price": "$450 / night"
+   },
+   "seconds": 3.157
+  },
+  {
+   "photo": "photos/fvc/26-03.webp",
+   "move": "zoom_in",
+   "framed": true,
+   "text": {
+    "type": "fact",
+    "en": "A heated pool on site",
+    "ar": "مسبح مدفّى"
+   },
+   "seconds": 3.157
+  },
+  {
+   "photo": "photos/fvc/26-02.webp",
+   "move": "zoom_out",
+   "framed": true,
+   "text": {
+    "type": "end",
+    "name": "Faraya Village Club",
+    "price": "From $150 / night",
+    "ar": "ابعتوا تواريخكن عالواتساب"
+   },
+   "seconds": 4.11
+  }
+ ]
+}

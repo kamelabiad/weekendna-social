@@ -1,0 +1,95 @@
+{
+ "music": "music/lounge-aurec.mp3",
+ "musicStart": 40,
+ "bpm": 99,
+ "shots": [
+  {
+   "photo": "photos/ghosta/37-14.webp",
+   "seconds": 3.33,
+   "move": "zoom_in",
+   "framed": false,
+   "text": {
+    "type": "hook",
+    "en": "How booking through Weekendna works, in 30 seconds",
+    "ar": "كيف بتحجزو عبر ويكندنا، بـ٣٠ ثانية"
+   }
+  },
+  {
+   "photo": "photos/acampar/42-02.webp",
+   "seconds": 3.936,
+   "move": "pan_right",
+   "framed": false,
+   "text": {
+    "type": "fact",
+    "en": "1. Pick your dates on the listing's calendar",
+    "ar": "١. نقّوا تواريخكن عالروزنامة"
+   }
+  },
+  {
+   "photo": "photos/legrey/48-05.webp",
+   "seconds": 3.936,
+   "move": "zoom_out",
+   "framed": false,
+   "text": {
+    "type": "fact",
+    "en": "2. Send a request: WhatsApp opens with your dates already written",
+    "ar": "٢. ابعتوا طلب، والواتساب بيفتح والتواريخ مكتوبة"
+   }
+  },
+  {
+   "photo": "photos/royal/54-10.webp",
+   "seconds": 3.936,
+   "move": "pan_left",
+   "framed": true,
+   "text": {
+    "type": "fact",
+    "en": "3. The owner replies to you directly and confirms",
+    "ar": "٣. صاحب المحل بيردّ عليكن مباشرة وبيأكّد"
+   }
+  },
+  {
+   "photo": "photos/aqualand/24-02.webp",
+   "seconds": 3.936,
+   "move": "zoom_in",
+   "framed": false,
+   "text": {
+    "type": "fact",
+    "en": "4. No online payment, no booking fee",
+    "ar": "٤. ما في دفع أونلاين ولا رسوم حجز"
+   }
+  },
+  {
+   "photo": "photos/majestic/23-03.webp",
+   "seconds": 3.936,
+   "move": "pan_right",
+   "framed": false,
+   "text": {
+    "type": "fact",
+    "en": "You agree the deposit with the owner: bank transfer, OMT/Whish or cash",
+    "ar": "العربون بتتفقو عليه مع صاحب المحل"
+   }
+  },
+  {
+   "photo": "photos/ghosta/37-19.webp",
+   "seconds": 3.936,
+   "move": "zoom_out",
+   "framed": false,
+   "text": {
+    "type": "fact",
+    "en": "No reply in 48 hours? The request expires, so you can book another place",
+    "ar": "ما في ردّ بـ٤٨ ساعة؟ الطلب بيوقف وفيكن تحجزو غير محل"
+   }
+  },
+  {
+   "photo": "photos/acampar/42-02.webp",
+   "seconds": 5.148,
+   "move": "zoom_out",
+   "text": {
+    "type": "end",
+    "name": "Weekendna",
+    "price": "weekendna.com",
+    "ar": "ابعتوا تواريخكن عالواتساب"
+   }
+  }
+ ]
+}

@@ -1,0 +1,81 @@
+{
+ "music": "music/calm-acoustic-andriig.mp3",
+ "musicStart": 0,
+ "bpm": 123,
+ "shots": [
+  {
+   "photo": "photos/ghosta/37-14.webp",
+   "move": "zoom_in",
+   "text": {
+    "type": "hook",
+    "en": "Your weekend above the coast, found for you",
+    "ar": "لقينالك ويكند فوق الساحل"
+   },
+   "seconds": 3.227
+  },
+  {
+   "photo": "photos/ghosta/37-19.webp",
+   "move": "pan_right",
+   "text": {
+    "type": "title",
+    "name": "Ghosta Guest House",
+    "ar": "بيت ضيافة بغوسطا",
+    "pill": "Above Jounieh · 25 min from Beirut"
+   },
+   "seconds": 3.227
+  },
+  {
+   "photo": "photos/ghosta/37-20.webp",
+   "move": "pan_left",
+   "text": {
+    "type": "fact",
+    "en": "A 180° view, Beirut to Byblos",
+    "ar": "منظر من بيروت لجبيل"
+   },
+   "seconds": 3.227
+  },
+  {
+   "photo": "photos/ghosta/37-08.webp",
+   "move": "zoom_in",
+   "text": {
+    "type": "fact",
+    "en": "5 bedrooms, up to 12 guests",
+    "ar": "٥ غرف نوم، لحد ١٢ شخص"
+   },
+   "seconds": 3.227
+  },
+  {
+   "photo": "photos/ghosta/37-33.webp",
+   "move": "pan_right",
+   "text": {
+    "type": "room",
+    "name": "The whole house",
+    "en": "About $18 each when 12 share",
+    "ar": "حوالي ١٨ دولار للشخص إذا ١٢ تشاركوا",
+    "price": "$220 / night"
+   },
+   "seconds": 3.227
+  },
+  {
+   "photo": "photos/ghosta/37-26.webp",
+   "move": "zoom_out",
+   "text": {
+    "type": "fact",
+    "en": "800 m above the sea",
+    "ar": "على علو ٨٠٠ متر"
+   },
+   "seconds": 3.227
+  },
+  {
+   "photo": "photos/ghosta/37-14.webp",
+   "move": "zoom_out",
+   "text": {
+    "type": "end",
+    "name": "Ghosta Guest House",
+    "price": "From $220 / night",
+    "ar": "ابعتوا تواريخكن عالواتساب"
+   },
+   "seconds": 4.202
+  }
+ ]
+}

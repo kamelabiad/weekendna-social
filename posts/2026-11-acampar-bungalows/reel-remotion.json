@@ -1,0 +1,98 @@
+{
+ "music": "music/calm-acoustic-andriig.mp3",
+ "musicStart": 30,
+ "bpm": 123,
+ "shots": [
+  {
+   "photo": "photos/acampar/42-02.webp",
+   "move": "zoom_in",
+   "fx": 0.7,
+   "text": {
+    "type": "hook",
+    "en": "Your fireplace weekend in Faraya, found for you",
+    "ar": "ويكند عالشومينيه بفاريا، لقيناه إلك"
+   },
+   "seconds": 3.227
+  },
+  {
+   "photo": "photos/acampar/39-01.webp",
+   "move": "pan_right",
+   "text": {
+    "type": "title",
+    "name": "Acampar Faraya",
+    "ar": "بنغلوهات خشب بفاريا",
+    "pill": "Faraya · 45 min from Beirut"
+   },
+   "seconds": 3.227
+  },
+  {
+   "photo": "photos/acampar/39-02.webp",
+   "move": "pan_left",
+   "text": {
+    "type": "room",
+    "name": "Studio bungalow",
+    "en": "A fireplace, for 2",
+    "ar": "شومينيه، لشخصين",
+    "price": "$80 / night"
+   },
+   "seconds": 3.227
+  },
+  {
+   "photo": "photos/acampar/40-04.webp",
+   "move": "zoom_in",
+   "text": {
+    "type": "room",
+    "name": "Studio bungalow",
+    "en": "A fireplace, for up to 4",
+    "ar": "شومينيه، لحد ٤ أشخاص",
+    "price": "$100 / night"
+   },
+   "seconds": 3.227
+  },
+  {
+   "photo": "photos/acampar/41-02.webp",
+   "move": "zoom_out",
+   "text": {
+    "type": "room",
+    "name": "New · One bedroom bungalow",
+    "en": "A sofa bed, sleeps up to 4",
+    "ar": "جديد: غرفة نوم وكنباية، لحد ٤ أشخاص",
+    "price": "$130 / night"
+   },
+   "seconds": 3.227
+  },
+  {
+   "photo": "photos/acampar/42-03.webp",
+   "move": "pan_right",
+   "text": {
+    "type": "room",
+    "name": "New · Two bedroom bungalow",
+    "en": "A fireplace, sleeps up to 6",
+    "ar": "جديد: غرفتين نوم وشومينيه، لحد ٦ أشخاص",
+    "price": "$200 / night"
+   },
+   "seconds": 3.227
+  },
+  {
+   "photo": "photos/acampar/40-01.webp",
+   "move": "zoom_in",
+   "text": {
+    "type": "fact",
+    "en": "Near the ski slopes",
+    "ar": "قريب من مسالك التزلج"
+   },
+   "seconds": 3.227
+  },
+  {
+   "photo": "photos/acampar/42-05.webp",
+   "move": "zoom_out",
+   "text": {
+    "type": "end",
+    "name": "Acampar Faraya",
+    "price": "From $80 / night",
+    "ar": "ابعتوا تواريخكن عالواتساب"
+   },
+   "seconds": 4.202
+  }
+ ]
+}

@@ -75,8 +75,12 @@ def reel(folder, video, collab, caption, to_feed):
     if collab: d["collaborators"] = json.dumps([collab])
     return publish(call(f"{IG}/media", d)["id"])
 
-def story(folder):
-    return publish(call(f"{IG}/media", {"media_type": "STORIES", "image_url": f"{RAW}/{folder}/story.jpg"})["id"])
+def story(folder, img="story.jpg"):
+    return publish(call(f"{IG}/media", {"media_type": "STORIES", "image_url": f"{RAW}/{folder}/{img}"})["id"])
+
+def stories(folder, imgs):
+    """Story sequence (e.g. The Friday Drop's Friday stories), published in order."""
+    return " | ".join(story(folder, i) for i in imgs)
 
 def save(log):
     with open(LOG, "w", encoding="utf-8") as f: json.dump(log, f, indent=2, ensure_ascii=False); f.write("\n")
@@ -85,11 +89,14 @@ log = json.load(open(LOG, encoding="utf-8"))
 report, failed = [], False
 for p in log["posts"]:
     folder, collab = p.get("folder"), p.get("instagram")
+    if p.get("drop") and not p.get("drop_confirmed"):  # The Friday Drop goes out only after Kamel confirms (status stays "hold")
+        if p.get("date") == TODAY: report.append(f"HELD {p['owner']}: Friday Drop not confirmed by Kamel")
+        continue
     jobs = []
     if p.get("date") == TODAY and p.get("status") == "scheduled":
         jobs.append(("post", lambda: reel(folder, p["video"], collab, caption_of(folder), True) if p.get("type") == "reel" else carousel(folder, collab)))
     if p.get("date") == TODAY and p.get("story_status") == "scheduled":
-        jobs.append(("story", lambda: story(folder)))
+        jobs.append(("story", lambda: stories(folder, p["stories"]) if p.get("stories") else story(folder)))
     if p.get("reel_date") == TODAY and p.get("reel_status") == "scheduled":
         jobs.append(("reel", lambda: reel(folder, "reel.mp4", collab, caption_of(folder), False)))
     for kind, job in jobs:
