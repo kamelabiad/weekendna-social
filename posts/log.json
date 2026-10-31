@@ -156,6 +156,22 @@
       "reel_permalink": "https://www.instagram.com/reel/DfKvXFroXFQ/"
     },
     {
+      "date": "2026-10-31",
+      "owner": "Majestic Byblos Grand Hotel (other rooms)",
+      "listing_ids": [
+        45,
+        46,
+        47
+      ],
+      "instagram": "majesticbyblos",
+      "status": "scheduled",
+      "folder": "2026-10-majestic-rooms",
+      "type": "carousel",
+      "story_status": "skipped",
+      "kind": "collab",
+      "note": "Added 31 Oct 2026 at Kamel's request as the day's feed post: Majestic Room, Family Room, Family Suite (new rooms, keyword BYBLOS). Feed post only: no story, no Reel version."
+    },
+    {
       "date": "2026-11-01",
       "owner": "Royal Chalets and Restaurant",
       "listing_ids": [
