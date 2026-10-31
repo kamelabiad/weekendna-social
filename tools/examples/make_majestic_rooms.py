@@ -11,7 +11,7 @@ place_slide(P("45-01"), f"{OUT}/majrooms-2.jpg", 1, 3, "Majestic Room", "Jbeil (
             ["Twin or king-size bed + a sofa bed", "Private balcony", "More space than the Deluxe Room"], "$150 / night",
             "بلكون خاص وكنباية بتصير تخت")
 place_slide(P("46-01"), f"{OUT}/majrooms-3.jpg", 2, 3, "Family Room", "Jbeil (Byblos)",
-            ["2 bedrooms: a king bed + twin beds", "Bathroom with a bathtub", "Up to 4 guests"], "$250 / night · about $63 each for 4",
+            ["2 bedrooms: a king bed + twin beds", "Bathroom with a bathtub", "Up to 4 guests"], "$250 / night · $62.50 each for 4",
             "غرفتين نوم وبانيو، لأربعة أشخاص")
 place_slide(P("47-01"), f"{OUT}/majrooms-4.jpg", 3, 3, "Family Suite", "Jbeil (Byblos)",
             ["2 bedrooms + a separate living room", "Private balcony, Mediterranean views", "Up to 4 guests"], "$305 / night · about $76 each for 4",
