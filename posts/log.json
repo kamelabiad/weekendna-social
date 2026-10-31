@@ -122,7 +122,7 @@
       "folder": "2026-10-faraya-village-club",
       "type": "carousel",
       "story_status": "published",
-      "reel_date": "2026-11-07",
+      "reel_date": "2026-11-10",
       "reel_status": "scheduled",
       "music": "upbeat-gear-mixkit.mp3",
       "permalink": "https://www.instagram.com/p/DfCzelZFO_r/",
@@ -174,6 +174,23 @@
     },
     {
       "date": "2026-11-01",
+      "owner": "Aqualand Hotel & Resort",
+      "listing_ids": [
+        18,
+        24,
+        25
+      ],
+      "instagram": "aqualandbatroun",
+      "status": "scheduled",
+      "folder": "2026-11-aqualand-ad",
+      "type": "carousel",
+      "story_status": "scheduled",
+      "kind": "collab",
+      "pinned": true,
+      "note": "Kamel's own ad design (31 Oct 2026): 2 slides cut from the ad + full 9:16 story, keyword BATROUN. PINNED to 1 Nov: weekly planning must not move or redesign it; everything else was pushed back (Friday Drops stay on Thursdays)."
+    },
+    {
+      "date": "2026-11-02",
       "owner": "Royal Chalets and Restaurant",
       "listing_ids": [
         54
@@ -183,14 +200,14 @@
       "folder": "2026-11-royal-chalets",
       "type": "carousel",
       "story_status": "scheduled",
-      "reel_date": "2026-11-02",
+      "reel_date": "2026-11-03",
       "reel_status": "scheduled",
       "music": "warm-acoustic-atlasaudio.mp3",
       "note": "redesigned 30 Oct 2026 (Weekendna-as-hero, keyword CEDARS)",
       "kind": "collab"
     },
     {
-      "date": "2026-11-02",
+      "date": "2026-11-03",
       "owner": "Weekendna (roundup: cozy fireplace stays)",
       "listing_ids": [
         32,
@@ -212,7 +229,7 @@
       "note": "Week 1 Mon pure roundup: Bayt Baabdat, Acampar, Faraya Village Club, Royal Chalets. No collaborator, no owner tags. Main CTA Save. No Reel version."
     },
     {
-      "date": "2026-11-03",
+      "date": "2026-11-04",
       "owner": "Le Grey Apartments",
       "listing_ids": [
         48,
@@ -224,13 +241,13 @@
       "note": "new listing Le Grey Haven (48) combined with Grandpa's Apartment (31), same owner; Grandpa's was posted 20 Oct without a collab",
       "type": "carousel",
       "story_status": "scheduled",
-      "reel_date": "2026-11-05",
+      "reel_date": "2026-11-08",
       "reel_status": "scheduled",
       "music": "warm-acoustic-atlasaudio.mp3",
       "kind": "collab"
     },
     {
-      "date": "2026-11-04",
+      "date": "2026-11-07",
       "owner": "Acampar",
       "listing_ids": [
         39,
@@ -308,7 +325,7 @@
       "note": "Friday recap Reel + 4-story sequence (Sea or mountain / confirmed mountain place / group size / WhatsApp). Publish only after Kamel confirms."
     },
     {
-      "date": "2026-11-07",
+      "date": "2026-11-08",
       "owner": "Weekendna (roundup: friends' weekend)",
       "listing_ids": [
         31,
@@ -325,7 +342,7 @@
       "note": "Week 1 Sat: no guest reviews/clips with permission yet, so a pure Weekendna post (groups of friends, per-person split). Main CTA Save."
     },
     {
-      "date": "2026-11-08",
+      "date": "2026-11-09",
       "owner": "Weekendna (How booking works)",
       "listing_ids": [],
       "instagram": null,
@@ -338,7 +355,7 @@
       "note": "Week 1 Sun education Reel; steps from weekendna.com/en/how-it-works (30 Oct 2026). Main CTA Save."
     },
     {
-      "date": "2026-11-09",
+      "date": "2026-11-10",
       "owner": "Weekendna (guide: weekends under an hour from Beirut)",
       "listing_ids": [
         32,
@@ -357,7 +374,7 @@
       "note": "Week 2 Mon pure guide: Bayt Baabdat 15, Ghosta 25, Aqualand 35, Le Grey Haven 45 min (listing figures). No tags. Main CTA Save."
     },
     {
-      "date": "2026-11-10",
+      "date": "2026-11-11",
       "owner": "Phare du Nord Venue",
       "listing_ids": [
         49
@@ -368,13 +385,13 @@
       "note": "new listing (wedding venue); first post for this owner; redesigned 30 Oct 2026 (Weekendna-as-hero), moved to Tue 10 Nov (wedding venues wait for spring, but this one was already built)",
       "type": "carousel",
       "story_status": "scheduled",
-      "reel_date": "2026-11-14",
+      "reel_date": "2026-11-15",
       "reel_status": "scheduled",
       "music": "lounge-aurec.mp3 @16s",
       "kind": "collab"
     },
     {
-      "date": "2026-11-11",
+      "date": "2026-11-14",
       "owner": "Ghosta Guest House",
       "listing_ids": [
         37

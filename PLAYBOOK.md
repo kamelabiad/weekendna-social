@@ -93,3 +93,6 @@ Goal: every post pushes people to follow @weekendna.lb. Posts must feel like "We
 
 ## Reel covers
 Remotion Reels start on a pure black frame 0, so Instagram showed a black preview. tools/publish_due.py now sends `thumb_offset=1000` (cover = frame at 1.0s) with every Reel. Don't remove it. The API cannot change the cover of an already-published Reel (fix those by hand: Reel > ... > Edit > Edit cover).
+
+## Pinned posts (Kamel, 31 Oct 2026)
+- Items in `posts/log.json` with `"pinned": true` are Kamel's own designs on a date he chose (e.g. `2026-11-aqualand-ad`, Sun 1 Nov). Weekly planning must never move, redesign or re-caption them; plan around them. When Kamel inserts a post and says "push the rest one day", shift non-Drop items later by the free days, but Friday Drops stay on Thursdays (and their recap Reels on Fridays).
