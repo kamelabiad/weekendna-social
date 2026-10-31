@@ -76,9 +76,9 @@ def build(folder, dates, dates_ar, keys):
           f"{NUM_AR[n-1]} محلات فاضيين هالويكند", "DROP", badge="The Friday Drop", box=("Want one of them?", "Reply DROP for the details"))
     en = "\n".join(f"{i}. {p['name']}, {p['where'].replace(' · ', ', ')}: {p['cap']}. {CONF} ✅" for i, p in enumerate(ps, 1))
     arl = "\n".join(f"{NUM_AR[i-1]}. {p['ar_name']}: {p['cap_ar']}. {CONF_AR} ✅" for i, p in enumerate(ps, 1))
-    tail_en = ("Request your dates on WhatsApp, nothing to pay yet. Link in bio 📅\n"
+    tail_en = ("Request your dates on WhatsApp, nothing to pay yet: weekendna.com (link in bio) 📅\n"
                "👉 Follow @weekendna.lb so you don't miss the next one. We find a new place for your weekend every week 🏡")
-    tail_ar = ("ابعتوا تواريخكن عالواتساب، بلا ما تدفعوا شي هلّق. اللينك بالبايو 📅\n"
+    tail_ar = ("ابعتوا تواريخكن عالواتساب، بلا ما تدفعوا شي هلّق: weekendna.com (اللينك بالبايو) 📅\n"
                "👉 تابعونا عـ@weekendna.lb كرمال ما يفوتكن المحل الجاي. كل أسبوع منلاقيلكن محل جديد لويكندكن 🏡")
     tags = "#Weekendna #TheFridayDrop #LebanonWeekend #Lebanon #WeekendInLebanon"
     cap = (f"The Friday Drop 🔥 {word} places free this weekend ({dates}), found for you. We checked with the owners on Thursday.\n"
