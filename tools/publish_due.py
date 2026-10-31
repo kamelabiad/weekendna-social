@@ -76,7 +76,9 @@ def reel(folder, video, collab, caption, to_feed):
     return publish(call(f"{IG}/media", d)["id"])
 
 def story(folder, img="story.jpg"):
-    return publish(call(f"{IG}/media", {"media_type": "STORIES", "image_url": f"{RAW}/{folder}/{img}"})["id"])
+    # an .mp4 story (e.g. the animated card-flip with music) goes out as a video story, a .jpg as an image story
+    key = "video_url" if img.endswith(".mp4") else "image_url"
+    return publish(call(f"{IG}/media", {"media_type": "STORIES", key: f"{RAW}/{folder}/{img}"})["id"])
 
 def stories(folder, imgs):
     """Story sequence (e.g. The Friday Drop's Friday stories), published in order."""
@@ -96,7 +98,7 @@ for p in log["posts"]:
     if p.get("date") == TODAY and p.get("status") == "scheduled":
         jobs.append(("post", lambda: reel(folder, p["video"], collab, caption_of(folder), True) if p.get("type") == "reel" else carousel(folder, collab)))
     if p.get("date") == TODAY and p.get("story_status") == "scheduled":
-        jobs.append(("story", lambda: stories(folder, p["stories"]) if p.get("stories") else story(folder)))
+        jobs.append(("story", lambda: stories(folder, p["stories"]) if p.get("stories") else story(folder, p.get("story_video", "story.jpg"))))
     if p.get("reel_date") == TODAY and p.get("reel_status") == "scheduled":
         jobs.append(("reel", lambda: reel(folder, "reel.mp4", collab, caption_of(folder), False)))
     for kind, job in jobs:

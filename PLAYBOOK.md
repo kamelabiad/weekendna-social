@@ -96,3 +96,4 @@ Remotion Reels start on a pure black frame 0, so Instagram showed a black previe
 
 ## Pinned posts (Kamel, 31 Oct 2026)
 - Items in `posts/log.json` with `"pinned": true` are Kamel's own designs on a date he chose (e.g. `2026-11-aqualand-ad`, Sun 1 Nov). Weekly planning must never move, redesign or re-caption them; plan around them. When Kamel inserts a post and says "push the rest one day", shift non-Drop items later by the free days, but Friday Drops stay on Thursdays (and their recap Reels on Fridays).
+- **Video stories (Kamel, 31 Oct 2026):** a post item may set `"story_video": "story.mp4"`; the publisher then sends that video as the story instead of story.jpg (music is baked into the video, which is how a story gets music). If a video story fails to process, publish `story.jpg` once as the fallback and tell Kamel.

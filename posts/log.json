@@ -187,7 +187,9 @@
       "story_status": "scheduled",
       "kind": "collab",
       "pinned": true,
-      "note": "Kamel's own ad design (31 Oct 2026): 2 slides cut from the ad + full 9:16 story, keyword BATROUN. PINNED to 1 Nov: weekly planning must not move or redesign it; everything else was pushed back (Friday Drops stay on Thursdays)."
+      "note": "Kamel's own ad design (31 Oct 2026): 2 slides cut from the ad + full 9:16 story, keyword BATROUN. PINNED to 1 Nov: weekly planning must not move or redesign it; everything else was pushed back (Friday Drops stay on Thursdays). Story is an animated card-flip video (story.mp4, week|end|نا flipping to Aqualand, lounge-aurec.mp3); story.jpg is the fallback image.",
+      "story_video": "story.mp4",
+      "story_music": "lounge-aurec.mp3"
     },
     {
       "date": "2026-11-02",
