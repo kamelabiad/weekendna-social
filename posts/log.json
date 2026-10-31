@@ -150,9 +150,10 @@
       "type": "carousel",
       "story_status": "published",
       "reel_date": "2026-10-31",
-      "reel_status": "scheduled",
+      "reel_status": "published",
       "music": "lounge-aurec.mp3",
-      "permalink": "https://www.instagram.com/p/DfIHouVCZiM/"
+      "permalink": "https://www.instagram.com/p/DfIHouVCZiM/",
+      "reel_permalink": "https://www.instagram.com/reel/DfKvXFroXFQ/"
     },
     {
       "date": "2026-11-01",
