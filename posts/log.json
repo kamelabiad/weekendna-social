@@ -193,23 +193,6 @@
     },
     {
       "date": "2026-11-02",
-      "owner": "Royal Chalets and Restaurant",
-      "listing_ids": [
-        54
-      ],
-      "instagram": "dianatawkk",
-      "status": "scheduled",
-      "folder": "2026-11-royal-chalets",
-      "type": "carousel",
-      "story_status": "scheduled",
-      "reel_date": "2026-11-03",
-      "reel_status": "scheduled",
-      "music": "warm-acoustic-atlasaudio.mp3",
-      "note": "redesigned 30 Oct 2026 (Weekendna-as-hero, keyword CEDARS)",
-      "kind": "collab"
-    },
-    {
-      "date": "2026-11-03",
       "owner": "Weekendna (roundup: cozy fireplace stays)",
       "listing_ids": [
         32,
@@ -228,28 +211,27 @@
       "type": "carousel",
       "story_status": "scheduled",
       "kind": "pure",
-      "note": "Week 1 Mon pure roundup: Bayt Baabdat, Acampar, Faraya Village Club, Royal Chalets. No collaborator, no owner tags. Main CTA Save. No Reel version."
+      "note": "Week 1 Mon pure roundup: Bayt Baabdat, Acampar, Faraya Village Club, Royal Chalets. No collaborator, no owner tags. Main CTA Save. No Reel version. Re-slotted 1 Nov 2026 (weekly task) to the weekly pattern after the 1 Nov Aqualand insert had shifted everything by a day."
     },
     {
-      "date": "2026-11-04",
-      "owner": "Le Grey Apartments",
+      "date": "2026-11-03",
+      "owner": "Royal Chalets and Restaurant",
       "listing_ids": [
-        48,
-        31
+        54
       ],
-      "instagram": "legreyapt",
+      "instagram": "dianatawkk",
       "status": "scheduled",
-      "folder": "2026-11-le-grey",
-      "note": "new listing Le Grey Haven (48) combined with Grandpa's Apartment (31), same owner; Grandpa's was posted 20 Oct without a collab",
+      "folder": "2026-11-royal-chalets",
       "type": "carousel",
       "story_status": "scheduled",
-      "reel_date": "2026-11-08",
+      "reel_date": "2026-11-04",
       "reel_status": "scheduled",
       "music": "warm-acoustic-atlasaudio.mp3",
+      "note": "redesigned 30 Oct 2026 (Weekendna-as-hero, keyword CEDARS) Re-slotted 1 Nov 2026 (weekly task) to the weekly pattern after the 1 Nov Aqualand insert had shifted everything by a day.",
       "kind": "collab"
     },
     {
-      "date": "2026-11-07",
+      "date": "2026-11-04",
       "owner": "Acampar",
       "listing_ids": [
         39,
@@ -265,7 +247,7 @@
       "story_status": "scheduled",
       "music": "calm-acoustic-andriig.mp3 @30s",
       "kind": "collab",
-      "note": "Week 1 Wed collab Reel: the 2 new bungalows (41, 42) as a Weekendna discovery; second round for Acampar (first 24 Oct). Keyword FARAYA."
+      "note": "Week 1 Wed collab Reel: the 2 new bungalows (41, 42) as a Weekendna discovery; second round for Acampar (first 24 Oct). Keyword FARAYA. Re-slotted 1 Nov 2026 (weekly task) to the weekly pattern after the 1 Nov Aqualand insert had shifted everything by a day."
     },
     {
       "date": "2026-11-05",
@@ -327,7 +309,7 @@
       "note": "Friday recap Reel + 4-story sequence (Sea or mountain / confirmed mountain place / group size / WhatsApp). Publish only after Kamel confirms."
     },
     {
-      "date": "2026-11-08",
+      "date": "2026-11-07",
       "owner": "Weekendna (roundup: friends' weekend)",
       "listing_ids": [
         31,
@@ -341,10 +323,10 @@
       "type": "carousel",
       "story_status": "scheduled",
       "kind": "pure",
-      "note": "Week 1 Sat: no guest reviews/clips with permission yet, so a pure Weekendna post (groups of friends, per-person split). Main CTA Save."
+      "note": "Week 1 Sat: no guest reviews/clips with permission yet, so a pure Weekendna post (groups of friends, per-person split). Main CTA Save. Re-slotted 1 Nov 2026 (weekly task) to the weekly pattern after the 1 Nov Aqualand insert had shifted everything by a day."
     },
     {
-      "date": "2026-11-09",
+      "date": "2026-11-08",
       "owner": "Weekendna (How booking works)",
       "listing_ids": [],
       "instagram": null,
@@ -354,10 +336,10 @@
       "video": "reel.mp4",
       "music": "lounge-aurec.mp3 @40s",
       "kind": "pure",
-      "note": "Week 1 Sun education Reel; steps from weekendna.com/en/how-it-works (30 Oct 2026). Main CTA Save."
+      "note": "Week 1 Sun education Reel; steps from weekendna.com/en/how-it-works (30 Oct 2026). Main CTA Save. Re-slotted 1 Nov 2026 (weekly task) to the weekly pattern after the 1 Nov Aqualand insert had shifted everything by a day."
     },
     {
-      "date": "2026-11-10",
+      "date": "2026-11-09",
       "owner": "Weekendna (guide: weekends under an hour from Beirut)",
       "listing_ids": [
         32,
@@ -373,27 +355,28 @@
       "type": "carousel",
       "story_status": "scheduled",
       "kind": "pure",
-      "note": "Week 2 Mon pure guide: Bayt Baabdat 15, Ghosta 25, Aqualand 35, Le Grey Haven 45 min (listing figures). No tags. Main CTA Save."
+      "note": "Week 2 Mon pure guide: Bayt Baabdat 15, Ghosta 25, Aqualand 35, Le Grey Haven 45 min (listing figures). No tags. Main CTA Save. Re-slotted 1 Nov 2026 (weekly task) to the weekly pattern after the 1 Nov Aqualand insert had shifted everything by a day."
     },
     {
-      "date": "2026-11-11",
-      "owner": "Phare du Nord Venue",
+      "date": "2026-11-10",
+      "owner": "Le Grey Apartments",
       "listing_ids": [
-        49
+        48,
+        31
       ],
-      "instagram": "pharedunord",
+      "instagram": "legreyapt",
       "status": "scheduled",
-      "folder": "2026-11-phare-du-nord",
-      "note": "new listing (wedding venue); first post for this owner; redesigned 30 Oct 2026 (Weekendna-as-hero), moved to Tue 10 Nov (wedding venues wait for spring, but this one was already built)",
+      "folder": "2026-11-le-grey",
+      "note": "new listing Le Grey Haven (48) combined with Grandpa's Apartment (31), same owner; Grandpa's was posted 20 Oct without a collab Re-slotted 1 Nov 2026 (weekly task) to the weekly pattern after the 1 Nov Aqualand insert had shifted everything by a day.",
       "type": "carousel",
       "story_status": "scheduled",
-      "reel_date": "2026-11-15",
+      "reel_date": "2026-11-14",
       "reel_status": "scheduled",
-      "music": "lounge-aurec.mp3 @16s",
+      "music": "warm-acoustic-atlasaudio.mp3",
       "kind": "collab"
     },
     {
-      "date": "2026-11-14",
+      "date": "2026-11-11",
       "owner": "Ghosta Guest House",
       "listing_ids": [
         37
@@ -401,7 +384,7 @@
       "instagram": null,
       "status": "scheduled",
       "folder": "2026-10-ghosta-guest-house",
-      "note": "No Instagram handle yet (ask Kamel; add as collaborator if he gives it before 11 Nov). Week 2 Wed property Reel framed as a Weekendna discovery (carousel slides kept in the folder, not used). Keyword GHOSTA.",
+      "note": "No Instagram handle yet (ask Kamel; add as collaborator if he gives it before 11 Nov). Week 2 Wed property Reel framed as a Weekendna discovery (carousel slides kept in the folder, not used). Keyword GHOSTA. Re-slotted 1 Nov 2026 (weekly task) to the weekly pattern after the 1 Nov Aqualand insert had shifted everything by a day.",
       "type": "reel",
       "story_status": "scheduled",
       "music": "calm-acoustic-andriig.mp3",
@@ -468,6 +451,40 @@
       "music": "oud-alexmorgan.mp3 @60s",
       "kind": "drop",
       "note": "Friday recap Reel + 4-story sequence. Publish only after Kamel confirms."
+    },
+    {
+      "date": "2026-11-14",
+      "owner": "Weekendna (roundup: sea or mountain)",
+      "listing_ids": [
+        24,
+        23,
+        39,
+        54
+      ],
+      "instagram": null,
+      "status": "scheduled",
+      "folder": "2026-11-sea-or-mountain",
+      "type": "carousel",
+      "story_status": "scheduled",
+      "kind": "pure",
+      "note": "Week 2 Sat: no guest reviews/clips with permission yet, so a pure Weekendna roundup: Aqualand Deluxe Sea View, Majestic Deluxe (sea), Acampar studio bungalow, Royal Chalets (mountain, fireplace). No collaborator, no owner tags. Main CTA Save. No Reel version. Built 1 Nov 2026 (tools/examples/make_sea_mountain.py)."
+    },
+    {
+      "date": "2026-11-17",
+      "owner": "Phare du Nord Venue",
+      "listing_ids": [
+        49
+      ],
+      "instagram": "pharedunord",
+      "status": "scheduled",
+      "folder": "2026-11-phare-du-nord",
+      "note": "new listing (wedding venue); first post for this owner; redesigned 30 Oct 2026 (Weekendna-as-hero), moved to Tue 10 Nov (wedding venues wait for spring, but this one was already built) Re-slotted 1 Nov 2026 (weekly task) to the weekly pattern after the 1 Nov Aqualand insert had shifted everything by a day.",
+      "type": "carousel",
+      "story_status": "scheduled",
+      "reel_date": "2026-11-18",
+      "reel_status": "scheduled",
+      "music": "lounge-aurec.mp3 @16s",
+      "kind": "collab"
     }
   ],
   "owners_without_instagram": [
@@ -491,7 +508,7 @@
     "_about": "Monthly kit tracking (Kamel, 27 Oct 2026): each owner gets one new-angle post a month. last_published and next_scheduled are the feed post dates; the weekly task updates them when it plans posts.",
     "Aqualand Hotel & Resort": {
       "last_published": "2026-10-22",
-      "next_scheduled": null
+      "next_scheduled": "2026-11-01"
     },
     "Moobs House": {
       "last_published": "2026-10-18",
@@ -522,8 +539,8 @@
       "next_scheduled": null
     },
     "Majestic Byblos Grand Hotel": {
-      "last_published": null,
-      "next_scheduled": "2026-10-30"
+      "last_published": "2026-10-31",
+      "next_scheduled": null
     },
     "Gracias Guesthouse": {
       "last_published": null,
@@ -531,15 +548,15 @@
     },
     "Phare du Nord Venue": {
       "last_published": null,
-      "next_scheduled": "2026-11-10"
+      "next_scheduled": "2026-11-17"
     },
     "Le Grey Apartments": {
       "last_published": null,
-      "next_scheduled": "2026-11-03"
+      "next_scheduled": "2026-11-10"
     },
     "Royal Chalets and Restaurant": {
       "last_published": null,
-      "next_scheduled": "2026-11-01"
+      "next_scheduled": "2026-11-03"
     }
   },
   "parked": [
