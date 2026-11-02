@@ -1,0 +1,70 @@
+{
+ "music": "music/calm-acoustic-andriig.mp3",
+ "musicStart": 0,
+ "bpm": 123,
+ "shots": [
+  {
+   "photo": "photos/gray/55-08.webp",
+   "seconds": 2.9,
+   "move": "zoom_in",
+   "text": {
+    "type": "hook",
+    "en": "Sea and mountain views, 45 min from Beirut",
+    "ar": "منظر عالبحر والجبل، ٤٥ دقيقة عن بيروت"
+   }
+  },
+  {
+   "photo": "photos/gray/55-07.webp",
+   "seconds": 2.9,
+   "move": "pan_right",
+   "text": {
+    "type": "title",
+    "name": "The Gray House",
+    "ar": "بيت خاص بغينة",
+    "pill": "Private retreat · Ghineh"
+   },
+   "fy": 0.6
+  },
+  {
+   "photo": "photos/gray/55-10.webp",
+   "seconds": 2.9,
+   "move": "zoom_out",
+   "text": {
+    "type": "fact",
+    "en": "3 private balconies",
+    "ar": "٣ بلكونات خاصة"
+   }
+  },
+  {
+   "photo": "photos/gray/55-06.webp",
+   "seconds": 2.9,
+   "move": "pan_left",
+   "text": {
+    "type": "fact",
+    "en": "2 bedrooms, up to 5 guests",
+    "ar": "غرفتين نوم، لحد ٥ أشخاص"
+   }
+  },
+  {
+   "photo": "photos/gray/55-11.webp",
+   "seconds": 2.9,
+   "move": "zoom_in",
+   "text": {
+    "type": "fact",
+    "en": "Full kitchen, A/C and heating",
+    "ar": "مطبخ كامل، تكييف وتدفئة"
+   }
+  },
+  {
+   "photo": "photos/gray/55-08.webp",
+   "seconds": 4.0,
+   "move": "zoom_out",
+   "text": {
+    "type": "end",
+    "name": "The Gray House",
+    "price": "$130 / night",
+    "ar": "ابعتوا تواريخكن عالواتساب"
+   }
+  }
+ ]
+}
