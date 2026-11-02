@@ -1,6 +1,6 @@
 {
- "music": "",
- "musicStart": 0,
+ "music": "music/lounge-aurec.mp3",
+ "musicStart": 16,
  "bpm": 99,
  "shots": [
   {
