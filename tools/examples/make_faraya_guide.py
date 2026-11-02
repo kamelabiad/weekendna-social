@@ -7,11 +7,11 @@ from hero import *
 ROOT = os.path.join(os.path.dirname(__file__), "..", ".."); O = f"{ROOT}/posts/2026-11-faraya-guide"; os.makedirs(O, exist_ok=True)
 P = lambda f: Image.open(f"{ROOT}/reels/public/photos/{f}.webp").convert("RGB")
 slide1(P("acampar/42-02"), f"{O}/guide-1.jpg", "A weekend in Faraya", "Stay · Explore · Plan", "Fireplaces, mountain views and Roman ruins, 45 min from Beirut",
-       "ويكند بفاريا: وين تقعد وشو تشوف", "Faraya · Faqra · Mzaar")
+       "", "Faraya · Faqra · Mzaar")
 place_slide(P("acampar/42-04"), f"{O}/guide-2.jpg", 1, 5, "Where to stay", "Stay · Acampar Faraya · 45 min from Beirut",
-            ["Wooden bungalows, most with a fireplace", "Mountain views and a terrace", "For 2 to 6 guests"], "From $80 a night", "بنغلوهات خشب مع شومينيه")
+            ["Wooden bungalows, most with a fireplace", "Mountain views and a terrace", "For 2 to 6 guests"], "From $80 a night", "")
 place_slide(P("fvc/26-01"), f"{O}/guide-3.jpg", 2, 5, "Where to stay", "Stay · Faraya Village Club · Mzaar",
-            ["A chimney in every chalet", "A heated pool on site", "From a studio for 2 to a chalet for 7"], "From $150 a night", "شاليهات مع شومينيه ومسبح مدفّأ")
+            ["A chimney in every chalet", "A heated pool on site", "From a studio for 2 to a chalet for 7"], "From $150 a night", "")
 
 def list_slide(photo, out, num, total, tag, title, title_ar, items, note, cy=0.5, kicker=None):
     """Bold guide slide: Faraya mood backdrop (blurred, dark; NOT presented as the venue), big hook, numbered red badges, glass cards.
@@ -41,25 +41,25 @@ def list_slide(photo, out, num, total, tag, title, title_ar, items, note, cy=0.5
     img.save(out, quality=92)
 
 # Photos of the listed places: put them in reels/public/photos/guide/<slug>.webp (permission required) and pass P("guide/<slug>") instead of None.
-list_slide(P("acampar/42-01"), f"{O}/guide-4.jpg", 3, 5, "Where to eat", "Hungry in Faraya?", "جوعان بفاريا؟ جرّب هالأماكن الخمسة",
+list_slide(P("acampar/42-01"), f"{O}/guide-4.jpg", 3, 5, "Where to eat", "Hungry in Faraya?", "",
     [("Lebanese", "Jnaynit al Khaweja", "A garden-style stop for mezze and a long mountain meal"),
      ("Lebanese", "Em Sherif Deli", "Lebanese classics in a relaxed, casual setting"),
      ("Italian", "Mario e Mario", "Pizza and pasta"),
      ("Grill & seafood", "Meat the Fish", "Grilled meat and seafood for a hearty lunch or dinner"),
      ("Coffee", "LTTL BEAN", "A warm drink and something sweet")],
     "Check opening hours and seasonal availability before visiting.", kicker="5 spots to try this weekend")
-list_slide(P("acampar/42-01"), f"{O}/guide-5.jpg", 4, 5, "What to do", "Don't just sleep", "لا تنام وبس: عيشها",
+list_slide(P("acampar/42-01"), f"{O}/guide-5.jpg", 4, 5, "What to do", "Don't just sleep", "",
     [("Winter", "Ski and snowboard", "Mzaar Kfardebian, when the snow and slopes are open"),
      ("Winter", "Snowmobile rides", "With a local operator, when conditions allow"),
      ("Summer", "Hiking and mountain walks", "Highland trails and cooler mountain air"),
      ("All seasons", "Scenic outings", "Viewpoints, photos and relaxed mountain drives")],
     "Availability depends on weather, season and local operators.", kicker="Snow, speed and slow mountain days")
-list_slide(P("acampar/42-01"), f"{O}/guide-6.jpg", 5, 5, "Places to visit", "4 places not to skip", "٤ أماكن ما تفوّتهن",
+list_slide(P("acampar/42-01"), f"{O}/guide-6.jpg", 5, 5, "Places to visit", "4 places not to skip", "",
     [("Nature", "Chabrouh Dam", "A mountain reservoir and scenic spot for photos and a walk"),
      ("History", "Faqra Roman Ruins", "Ancient stone remains in a mountain setting"),
      ("Landmark", "Faqra Natural Bridge", "A dramatic natural rock bridge in the highlands"),
      ("Viewpoint", "Saint Charbel Statue", "A hilltop landmark with wide views over the mountains")],
     "Check opening times before you go.", kicker="Easy to add to your weekend")
-last(f"{O}/guide-7.jpg", None, "Plan your Faraya weekend", "خطّطوا ويكندكن بفاريا", main="save", head=("Your Faraya", "weekend starts here"))
-story(P("acampar/42-02"), f"{O}/story.jpg", "A weekend", "in Faraya", "Stays, sights and a simple plan", "ويكند بفاريا", main="save")
+last(f"{O}/guide-7.jpg", None, "Plan your Faraya weekend", "", main="save", head=("Your Faraya", "weekend starts here"))
+story(P("acampar/42-02"), f"{O}/story.jpg", "A weekend", "in Faraya", "Stays, sights and a simple plan", "", main="save")
 print("ok")
