@@ -1,0 +1,71 @@
+{
+ "music": "music/warm-acoustic-atlasaudio.mp3",
+ "musicStart": 40,
+ "bpm": 100,
+ "shots": [
+  {
+   "photo": "photos/acampar/42-01.webp",
+   "seconds": 3.0,
+   "move": "zoom_in",
+   "text": {
+    "type": "hook",
+    "en": "Wait… this is Lebanon?",
+    "ar": "استنى… هيدا بلبنان؟"
+   },
+   "fy": 0.5
+  },
+  {
+   "photo": "photos/acampar/42-02.webp",
+   "seconds": 3.0,
+   "move": "pan_right",
+   "text": {
+    "type": "title",
+    "name": "Faraya",
+    "ar": "فاريا، ٤٥ دقيقة عن بيروت",
+    "pill": "45 min from Beirut"
+   }
+  },
+  {
+   "photo": "photos/acampar/42-02.webp",
+   "seconds": 3.0,
+   "move": "zoom_in",
+   "text": {
+    "type": "fact",
+    "en": "A fireplace and a mountain view",
+    "ar": "شومينيه ومنظر عالجبل"
+   },
+   "fx": 0.7
+  },
+  {
+   "photo": "photos/acampar/42-04.webp",
+   "seconds": 3.0,
+   "move": "pan_left",
+   "text": {
+    "type": "fact",
+    "en": "Wooden bungalows near the ski slopes",
+    "ar": "بنغلوهات خشب قريبة من التلج"
+   }
+  },
+  {
+   "photo": "photos/acampar/42-05.webp",
+   "seconds": 3.0,
+   "move": "zoom_out",
+   "text": {
+    "type": "fact",
+    "en": "For 2 to 6 guests",
+    "ar": "من شخصين لـ٦ أشخاص"
+   }
+  },
+  {
+   "photo": "photos/acampar/42-01.webp",
+   "seconds": 4.0,
+   "move": "zoom_out",
+   "text": {
+    "type": "end",
+    "name": "Faraya",
+    "price": "From $80 / night",
+    "ar": "ابعتوا تواريخكن عالواتساب"
+   }
+  }
+ ]
+}

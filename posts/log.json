@@ -122,11 +122,11 @@
       "folder": "2026-10-faraya-village-club",
       "type": "carousel",
       "story_status": "published",
-      "reel_date": "2026-11-10",
+      "reel_date": "2026-11-19",
       "reel_status": "scheduled",
       "music": "upbeat-gear-mixkit.mp3",
       "permalink": "https://www.instagram.com/p/DfCzelZFO_r/",
-      "note": "Reel version rebuilt 30 Oct 2026 with Remotion + Weekendna-as-hero end card (keyword FARAYA)"
+      "note": "Reel version rebuilt 30 Oct 2026 with Remotion + Weekendna-as-hero end card (keyword FARAYA) Re-slotted 2 Nov 2026 to the ORGANIC GROWTH PLAN. Reel is Thu 19 Nov (Weekend Edit)."
     },
     {
       "date": "2026-10-29",
@@ -216,24 +216,24 @@
       "permalink": "https://www.instagram.com/p/DfP3q-8G49B/"
     },
     {
-      "date": "2026-11-03",
+      "date": "",
       "owner": "Royal Chalets and Restaurant",
       "listing_ids": [
         54
       ],
       "instagram": "dianatawkk",
-      "status": "scheduled",
+      "status": "hold",
       "folder": "2026-11-royal-chalets",
       "type": "carousel",
-      "story_status": "scheduled",
-      "reel_date": "2026-11-04",
+      "story_status": "hold",
+      "reel_date": "2026-11-05",
       "reel_status": "scheduled",
       "music": "warm-acoustic-atlasaudio.mp3",
-      "note": "redesigned 30 Oct 2026 (Weekendna-as-hero, keyword CEDARS) Re-slotted 1 Nov 2026 (weekly task) to the weekly pattern after the 1 Nov Aqualand insert had shifted everything by a day.",
+      "note": "redesigned 30 Oct 2026 (Weekendna-as-hero, keyword CEDARS) Re-slotted 1 Nov 2026 (weekly task) to the weekly pattern after the 1 Nov Aqualand insert had shifted everything by a day. Re-slotted 2 Nov 2026 to the ORGANIC GROWTH PLAN. Carousel on hold; its Reel is Thu 5 Nov as THE WEEKEND EDIT.",
       "kind": "collab"
     },
     {
-      "date": "2026-11-07",
+      "date": "2026-11-06",
       "owner": "Acampar",
       "listing_ids": [
         39,
@@ -249,10 +249,10 @@
       "story_status": "scheduled",
       "music": "calm-acoustic-andriig.mp3 @30s",
       "kind": "collab",
-      "note": "Week 1 Wed collab Reel: the 2 new bungalows (41, 42) as a Weekendna discovery; second round for Acampar (first 24 Oct). Keyword FARAYA. Re-slotted 1 Nov 2026 (weekly task) to the weekly pattern after the 1 Nov Aqualand insert had shifted everything by a day. Moved from Wed 4 Nov to Sat 7 Nov (Kamel, 2 Nov: Acampar was tagged on 2 Nov, give it 3 days)."
+      "note": "Week 1 Wed collab Reel: the 2 new bungalows (41, 42) as a Weekendna discovery; second round for Acampar (first 24 Oct). Keyword FARAYA. Re-slotted 1 Nov 2026 (weekly task) to the weekly pattern after the 1 Nov Aqualand insert had shifted everything by a day. Moved from Wed 4 Nov to Sat 7 Nov (Kamel, 2 Nov: Acampar was tagged on 2 Nov, give it 3 days). Re-slotted 2 Nov 2026 to the ORGANIC GROWTH PLAN. Fri property/experience Reel."
     },
     {
-      "date": "2026-11-05",
+      "date": "",
       "owner": "The Friday Drop #1",
       "listing_ids": [
         18,
@@ -278,12 +278,12 @@
       "drop_reserve": "majestic",
       "folder": "2026-11-friday-drop-1",
       "type": "carousel",
-      "story_status": "scheduled",
+      "story_status": "hold",
       "kind": "drop",
-      "note": "Thursday-evening Drop for Fri 6 – Sun 8 Nov. Publish only after Kamel confirms. To change places: python3 tools/make_drop.py 2026-11-friday-drop-1 \"Fri 6 – Sun 8 Nov\" \"الجمعة ٦ لـ الأحد ٨ تشرين الثاني\" <places> (keys in tools/make_drop.py; reserve majestic), then render the -reel folder."
+      "note": "Thursday-evening Drop for Fri 6 – Sun 8 Nov. Publish only after Kamel confirms. To change places: python3 tools/make_drop.py 2026-11-friday-drop-1 \"Fri 6 – Sun 8 Nov\" \"الجمعة ٦ لـ الأحد ٨ تشرين الثاني\" <places> (keys in tools/make_drop.py; reserve majestic), then render the -reel folder. The Friday Drop is paused (monitoring week, ORGANIC GROWTH PLAN, 2 Nov 2026); reinstate only if Kamel asks."
     },
     {
-      "date": "2026-11-06",
+      "date": "",
       "owner": "The Friday Drop #1 (recap Reel)",
       "listing_ids": [
         18,
@@ -309,7 +309,7 @@
       "folder": "2026-11-friday-drop-1-reel",
       "type": "reel",
       "video": "reel.mp4",
-      "story_status": "scheduled",
+      "story_status": "hold",
       "stories": [
         "story-1.jpg",
         "story-2.jpg",
@@ -318,11 +318,11 @@
       ],
       "music": "oud-alexmorgan.mp3 @12s",
       "kind": "drop",
-      "note": "Friday recap Reel + 4-story sequence (Sea or mountain / confirmed mountain place / group size / WhatsApp). Publish only after Kamel confirms.",
+      "note": "Friday recap Reel + 4-story sequence (Sea or mountain / confirmed mountain place / group size / WhatsApp). Publish only after Kamel confirms. The Friday Drop is paused (monitoring week, ORGANIC GROWTH PLAN, 2 Nov 2026); reinstate only if Kamel asks.",
       "drop_reserve": null
     },
     {
-      "date": "2026-11-15",
+      "date": "2026-11-04",
       "owner": "Weekendna (roundup: friends' weekend)",
       "listing_ids": [
         31,
@@ -336,10 +336,10 @@
       "type": "carousel",
       "story_status": "scheduled",
       "kind": "pure",
-      "note": "Week 1 Sat: no guest reviews/clips with permission yet, so a pure Weekendna post (groups of friends, per-person split). Main CTA Save. Re-slotted 1 Nov 2026 (weekly task) to the weekly pattern after the 1 Nov Aqualand insert had shifted everything by a day. Moved from Sat 7 Nov to Sun 15 Nov to make room for the Acampar Reel (Kamel, 2 Nov)."
+      "note": "Week 1 Sat: no guest reviews/clips with permission yet, so a pure Weekendna post (groups of friends, per-person split). Main CTA Save. Re-slotted 1 Nov 2026 (weekly task) to the weekly pattern after the 1 Nov Aqualand insert had shifted everything by a day. Moved from Sat 7 Nov to Sun 15 Nov to make room for the Acampar Reel (Kamel, 2 Nov). Re-slotted 2 Nov 2026 to the ORGANIC GROWTH PLAN. Wed shortlist carousel."
     },
     {
-      "date": "2026-11-08",
+      "date": "2026-11-09",
       "owner": "Weekendna (How booking works)",
       "listing_ids": [],
       "instagram": null,
@@ -349,10 +349,10 @@
       "video": "reel.mp4",
       "music": "lounge-aurec.mp3 @40s",
       "kind": "pure",
-      "note": "Week 1 Sun education Reel; steps from weekendna.com/en/how-it-works (30 Oct 2026). Main CTA Save. Re-slotted 1 Nov 2026 (weekly task) to the weekly pattern after the 1 Nov Aqualand insert had shifted everything by a day."
+      "note": "Week 1 Sun education Reel; steps from weekendna.com/en/how-it-works (30 Oct 2026). Main CTA Save. Re-slotted 1 Nov 2026 (weekly task) to the weekly pattern after the 1 Nov Aqualand insert had shifted everything by a day. Re-slotted 2 Nov 2026 to the ORGANIC GROWTH PLAN. Mon 9 Nov: Start Here Reel (pin it)."
     },
     {
-      "date": "2026-11-09",
+      "date": "2026-11-11",
       "owner": "Weekendna (guide: weekends under an hour from Beirut)",
       "listing_ids": [
         32,
@@ -368,44 +368,44 @@
       "type": "carousel",
       "story_status": "scheduled",
       "kind": "pure",
-      "note": "Week 2 Mon pure guide: Bayt Baabdat 15, Ghosta 25, Aqualand 35, Le Grey Haven 45 min (listing figures). No tags. Main CTA Save. Re-slotted 1 Nov 2026 (weekly task) to the weekly pattern after the 1 Nov Aqualand insert had shifted everything by a day."
+      "note": "Week 2 Mon pure guide: Bayt Baabdat 15, Ghosta 25, Aqualand 35, Le Grey Haven 45 min (listing figures). No tags. Main CTA Save. Re-slotted 1 Nov 2026 (weekly task) to the weekly pattern after the 1 Nov Aqualand insert had shifted everything by a day. Re-slotted 2 Nov 2026 to the ORGANIC GROWTH PLAN. Wed shortlist carousel."
     },
     {
-      "date": "2026-11-10",
+      "date": "",
       "owner": "Le Grey Apartments",
       "listing_ids": [
         48,
         31
       ],
       "instagram": "legreyapt",
-      "status": "scheduled",
+      "status": "hold",
       "folder": "2026-11-le-grey",
-      "note": "new listing Le Grey Haven (48) combined with Grandpa's Apartment (31), same owner; Grandpa's was posted 20 Oct without a collab Re-slotted 1 Nov 2026 (weekly task) to the weekly pattern after the 1 Nov Aqualand insert had shifted everything by a day.",
+      "note": "new listing Le Grey Haven (48) combined with Grandpa's Apartment (31), same owner; Grandpa's was posted 20 Oct without a collab Re-slotted 1 Nov 2026 (weekly task) to the weekly pattern after the 1 Nov Aqualand insert had shifted everything by a day. Re-slotted 2 Nov 2026 to the ORGANIC GROWTH PLAN. Carousel on hold; its Reel is Thu 12 Nov as THE WEEKEND EDIT.",
       "type": "carousel",
-      "story_status": "scheduled",
-      "reel_date": "2026-11-14",
+      "story_status": "hold",
+      "reel_date": "2026-11-12",
       "reel_status": "scheduled",
       "music": "warm-acoustic-atlasaudio.mp3",
       "kind": "collab"
     },
     {
-      "date": "2026-11-11",
+      "date": "",
       "owner": "Ghosta Guest House",
       "listing_ids": [
         37
       ],
       "instagram": null,
-      "status": "scheduled",
+      "status": "hold",
       "folder": "2026-10-ghosta-guest-house",
-      "note": "Ghosta has NO Instagram (Kamel confirmed 1 Nov 2026): posted without a collaborator; don't ask for a handle again. Week 2 Wed property Reel framed as a Weekendna discovery (carousel slides kept in the folder, not used). Keyword GHOSTA. Re-slotted 1 Nov 2026 (weekly task) to the weekly pattern.",
+      "note": "Ghosta has NO Instagram (Kamel confirmed 1 Nov 2026): posted without a collaborator; don't ask for a handle again. Week 2 Wed property Reel framed as a Weekendna discovery (carousel slides kept in the folder, not used). Keyword GHOSTA. Re-slotted 1 Nov 2026 (weekly task) to the weekly pattern. Re-slotted 2 Nov 2026 to the ORGANIC GROWTH PLAN. On hold (no Instagram handle; reschedule as a Fri property Reel when a slot is free).",
       "type": "reel",
-      "story_status": "scheduled",
+      "story_status": "hold",
       "music": "calm-acoustic-andriig.mp3",
       "kind": "collab",
       "video": "reel.mp4"
     },
     {
-      "date": "2026-11-12",
+      "date": "",
       "owner": "The Friday Drop #2",
       "listing_ids": [
         32,
@@ -424,12 +424,12 @@
       "drop_reserve": "ghosta",
       "folder": "2026-11-friday-drop-2",
       "type": "carousel",
-      "story_status": "scheduled",
+      "story_status": "hold",
       "kind": "drop",
-      "note": "Thursday-evening Drop for Fri 13 – Sun 15 Nov. Publish only after Kamel confirms. Rebuild: python3 tools/make_drop.py 2026-11-friday-drop-2 \"Fri 13 – Sun 15 Nov\" \"الجمعة ١٣ لـ الأحد ١٥ تشرين الثاني\" <places> (reserve ghosta); in the -reel json use baabdat/32-05 (32-02 has black bars) and musicStart 60, then render."
+      "note": "Thursday-evening Drop for Fri 13 – Sun 15 Nov. Publish only after Kamel confirms. Rebuild: python3 tools/make_drop.py 2026-11-friday-drop-2 \"Fri 13 – Sun 15 Nov\" \"الجمعة ١٣ لـ الأحد ١٥ تشرين الثاني\" <places> (reserve ghosta); in the -reel json use baabdat/32-05 (32-02 has black bars) and musicStart 60, then render. The Friday Drop is paused (monitoring week, ORGANIC GROWTH PLAN, 2 Nov 2026); reinstate only if Kamel asks."
     },
     {
-      "date": "2026-11-13",
+      "date": "",
       "owner": "The Friday Drop #2 (recap Reel)",
       "listing_ids": [
         32,
@@ -448,7 +448,7 @@
       "folder": "2026-11-friday-drop-2-reel",
       "type": "reel",
       "video": "reel.mp4",
-      "story_status": "scheduled",
+      "story_status": "hold",
       "stories": [
         "story-1.jpg",
         "story-2.jpg",
@@ -457,11 +457,11 @@
       ],
       "music": "oud-alexmorgan.mp3 @60s",
       "kind": "drop",
-      "note": "Friday recap Reel + 4-story sequence. Publish only after Kamel confirms.",
+      "note": "Friday recap Reel + 4-story sequence. Publish only after Kamel confirms. The Friday Drop is paused (monitoring week, ORGANIC GROWTH PLAN, 2 Nov 2026); reinstate only if Kamel asks.",
       "drop_reserve": null
     },
     {
-      "date": "2026-11-14",
+      "date": "2026-11-18",
       "owner": "Weekendna (roundup: sea or mountain)",
       "listing_ids": [
         24,
@@ -475,22 +475,22 @@
       "type": "carousel",
       "story_status": "scheduled",
       "kind": "pure",
-      "note": "Week 2 Sat: no guest reviews/clips with permission yet, so a pure Weekendna roundup: Aqualand Deluxe Sea View, Majestic Deluxe (sea), Acampar studio bungalow, Royal Chalets (mountain, fireplace). No collaborator, no owner tags. Main CTA Save. No Reel version. Built 1 Nov 2026 (tools/examples/make_sea_mountain.py)."
+      "note": "Week 2 Sat: no guest reviews/clips with permission yet, so a pure Weekendna roundup: Aqualand Deluxe Sea View, Majestic Deluxe (sea), Acampar studio bungalow, Royal Chalets (mountain, fireplace). No collaborator, no owner tags. Main CTA Save. No Reel version. Built 1 Nov 2026 (tools/examples/make_sea_mountain.py). Re-slotted 2 Nov 2026 to the ORGANIC GROWTH PLAN. Wed shortlist carousel."
     },
     {
-      "date": "2026-11-17",
+      "date": "",
       "owner": "Phare du Nord Venue",
       "listing_ids": [
         49
       ],
       "instagram": "pharedunord",
-      "status": "scheduled",
+      "status": "hold",
       "folder": "2026-11-phare-du-nord",
-      "note": "new listing (wedding venue); first post for this owner; redesigned 30 Oct 2026 (Weekendna-as-hero), moved to Tue 10 Nov (wedding venues wait for spring, but this one was already built) Re-slotted 1 Nov 2026 (weekly task) to the weekly pattern after the 1 Nov Aqualand insert had shifted everything by a day.",
+      "note": "new listing (wedding venue); first post for this owner; redesigned 30 Oct 2026 (Weekendna-as-hero), moved to Tue 10 Nov (wedding venues wait for spring, but this one was already built) Re-slotted 1 Nov 2026 (weekly task) to the weekly pattern after the 1 Nov Aqualand insert had shifted everything by a day. Re-slotted 2 Nov 2026 to the ORGANIC GROWTH PLAN. On hold: wedding venue, wait for spring.",
       "type": "carousel",
-      "story_status": "scheduled",
+      "story_status": "hold",
       "reel_date": "2026-11-18",
-      "reel_status": "scheduled",
+      "reel_status": "hold",
       "music": "lounge-aurec.mp3 @16s",
       "kind": "collab"
     },
@@ -513,19 +513,90 @@
     {
       "folder": "2026-11-gray-house",
       "type": "carousel",
-      "date": "2026-11-16",
-      "reel_date": "2026-11-21",
+      "date": "",
+      "reel_date": "2026-11-13",
       "owner": "The Gray House",
       "listing_ids": [
         55
       ],
-      "status": "scheduled",
-      "story_status": "scheduled",
+      "status": "hold",
+      "story_status": "hold",
       "reel_status": "scheduled",
       "video": "reel.mp4",
       "music": "calm-acoustic-andriig.mp3 @0s",
       "kind": "collab",
-      "note": "New listing found 2 Nov 2026 (Ghineh, 45 min from Beirut). No Instagram handle on file: posted without a collaborator until Kamel gives one (whatsapp.txt asks the owner for it). Slotted into the first free day (Mon 16 Nov) and Sat 21 Nov for the Reel; the weekly task can re-slot it earlier."
+      "note": "New listing found 2 Nov 2026 (Ghineh, 45 min from Beirut). No Instagram handle on file: posted without a collaborator until Kamel gives one (whatsapp.txt asks the owner for it). Slotted into the first free day (Mon 16 Nov) and Sat 21 Nov for the Reel; the weekly task can re-slot it earlier. Re-slotted 2 Nov 2026 to the ORGANIC GROWTH PLAN. Carousel on hold; its Reel is Fri 13 Nov (property/experience)."
+    },
+    {
+      "folder": "2026-11-stories-03",
+      "type": "stories",
+      "owner": "Weekendna (stories)",
+      "date": "2026-11-03",
+      "story_status": "scheduled",
+      "kind": "stories",
+      "note": "Story-only day (ORGANIC GROWTH PLAN); plain image, questions answered by reply/DM."
+    },
+    {
+      "folder": "2026-11-stories-07",
+      "type": "stories",
+      "owner": "Weekendna (stories)",
+      "date": "2026-11-07",
+      "story_status": "scheduled",
+      "kind": "stories",
+      "note": "Story-only day (ORGANIC GROWTH PLAN); plain image, questions answered by reply/DM."
+    },
+    {
+      "folder": "2026-11-stories-08",
+      "type": "stories",
+      "owner": "Weekendna (stories)",
+      "date": "2026-11-08",
+      "story_status": "scheduled",
+      "kind": "stories",
+      "note": "Story-only day (ORGANIC GROWTH PLAN); plain image, questions answered by reply/DM."
+    },
+    {
+      "folder": "2026-11-stories-10",
+      "type": "stories",
+      "owner": "Weekendna (stories)",
+      "date": "2026-11-10",
+      "story_status": "scheduled",
+      "kind": "stories",
+      "note": "Story-only day (ORGANIC GROWTH PLAN); plain image, questions answered by reply/DM."
+    },
+    {
+      "folder": "2026-11-stories-14",
+      "type": "stories",
+      "owner": "Weekendna (stories)",
+      "date": "2026-11-14",
+      "story_status": "scheduled",
+      "kind": "stories",
+      "note": "Story-only day (ORGANIC GROWTH PLAN); plain image, questions answered by reply/DM."
+    },
+    {
+      "folder": "2026-11-stories-15",
+      "type": "stories",
+      "owner": "Weekendna (stories)",
+      "date": "2026-11-15",
+      "story_status": "scheduled",
+      "kind": "stories",
+      "note": "Story-only day (ORGANIC GROWTH PLAN); plain image, questions answered by reply/DM."
+    },
+    {
+      "folder": "2026-11-discovery-faraya",
+      "type": "reel",
+      "owner": "Acampar Faraya (Faraya discovery Reel)",
+      "date": "2026-11-16",
+      "status": "scheduled",
+      "video": "reel.mp4",
+      "listing_ids": [
+        39,
+        40,
+        41,
+        42
+      ],
+      "music": "warm-acoustic-atlasaudio.mp3 @40s",
+      "kind": "discovery",
+      "note": "Mon Discovery Reel (ORGANIC GROWTH PLAN): region-led angle (Faraya in winter). No collaborator tag (Acampar tagged 24 Oct and 4 Nov plan removed)."
     }
   ],
   "owners_without_instagram": [
