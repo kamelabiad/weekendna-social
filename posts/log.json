@@ -468,7 +468,7 @@
    "drop_reserve": null
   },
   {
-   "date": "2026-11-18",
+   "date": "",
    "owner": "Weekendna (roundup: sea or mountain)",
    "listing_ids": [
     24,
@@ -477,12 +477,12 @@
     54
    ],
    "instagram": null,
-   "status": "scheduled",
+   "status": "hold",
    "folder": "2026-11-sea-or-mountain",
    "type": "carousel",
-   "story_status": "scheduled",
+   "story_status": "hold",
    "kind": "pure",
-   "note": "Week 2 Sat: no guest reviews/clips with permission yet, so a pure Weekendna roundup: Aqualand Deluxe Sea View, Majestic Deluxe (sea), Acampar studio bungalow, Royal Chalets (mountain, fireplace). No collaborator, no owner tags. Main CTA Save. No Reel version. Built 1 Nov 2026 (tools/examples/make_sea_mountain.py). Re-slotted 2 Nov 2026 to the ORGANIC GROWTH PLAN. Wed shortlist carousel.",
+   "note": "Week 2 Sat: no guest reviews/clips with permission yet, so a pure Weekendna roundup: Aqualand Deluxe Sea View, Majestic Deluxe (sea), Acampar studio bungalow, Royal Chalets (mountain, fireplace). No collaborator, no owner tags. Main CTA Save. No Reel version. Built 1 Nov 2026 (tools/examples/make_sea_mountain.py). Re-slotted 2 Nov 2026 to the ORGANIC GROWTH PLAN. Wed shortlist carousel. Moved to spring 2027 (2 Nov 2026) to make room for the Faraya guide.",
    "season": "mild (sea-view rooms vs fireplaces)"
   },
   {
@@ -613,6 +613,22 @@
    "kind": "discovery",
    "note": "Mon Discovery Reel (ORGANIC GROWTH PLAN): region-led angle (Faraya in winter). No collaborator tag (Acampar tagged 24 Oct and 4 Nov plan removed).",
    "season": "winter"
+  },
+  {
+   "date": "2026-11-18",
+   "owner": "Weekendna (City Guide: Faraya)",
+   "listing_ids": [
+    39,
+    26
+   ],
+   "instagram": null,
+   "status": "scheduled",
+   "folder": "2026-11-faraya-guide",
+   "type": "carousel",
+   "story_status": "scheduled",
+   "kind": "pure",
+   "season": "winter",
+   "note": "City Guide #1 (PDF city-guides plan, 2 Nov 2026). Listing photos only; sights from sources.txt; no food slide until verified. Main CTA Save. Wed carousel slot."
   }
  ],
  "owners_without_instagram": [
