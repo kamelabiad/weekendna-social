@@ -7,3 +7,4 @@ Activities (ski, snowshoeing, ATV, snowmobile, walks, bike rental) from the Mass
 
 UPDATE 2 Nov (v3): slides now follow Kamel's example PDF (weendna_discover_faraya_instagram_carousel): Eat = Jnaynit al Khaweja, Em Sherif Deli, Mario e Mario, Meat the Fish, LTTL BEAN (supplied by Kamel, not independently verified); Do and Places as in the example. Still ON HOLD until Kamel approves.
 Slides 3-5 use drawn illustrations (tools/guide_art.py), not photos, until real photos exist.
+Cover, food, activities, places and story use drawn illustrations (tools/guide_scenes.py); stays use real listing photos. Label slides 'Illustrations'.

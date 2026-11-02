@@ -54,26 +54,28 @@ def photo_slide(photo, out, num, total, kind, title, sub, place, items, foot=Non
     if foot: d.text((M, 1285), foot, font=fit(d, foot, W - 2 * M, 700, 28, 20), fill=RED)
     img.save(out, quality=92)
 
-import guide_art as ART
+import guide_scenes as GS, tempfile, subprocess
+_T = tempfile.mkdtemp(); subprocess.run([sys.executable, os.path.join(os.path.dirname(__file__), "..", "guide_scenes.py"), _T], check=True, capture_output=True)
+SC = lambda n: Image.open(f"{_T}/{n}.png").convert("RGB")
 SNOW = P("acampar/42-01")  # Faraya winter image (Acampar), used until real photos of the sights/food exist
-slide1(P("acampar/42-02"), f"{O}/guide-1.jpg", "A weekend in Faraya", "Stay · Eat · Do · Explore", "Fireplaces, snow and mountain views, 45 min from Beirut",
+slide1(SC("winter"), f"{O}/guide-1.jpg", "A weekend in Faraya", "Stay · Eat · Do · Explore", "Snow, fireplaces and mountain views, 45 min from Beirut",
        "", "Faraya · Faqra · Mzaar")
 photo_slide(P("acampar/42-04"), f"{O}/guide-2.jpg", 1, 5, "stay", "Where to stay", "Acampar Faraya, 45 min from Beirut", "Faraya",
             [("Wooden bungalows, most with a fireplace", ""), ("Mountain views and a terrace", ""), ("For 2 to 6 guests", "")], "From $80 a night", cy=0.55)
 photo_slide(P("fvc/26-01"), f"{O}/guide-3.jpg", 2, 5, "stay", "Where to stay", "Faraya Village Club, Mzaar", "Mzaar",
             [("A chimney in every chalet", ""), ("A heated pool on site", ""), ("From a studio for 2 to a chalet for 7", "")], "From $150 a night")
-photo_slide(ART.food(), f"{O}/guide-4.jpg", 3, 5, "eat", "Food and drinks", "From mezze to pizza and coffee", "Faraya",
+photo_slide(SC("food"), f"{O}/guide-4.jpg", 3, 5, "eat", "Food and drinks", "From mezze to pizza and coffee", "Faraya",
             [("Jnaynit al Khaweja", "Garden-style Lebanese, mezze and a long mountain meal"), ("Em Sherif Deli", "Lebanese classics in a relaxed, casual setting"),
              ("Mario e Mario", "Pizza and pasta"), ("Meat the Fish", "Grilled meat and seafood for lunch or dinner"), ("LTTL BEAN", "A warm drink and something sweet")],
             "Check opening hours before you go", cy=0.5)
-photo_slide(ART.winter(), f"{O}/guide-5.jpg", 4, 5, "do", "Activities", "Snow, speed and slow mountain days", "Mzaar and Faraya",
+photo_slide(SC("ski"), f"{O}/guide-5.jpg", 4, 5, "do", "Activities", "Snow, speed and slow mountain days", "Mzaar and Faraya",
             [("Ski and snowboard", "Mzaar Kfardebian, when the snow and slopes are open"), ("Snowmobile rides", "With a local operator, when conditions allow"),
              ("Hiking and mountain walks", "Highland trails and cooler mountain air"), ("Scenic outings", "Viewpoints, photos and relaxed mountain drives")],
             "Depends on weather, season and operators", cy=0.5)
-photo_slide(ART.landmark(), f"{O}/guide-6.jpg", 5, 5, "see", "Places to visit", "Four easy additions to your weekend", "Faqra and Faraya",
+photo_slide(SC("village"), f"{O}/guide-6.jpg", 5, 5, "see", "Places to visit", "Four easy additions to your weekend", "Faqra and Faraya",
             [("Chabrouh Dam", "A mountain reservoir and scenic spot for a walk"), ("Faqra Roman Ruins", "Ancient stone remains in a mountain setting"),
              ("Faqra Natural Bridge", "A dramatic natural rock bridge"), ("Saint Charbel Statue", "A hilltop landmark with wide mountain views")],
             "Check opening times before you go", cy=0.5)
 last(f"{O}/guide-7.jpg", None, "Plan your Faraya weekend", "", main="save", head=("Your Faraya", "weekend starts here"))
-story(P("acampar/42-02"), f"{O}/story.jpg", "A weekend", "in Faraya", "Stays, food, activities and places to visit", "", main="save")
+story(SC("winter"), f"{O}/story.jpg", "A weekend", "in Faraya", "Stays, food, activities and places to visit", "", main="save")
 print("ok")
