@@ -468,7 +468,7 @@
    "drop_reserve": null
   },
   {
-   "date": "",
+   "date": "2026-11-18",
    "owner": "Weekendna (roundup: sea or mountain)",
    "listing_ids": [
     24,
@@ -477,12 +477,12 @@
     54
    ],
    "instagram": null,
-   "status": "hold",
+   "status": "scheduled",
    "folder": "2026-11-sea-or-mountain",
    "type": "carousel",
-   "story_status": "hold",
+   "story_status": "scheduled",
    "kind": "pure",
-   "note": "Week 2 Sat: no guest reviews/clips with permission yet, so a pure Weekendna roundup: Aqualand Deluxe Sea View, Majestic Deluxe (sea), Acampar studio bungalow, Royal Chalets (mountain, fireplace). No collaborator, no owner tags. Main CTA Save. No Reel version. Built 1 Nov 2026 (tools/examples/make_sea_mountain.py). Re-slotted 2 Nov 2026 to the ORGANIC GROWTH PLAN. Wed shortlist carousel. Moved to spring 2027 (2 Nov 2026) to make room for the Faraya guide.",
+   "note": "Week 2 Sat: no guest reviews/clips with permission yet, so a pure Weekendna roundup: Aqualand Deluxe Sea View, Majestic Deluxe (sea), Acampar studio bungalow, Royal Chalets (mountain, fireplace). No collaborator, no owner tags. Main CTA Save. No Reel version. Built 1 Nov 2026 (tools/examples/make_sea_mountain.py). Re-slotted 2 Nov 2026 to the ORGANIC GROWTH PLAN. Wed shortlist carousel. Moved to spring 2027 (2 Nov 2026) to make room for the Faraya guide. Restored to 18 Nov (2 Nov 2026): back to the original plan; Faraya guide shelved.",
    "season": "mild (sea-view rooms vs fireplaces)"
   },
   {
@@ -615,7 +615,7 @@
    "season": "winter"
   },
   {
-   "date": "2026-11-18",
+   "date": "",
    "owner": "Weekendna (City Guide: Faraya)",
    "listing_ids": [
     39,
@@ -628,7 +628,7 @@
    "story_status": "hold",
    "kind": "pure",
    "season": "winter",
-   "note": "City Guide #1 (PDF city-guides plan, 2 Nov 2026). Listing photos only; sights from sources.txt; no food slide until verified. Main CTA Save. Wed carousel slot. ON HOLD until Kamel approves the food slide (food names from a 2016 article, unverified). English only for now (Kamel, 2 Nov 2026): no Arabic on slides or caption for this guide."
+   "note": "City Guide #1 (PDF city-guides plan, 2 Nov 2026). Listing photos only; sights from sources.txt; no food slide until verified. Main CTA Save. Wed carousel slot. ON HOLD until Kamel approves the food slide (food names from a 2016 article, unverified). English only for now (Kamel, 2 Nov 2026): no Arabic on slides or caption for this guide. SHELVED by Kamel 2 Nov 2026 (not liked); no date."
   }
  ],
  "owners_without_instagram": [
