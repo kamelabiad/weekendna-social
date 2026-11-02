@@ -255,20 +255,25 @@
       "date": "2026-11-05",
       "owner": "The Friday Drop #1",
       "listing_ids": [
-        54,
-        37,
         18,
         24,
-        25
+        25,
+        26,
+        27,
+        28,
+        39,
+        40,
+        41,
+        42
       ],
       "instagram": null,
       "status": "hold",
       "drop": true,
       "drop_confirmed": false,
       "drop_places": [
-        "royal",
-        "ghosta",
-        "aqualand"
+        "aqualand",
+        "fvc",
+        "acampar"
       ],
       "drop_reserve": "majestic",
       "folder": "2026-11-friday-drop-1",
@@ -281,20 +286,25 @@
       "date": "2026-11-06",
       "owner": "The Friday Drop #1 (recap Reel)",
       "listing_ids": [
-        54,
-        37,
         18,
         24,
-        25
+        25,
+        26,
+        27,
+        28,
+        39,
+        40,
+        41,
+        42
       ],
       "instagram": null,
       "status": "hold",
       "drop": true,
       "drop_confirmed": false,
       "drop_places": [
-        "royal",
-        "ghosta",
-        "aqualand"
+        "aqualand",
+        "fvc",
+        "acampar"
       ],
       "folder": "2026-11-friday-drop-1-reel",
       "type": "reel",
@@ -308,7 +318,8 @@
       ],
       "music": "oud-alexmorgan.mp3 @12s",
       "kind": "drop",
-      "note": "Friday recap Reel + 4-story sequence (Sea or mountain / confirmed mountain place / group size / WhatsApp). Publish only after Kamel confirms."
+      "note": "Friday recap Reel + 4-story sequence (Sea or mountain / confirmed mountain place / group size / WhatsApp). Publish only after Kamel confirms.",
+      "drop_reserve": null
     },
     {
       "date": "2026-11-07",
@@ -397,48 +408,42 @@
       "date": "2026-11-12",
       "owner": "The Friday Drop #2",
       "listing_ids": [
-        39,
-        40,
-        41,
-        42,
         32,
-        48
+        48,
+        54
       ],
       "instagram": null,
       "status": "hold",
       "drop": true,
       "drop_confirmed": false,
       "drop_places": [
-        "acampar",
         "baabdat",
-        "legrey"
+        "legrey",
+        "royal"
       ],
-      "drop_reserve": "fvc",
+      "drop_reserve": "ghosta",
       "folder": "2026-11-friday-drop-2",
       "type": "carousel",
       "story_status": "scheduled",
       "kind": "drop",
-      "note": "Thursday-evening Drop for Fri 13 – Sun 15 Nov. Publish only after Kamel confirms. Rebuild: python3 tools/make_drop.py 2026-11-friday-drop-2 \"Fri 13 – Sun 15 Nov\" \"الجمعة ١٣ لـ الأحد ١٥ تشرين الثاني\" <places> (reserve fvc); in the -reel json use baabdat/32-05 (32-02 has black bars) and musicStart 60, then render."
+      "note": "Thursday-evening Drop for Fri 13 – Sun 15 Nov. Publish only after Kamel confirms. Rebuild: python3 tools/make_drop.py 2026-11-friday-drop-2 \"Fri 13 – Sun 15 Nov\" \"الجمعة ١٣ لـ الأحد ١٥ تشرين الثاني\" <places> (reserve ghosta); in the -reel json use baabdat/32-05 (32-02 has black bars) and musicStart 60, then render."
     },
     {
       "date": "2026-11-13",
       "owner": "The Friday Drop #2 (recap Reel)",
       "listing_ids": [
-        39,
-        40,
-        41,
-        42,
         32,
-        48
+        48,
+        54
       ],
       "instagram": null,
       "status": "hold",
       "drop": true,
       "drop_confirmed": false,
       "drop_places": [
-        "acampar",
         "baabdat",
-        "legrey"
+        "legrey",
+        "royal"
       ],
       "folder": "2026-11-friday-drop-2-reel",
       "type": "reel",
@@ -452,7 +457,8 @@
       ],
       "music": "oud-alexmorgan.mp3 @60s",
       "kind": "drop",
-      "note": "Friday recap Reel + 4-story sequence. Publish only after Kamel confirms."
+      "note": "Friday recap Reel + 4-story sequence. Publish only after Kamel confirms.",
+      "drop_reserve": null
     },
     {
       "date": "2026-11-14",

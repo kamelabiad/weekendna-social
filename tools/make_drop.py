@@ -68,7 +68,7 @@ def build(folder, dates, dates_ar, keys):
     for f in glob.glob(f"{OUT}/drop-*.jpg"): os.remove(f)
     word = {2: "2", 3: "3"}[n]
     slide1(photo(ps[0]), f"{OUT}/drop-1.jpg", "The Friday Drop:", f"{word} places free this weekend", f"{CONF} · {dates}",
-           f"{NUM_AR[n-1]} محلات فاضيين هالويكند", " · ".join(p["where"].split(" · ")[0] for p in ps), framed=ps[0].get("framed", False))
+           f"{NUM_AR[n-1]} محلات فاضيين هالويكند", " · ".join(dict.fromkeys(p["where"].split(" · ")[0] for p in ps)), framed=ps[0].get("framed", False))
     for i, p in enumerate(ps, 1):
         place_slide(photo(p), f"{OUT}/drop-{i+1}.jpg", i, n, p["name"], p["where"], p["facts"], p["price"], p["ar"], tag=CONF)
     last(f"{OUT}/drop-{n+2}.jpg", None, f"{word} places confirmed free for {dates}", "ويكندكن بيبلش من هون", "DROP", head=("Your weekend", "starts here"))

@@ -4,7 +4,7 @@
  "bpm": 129,
  "shots": [
   {
-   "photo": "photos/acampar/42-02.webp",
+   "photo": "photos/baabdat/32-05.webp",
    "seconds": 3.091,
    "move": "zoom_in",
    "framed": false,
@@ -15,22 +15,9 @@
    }
   },
   {
-   "photo": "photos/acampar/42-02.webp",
-   "seconds": 3.091,
-   "move": "pan_right",
-   "framed": false,
-   "text": {
-    "type": "room",
-    "name": "Confirmed Thursday · Faraya",
-    "en": "Acampar Faraya: Fireplace bungalows, 2 to 6 guests",
-    "ar": "بنغلوهات مع شومينيه، من ٢ لـ٦ أشخاص",
-    "price": "$80 / night"
-   }
-  },
-  {
    "photo": "photos/baabdat/32-05.webp",
    "seconds": 3.091,
-   "move": "zoom_out",
+   "move": "pan_right",
    "framed": false,
    "text": {
     "type": "room",
@@ -43,7 +30,7 @@
   {
    "photo": "photos/legrey/48-05.webp",
    "seconds": 3.091,
-   "move": "pan_left",
+   "move": "zoom_out",
    "framed": false,
    "text": {
     "type": "room",
@@ -54,10 +41,23 @@
    }
   },
   {
-   "photo": "photos/legrey/48-05.webp",
+   "photo": "photos/royal/54-01.webp",
+   "seconds": 3.091,
+   "move": "pan_left",
+   "framed": true,
+   "text": {
+    "type": "room",
+    "name": "Confirmed Thursday · Bcharre & the Cedars",
+    "en": "Royal Chalets and Restaurant: Fireplace, up to 12 guests",
+    "ar": "شومينيه، لحد ١٢ شخص",
+    "price": "$80 / night"
+   }
+  },
+  {
+   "photo": "photos/royal/54-01.webp",
    "seconds": 4.021,
    "move": "zoom_out",
-   "framed": false,
+   "framed": true,
    "text": {
     "type": "end",
     "name": "The Friday Drop",
