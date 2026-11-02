@@ -8,8 +8,8 @@ ROOT = os.path.join(os.path.dirname(__file__), "..", "..")
 P = lambda d, n: Image.open(f"{ROOT}/reels/public/photos/{d}/{n}.webp").convert("RGB")
 
 STORIES = {  # folder: (photo, line1, line2, sub, ar_line, box)
-    "2026-11-stories-03": (P("aqualand", "24-02"), "Sea or mountain", "this weekend?", "Tell us and we'll send you a place", "بحر أو جبل هالويكند؟",
-                           ("Sea or mountain?", "Comment or DM SEA or MOUNTAIN")),
+    "2026-11-stories-03": (P("acampar", "41-02"), "Fireplace or", "sea view?", "Tell us and we'll send you a place", "شومينيه أو منظر عالبحر هالويكند؟",
+                           ("Fireplace or sea view?", "Comment or DM FIREPLACE or SEA")),
     "2026-11-stories-07": (P("acampar", "42-02"), "Where in Lebanon", "is this?", "Faraya, Batroun or Jounieh? Reply with your guess", "وين بلبنان هيدا المكان؟",
                            ("Guess the area", "Reply FARAYA, BATROUN or JOUNIEH")),
     "2026-11-stories-08": (P("acampar", "42-02"), "It's Faraya,", "45 min from Beirut", "Which area should we explore next?", "فاريا، ٤٥ دقيقة عن بيروت",
@@ -18,8 +18,8 @@ STORIES = {  # folder: (photo, line1, line2, sub, ar_line, box)
                            ("Send your group size", "and we'll send you options")),
     "2026-11-stories-14": (P("gray", "55-07"), "Do I pay", "to enquire?", "No. Send your dates on WhatsApp, nothing to pay yet", "لا، ابعتوا تواريخكن عالواتساب، بلا ما تدفعوا شي هلّق",
                            ("Nothing to pay yet", "Link in bio")),
-    "2026-11-stories-15": (P("aqualand", "24-02"), "A new Lebanese escape", "every Thursday", "Follow so you don't miss the next one", "كل خميس هروب جديد بلبنان",
-                           ("Sea or mountain next?", "Reply SEA or MOUNTAIN")),
+    "2026-11-stories-15": (P("royal", "54-01"), "A new Lebanese escape", "every Thursday", "Follow so you don't miss the next one", "كل خميس هروب جديد بلبنان",
+                           ("Cosy or city next?", "Reply COSY or CITY")),
 }
 for folder, (ph, l1, l2, sub, ar_line, box) in STORIES.items():
     os.makedirs(f"{ROOT}/posts/{folder}", exist_ok=True)

@@ -2,6 +2,17 @@
 
 How @weekendna.lb posts are made and scheduled. Written for the weekly scheduled task, which starts with no memory of earlier chats.
 
+## SEASON + WEATHER RULE (Kamel, 2 Nov 2026) — applies to every post, story and Reel
+Before planning or building anything, check the date and Lebanon's season, and pick content people want THIS weekend:
+- Nov-Mar (winter): lead with fireplaces, cosy bungalows, snow and ski areas (Faraya, Cedars, Laqlouq), city/hotel spa stays, food and indoor plans. Sea/pool/beach content only as "sea-view room / spa bath", never as swimming. Ski/snow claims only from Dec, and say "near the slopes", never promise snow.
+- Apr-May (spring): mountain greenery, Batroun/Byblos old towns, weddings and events venues, first sea days from late May.
+- Jun-Sep (summer): sea, pools, beach resorts, cool-mountain escapes, sunsets.
+- Oct (autumn): mountain drives, harvest, last warm sea weekends, early fireplace.
+- Check the weather for the coming weekend (use WebSearch for "Lebanon weather this weekend", or Beirut/Faraya forecasts) before each Thursday Weekend Edit and Friday Reel: cold or rain = cosy stays; sunny and warm = views, terraces, sea. Mention it in the caption hook only when it is confirmed (e.g. "Cold weekend ahead? ...").
+- Lebanese calendar: Christmas, New Year, Barbara (4 Dec), Independence Day (22 Nov), Easter, Eid, school holidays and long weekends. Plan a themed post 7-10 days before each.
+- No photo that contradicts the season (summer pool shot in winter). If the only photo is off-season, use another owner or a close detail shot.
+- Log each item's season tag in posts/log.json ("season": "winter") and skip any item that does not fit the date it will be published.
+
 ## ORGANIC GROWTH PLAN (Kamel, 2 Nov 2026) — OVERRIDES EVERY RULE BELOW (cadence, mix, Friday Drop, "one feed post every day")
 Source: Kamel's "Weekendna organic Instagram growth plan" (90 days from 2 Nov 2026). Weekendna is a **discovery brand / trusted local editor**, not a catalogue of properties. Brand promise: "Your next Lebanese escape starts here." No paid ads, no bought followers, no pods, no fake giveaways. Accuracy first: verify price, availability, location, capacity, amenities; never imply a booking is confirmed (Weekendna connects enquiries).
 - **Weekly schedule (feed + stories):** Mon = Discovery Reel (15–25 s, "A place in Lebanon that feels like a different country", CTA: send this to your weekend partner). Tue = Stories only (poll/question, "Sea or mountain this weekend?"). Wed = carousel guide/shortlist ("3 stays for a quiet escape", CTA: save this list). Thu = THE WEEKEND EDIT Reel (weekly signature pick, an editorial pick with the best reasons to visit and practical details; CTA: follow for a new Lebanon escape every Thursday). Fri = property/experience Reel (show the experience, not just the room; CTA: comment DETAILS or DM dates). Sat = Stories (FAQ, location quiz, partner clips only with permission). Sun = Stories recap + next-week teaser ("Which area should we explore next?"). **Feed posts: Mon, Wed, Thu, Fri (4 a week). Tue, Sat and Sun are story-only by design, so the daily task must NOT substitute a feed post on those days.** Stories on 5+ days a week (3–6 frames on active days when Kamel can add them; the API only publishes plain story images, never poll/question/link stickers, so questions are answered by reply or DM and Kamel can add stickers by hand).
