@@ -1,0 +1,81 @@
+{
+ "music": "",
+ "musicStart": 0,
+ "bpm": 99,
+ "shots": [
+  {
+   "photo": "photos/phare-moments/poster.webp",
+   "seconds": 3.0,
+   "move": "zoom_in",
+   "fx": 0.5,
+   "fy": 0.3,
+   "text": {
+    "type": "hook",
+    "en": "Your wedding by the sea",
+    "ar": "لقينالك محل لعرسك عالبحر"
+   }
+  },
+  {
+   "photo": "photos/phare-moments/poster.webp",
+   "seconds": 3.0,
+   "move": "pan_right",
+   "fx": 0.15,
+   "fy": 0.3,
+   "text": {
+    "type": "title",
+    "name": "Phare du Nord",
+    "ar": "محل أعراس عالبحر بالبترون",
+    "pill": "Wedding venue · Batroun"
+   }
+  },
+  {
+   "photo": "photos/phare-moments/poster.webp",
+   "seconds": 3.0,
+   "move": "pan_left",
+   "fx": 0.9,
+   "fy": 0.3,
+   "text": {
+    "type": "fact",
+    "en": "Ceremony on site",
+    "ar": "الإكليل بنفس المحل"
+   }
+  },
+  {
+   "photo": "photos/phare-moments/poster.webp",
+   "seconds": 3.0,
+   "move": "zoom_in",
+   "fx": 0.2,
+   "fy": 0.65,
+   "text": {
+    "type": "fact",
+    "en": "Up to 450 seated guests",
+    "ar": "لحد ٤٥٠ ضيف قاعدين"
+   }
+  },
+  {
+   "photo": "photos/phare-moments/poster.webp",
+   "seconds": 3.0,
+   "move": "pan_left",
+   "fx": 0.85,
+   "fy": 0.65,
+   "text": {
+    "type": "fact",
+    "en": "Bring the caterer of your choice",
+    "ar": "جيبو الكاترينغ يلّي بدكن ياه"
+   }
+  },
+  {
+   "photo": "photos/phare-moments/poster.webp",
+   "seconds": 4.0,
+   "move": "zoom_out",
+   "fx": 0.5,
+   "fy": 0.5,
+   "text": {
+    "type": "end",
+    "name": "Phare du Nord",
+    "price": "Quote on WhatsApp",
+    "ar": "ابعتو التاريخ وعدد الضيوف عالواتساب"
+   }
+  }
+ ]
+}

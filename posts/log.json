@@ -493,6 +493,21 @@
       "reel_status": "scheduled",
       "music": "lounge-aurec.mp3 @16s",
       "kind": "collab"
+    },
+    {
+      "folder": "2026-11-phare-moments",
+      "type": "carousel",
+      "owner": "Phare du Nord Venue",
+      "instagram": "pharedunord",
+      "listing_ids": [
+        49
+      ],
+      "status": "hold",
+      "story_status": "hold",
+      "reel_status": "hold",
+      "video": "reel.mp4",
+      "kind": "collab",
+      "note": "Built 2 Nov 2026 from the owner's own 'Moments that stay forever' poster (shared by Kamel). HOLD: no date yet; needs Kamel's OK and the owner's OK (whatsapp.txt asks permission) before scheduling. Feed post = moments-1.jpg + moments-2.jpg, story.jpg, Reel reel.mp4 (no music: MUSIC_KEY not available when built; silent track). Wedding venue, so season-dependent."
     }
   ],
   "owners_without_instagram": [
