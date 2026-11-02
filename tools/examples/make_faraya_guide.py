@@ -6,60 +6,73 @@ sys.path.insert(0, os.path.join(os.path.dirname(__file__), ".."))
 from hero import *
 ROOT = os.path.join(os.path.dirname(__file__), "..", ".."); O = f"{ROOT}/posts/2026-11-faraya-guide"; os.makedirs(O, exist_ok=True)
 P = lambda f: Image.open(f"{ROOT}/reels/public/photos/{f}.webp").convert("RGB")
-slide1(P("acampar/42-02"), f"{O}/guide-1.jpg", "A weekend in Faraya", "Stay · Explore · Plan", "Fireplaces, mountain views and Roman ruins, 45 min from Beirut",
-       "", "Faraya · Faqra · Mzaar")
-place_slide(P("acampar/42-04"), f"{O}/guide-2.jpg", 1, 5, "Where to stay", "Stay · Acampar Faraya · 45 min from Beirut",
-            ["Wooden bungalows, most with a fireplace", "Mountain views and a terrace", "For 2 to 6 guests"], "From $80 a night", "")
-place_slide(P("fvc/26-01"), f"{O}/guide-3.jpg", 2, 5, "Where to stay", "Stay · Faraya Village Club · Mzaar",
-            ["A chimney in every chalet", "A heated pool on site", "From a studio for 2 to a chalet for 7"], "From $150 a night", "")
 
-def list_slide(photo, out, num, total, tag, title, title_ar, items, note, cy=0.5, kicker=None):
-    """Bold guide slide: Faraya mood backdrop (blurred, dark; NOT presented as the venue), big hook, numbered red badges, glass cards.
-    items = [(cat, name, line)]. Put a real photo of a place in reels/public/photos/guide/<slug>.webp (permission required) to show it on the card."""
-    bg = cover(photo, W, H, cy=cy).filter(ImageFilter.GaussianBlur(14))
-    bg = Image.blend(bg, Image.new("RGB", (W, H), (10, 9, 12)), 0.66).convert("RGBA")
-    ov = Image.new("RGBA", (W, H), (0, 0, 0, 0)); od = ImageDraw.Draw(ov)
-    n = len(items); y0 = 520; gap = 14; ch = int((1250 - y0 - gap * (n - 1)) / n); y = y0
-    for cat, name, line in items:
-        od.rounded_rectangle((M, y, W - M, y + ch), radius=30, fill=(255, 255, 255, 34), outline=(255, 255, 255, 60), width=2); y += ch + gap
-    img = Image.alpha_composite(bg, ov).convert("RGB"); d = ImageDraw.Draw(img); logo(d, M, 64)
-    t = f"{num}/{total}"; d.text((W - M - d.textlength(t, font=jak(700, 32)), 70), t, font=jak(700, 32), fill=(215, 215, 215))
-    pill(d, M, 150, tag.upper(), jak(800, 26))
-    d.text((M, 215), title, font=fit(d, title, W - 2 * M, 800, 84, 50), fill=WHITE)
-    if kicker: d.text((M, 318), kicker, font=fit(d, kicker, W - 2 * M, 700, 40, 26), fill=RED)
-    rtext(d, W - M, 395, title_ar, arfit(d, title_ar, W - 2 * M, 700, 44), (240, 240, 240))
-    y = y0
-    for i, (cat, name, line) in enumerate(items, 1):
-        cx_, cy_ = M + 62, y + ch // 2
-        d.ellipse((cx_ - 40, cy_ - 40, cx_ + 40, cy_ + 40), fill=RED)
-        nf = jak(800, 44); nw = d.textlength(str(i), font=nf); bb = nf.getbbox(str(i)); d.text((cx_ - nw / 2, cy_ - (bb[3] - bb[1]) / 2 - bb[1]), str(i), font=nf, fill=WHITE)
-        x = M + 130
-        d.text((x, y + 16), cat.upper(), font=jak(700, 21), fill=(255, 140, 150))
-        d.text((x, y + 38), name, font=fit(d, name, W - M - x - 24, 800, 40, 28), fill=WHITE)
-        d.text((x, y + ch - 38), line, font=fit(d, line, W - M - x - 24, 500, 25, 18), fill=(225, 225, 225)); y += ch + gap
-    d.text((M, 1275), note, font=fit(d, note, W - 2 * M, 500, 23, 18), fill=(200, 200, 200))
+import os as _os
+def _icon(d, kind, cx, cy, r=46, col=(26, 24, 28)):
+    d.ellipse((cx - r, cy - r, cx + r, cy + r), fill=WHITE)
+    if kind == "eat":
+        for k in (-14, -5, 4):
+            d.line((cx + k - 8, cy - 26, cx + k - 8, cy - 4), fill=col, width=4)
+        d.line((cx - 18, cy - 4, cx - 18, cy + 26), fill=col, width=6); d.line((cx - 14, cy - 26, cx - 14, cy - 2), fill=col, width=4)
+        d.polygon([(cx + 14, cy - 28), (cx + 26, cy - 28), (cx + 26, cy + 4), (cx + 14, cy + 4)], fill=col); d.line((cx + 20, cy + 4, cx + 20, cy + 28), fill=col, width=6)
+    elif kind == "do":
+        for ang in range(0, 180, 30):
+            import math
+            dx, dy = math.cos(math.radians(ang)) * 28, math.sin(math.radians(ang)) * 28
+            d.line((cx - dx, cy - dy, cx + dx, cy + dy), fill=col, width=5)
+    elif kind == "see":
+        d.polygon([(cx - 28, cy - 14), (cx, cy - 30), (cx + 28, cy - 14)], fill=col)
+        for k in (-20, -7, 6, 19): d.rectangle((cx + k - 3, cy - 10, cx + k + 3, cy + 18), fill=col)
+        d.rectangle((cx - 30, cy + 20, cx + 30, cy + 27), fill=col)
+    else:  # stay
+        d.rectangle((cx - 30, cy + 2, cx + 30, cy + 14), fill=col); d.rectangle((cx - 30, cy - 22, cx - 24, cy + 22), fill=col)
+        d.rounded_rectangle((cx - 20, cy - 10, cx - 2, cy + 2), radius=4, fill=col); d.rectangle((cx - 2, cy - 10, cx + 28, cy + 2), fill=col)
+
+def photo_slide(photo, out, num, total, kind, title, sub, place, items, foot=None, cy=0.5, cx=0.5):
+    """Big-photo guide slide (Kamel's layout, 2 Nov 2026): photo top, round icon, title, one line, location pin, rows. items = [(name, desc)].
+    photo: a REAL photo of the place(s). Real place photos go in reels/public/photos/guide/<slug>.webp; until then the caller passes the Faraya winter image."""
+    PH = 780
+    img = Image.new("RGB", (W, H), (22, 20, 25))
+    ph = cover(photo, W, PH, cx=cx, cy=cy).filter(ImageFilter.UnsharpMask(radius=1.4, percent=60, threshold=2)).convert("RGBA")
+    ov = Image.new("RGBA", (W, PH), (0, 0, 0, 0)); od = ImageDraw.Draw(ov)
+    for y in range(PH):
+        a = int(150 * max(0, 1 - y / 220)) + int(255 * max(0, (y - (PH - 420)) / 420) ** 1.2)
+        od.line((0, y, W, y), fill=(22, 20, 25, min(255, a)))
+    img.paste(Image.alpha_composite(ph, ov).convert("RGB"), (0, 0)); d = ImageDraw.Draw(img); logo(d, M, 64)
+    t = f"{num}/{total}"; tf = jak(700, 30); tw = d.textlength(t, font=tf)
+    d.rounded_rectangle((W - M - tw - 40, 52, W - M, 108), radius=28, fill=(0, 0, 0)); d.text((W - M - tw - 20, 62), t, font=tf, fill=WHITE)
+    _icon(d, kind, M + 52, 640)
+    d.text((M + 130, 590), title, font=fit(d, title, W - 2 * M - 130, 800, 72, 40), fill=WHITE)
+    d.text((M + 130, 678), sub, font=fit(d, sub, W - 2 * M - 130, 500, 30, 20), fill=(225, 225, 225))
+    pill(d, M, 800, place, jak(700, 24), bg=(46, 43, 50))
+    n = len(items); y = 870; rh = min(98, int((1265 - y) / n)); 
+    for name, desc in items:
+        d.ellipse((M, y + 14, M + 18, y + 32), fill=RED)
+        d.text((M + 36, y), name, font=fit(d, name, W - 2 * M - 40, 800, 38, 26), fill=WHITE)
+        if desc: d.text((M + 36, y + 46), desc, font=fit(d, desc, W - 2 * M - 40, 500, 26, 18), fill=(205, 205, 205))
+        y += rh
+    if foot: d.text((M, 1285), foot, font=fit(d, foot, W - 2 * M, 700, 28, 20), fill=RED)
     img.save(out, quality=92)
 
-# Photos of the listed places: put them in reels/public/photos/guide/<slug>.webp (permission required) and pass P("guide/<slug>") instead of None.
-list_slide(P("acampar/42-01"), f"{O}/guide-4.jpg", 3, 5, "Where to eat", "Hungry in Faraya?", "",
-    [("Lebanese", "Jnaynit al Khaweja", "A garden-style stop for mezze and a long mountain meal"),
-     ("Lebanese", "Em Sherif Deli", "Lebanese classics in a relaxed, casual setting"),
-     ("Italian", "Mario e Mario", "Pizza and pasta"),
-     ("Grill & seafood", "Meat the Fish", "Grilled meat and seafood for a hearty lunch or dinner"),
-     ("Coffee", "LTTL BEAN", "A warm drink and something sweet")],
-    "Check opening hours and seasonal availability before visiting.", kicker="5 spots to try this weekend")
-list_slide(P("acampar/42-01"), f"{O}/guide-5.jpg", 4, 5, "What to do", "Don't just sleep", "",
-    [("Winter", "Ski and snowboard", "Mzaar Kfardebian, when the snow and slopes are open"),
-     ("Winter", "Snowmobile rides", "With a local operator, when conditions allow"),
-     ("Summer", "Hiking and mountain walks", "Highland trails and cooler mountain air"),
-     ("All seasons", "Scenic outings", "Viewpoints, photos and relaxed mountain drives")],
-    "Availability depends on weather, season and local operators.", kicker="Snow, speed and slow mountain days")
-list_slide(P("acampar/42-01"), f"{O}/guide-6.jpg", 5, 5, "Places to visit", "4 places not to skip", "",
-    [("Nature", "Chabrouh Dam", "A mountain reservoir and scenic spot for photos and a walk"),
-     ("History", "Faqra Roman Ruins", "Ancient stone remains in a mountain setting"),
-     ("Landmark", "Faqra Natural Bridge", "A dramatic natural rock bridge in the highlands"),
-     ("Viewpoint", "Saint Charbel Statue", "A hilltop landmark with wide views over the mountains")],
-    "Check opening times before you go.", kicker="Easy to add to your weekend")
+SNOW = P("acampar/42-01")  # Faraya winter image (Acampar), used until real photos of the sights/food exist
+slide1(P("acampar/42-02"), f"{O}/guide-1.jpg", "A weekend in Faraya", "Stay · Eat · Do · Explore", "Fireplaces, snow and mountain views, 45 min from Beirut",
+       "", "Faraya · Faqra · Mzaar")
+photo_slide(P("acampar/42-04"), f"{O}/guide-2.jpg", 1, 5, "stay", "Where to stay", "Acampar Faraya, 45 min from Beirut", "Faraya",
+            [("Wooden bungalows, most with a fireplace", ""), ("Mountain views and a terrace", ""), ("For 2 to 6 guests", "")], "From $80 a night", cy=0.55)
+photo_slide(P("fvc/26-01"), f"{O}/guide-3.jpg", 2, 5, "stay", "Where to stay", "Faraya Village Club, Mzaar", "Mzaar",
+            [("A chimney in every chalet", ""), ("A heated pool on site", ""), ("From a studio for 2 to a chalet for 7", "")], "From $150 a night")
+photo_slide(SNOW, f"{O}/guide-4.jpg", 3, 5, "eat", "Food and drinks", "From mezze to pizza and coffee", "Faraya",
+            [("Jnaynit al Khaweja", "Garden-style Lebanese, mezze and a long mountain meal"), ("Em Sherif Deli", "Lebanese classics in a relaxed, casual setting"),
+             ("Mario e Mario", "Pizza and pasta"), ("Meat the Fish", "Grilled meat and seafood for lunch or dinner"), ("LTTL BEAN", "A warm drink and something sweet")],
+            "Check opening hours before you go", cy=0.2)
+photo_slide(SNOW, f"{O}/guide-5.jpg", 4, 5, "do", "Activities", "Snow, speed and slow mountain days", "Mzaar and Faraya",
+            [("Ski and snowboard", "Mzaar Kfardebian, when the snow and slopes are open"), ("Snowmobile rides", "With a local operator, when conditions allow"),
+             ("Hiking and mountain walks", "Highland trails and cooler mountain air"), ("Scenic outings", "Viewpoints, photos and relaxed mountain drives")],
+            "Depends on weather, season and operators", cy=0.5, cx=0.2)
+photo_slide(SNOW, f"{O}/guide-6.jpg", 5, 5, "see", "Places to visit", "Four easy additions to your weekend", "Faqra and Faraya",
+            [("Chabrouh Dam", "A mountain reservoir and scenic spot for a walk"), ("Faqra Roman Ruins", "Ancient stone remains in a mountain setting"),
+             ("Faqra Natural Bridge", "A dramatic natural rock bridge"), ("Saint Charbel Statue", "A hilltop landmark with wide mountain views")],
+            "Check opening times before you go", cy=0.8, cx=0.8)
 last(f"{O}/guide-7.jpg", None, "Plan your Faraya weekend", "", main="save", head=("Your Faraya", "weekend starts here"))
-story(P("acampar/42-02"), f"{O}/story.jpg", "A weekend", "in Faraya", "Stays, sights and a simple plan", "", main="save")
+story(P("acampar/42-02"), f"{O}/story.jpg", "A weekend", "in Faraya", "Stays, food, activities and places to visit", "", main="save")
 print("ok")
