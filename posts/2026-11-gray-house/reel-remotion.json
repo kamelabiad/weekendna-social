@@ -9,8 +9,7 @@
    "move": "zoom_in",
    "text": {
     "type": "hook",
-    "en": "Sea and mountain views, 45 min from Beirut",
-    "ar": "منظر عالبحر والجبل، ٤٥ دقيقة عن بيروت"
+    "en": "Sea and mountain views, 45 min from Beirut"
    }
   },
   {
@@ -20,7 +19,6 @@
    "text": {
     "type": "title",
     "name": "The Gray House",
-    "ar": "بيت خاص بغينة",
     "pill": "Private retreat · Ghineh"
    },
    "fy": 0.6
@@ -31,8 +29,7 @@
    "move": "zoom_out",
    "text": {
     "type": "fact",
-    "en": "3 private balconies",
-    "ar": "٣ بلكونات خاصة"
+    "en": "3 private balconies"
    }
   },
   {
@@ -41,8 +38,7 @@
    "move": "pan_left",
    "text": {
     "type": "fact",
-    "en": "2 bedrooms, up to 5 guests",
-    "ar": "غرفتين نوم، لحد ٥ أشخاص"
+    "en": "2 bedrooms, up to 5 guests"
    }
   },
   {
@@ -51,8 +47,7 @@
    "move": "zoom_in",
    "text": {
     "type": "fact",
-    "en": "Full kitchen, A/C and heating",
-    "ar": "مطبخ كامل، تكييف وتدفئة"
+    "en": "Full kitchen, A/C and heating"
    }
   },
   {
@@ -62,8 +57,7 @@
    "text": {
     "type": "end",
     "name": "The Gray House",
-    "price": "$130 / night",
-    "ar": "ابعتوا تواريخكن عالواتساب"
+    "price": "$130 / night"
    }
   }
  ]

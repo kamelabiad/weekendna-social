@@ -10,8 +10,7 @@
    "fy": 0.5,
    "text": {
     "type": "hook",
-    "en": "Your Batroun weekend, found for you",
-    "ar": "لقينالك ويكند بالبترون"
+    "en": "Your Batroun weekend, found for you"
    }
   },
   {
@@ -21,7 +20,6 @@
    "text": {
     "type": "title",
     "name": "Le Grey Apartments",
-    "ar": "شقق للعيلة بالبترون",
     "pill": "Batroun · 45 min from Beirut"
    }
   },
@@ -34,7 +32,6 @@
     "type": "room",
     "name": "Le Grey Haven",
     "en": "2 bedrooms for up to 4, sea and mountain view",
-    "ar": "غرفتين نوم لـ٤ أشخاص",
     "price": "$80 / night"
    }
   },
@@ -44,8 +41,7 @@
    "move": "pan_up",
    "text": {
     "type": "fact",
-    "en": "A 65-inch TV and a full kitchen",
-    "ar": "مطبخ كامل وتلفزيون ٦٥ إنش"
+    "en": "A 65-inch TV and a full kitchen"
    }
   },
   {
@@ -57,7 +53,6 @@
     "type": "room",
     "name": "Grandpa's Apartment",
     "en": "3 bedrooms, a spacious terrace, city center",
-    "ar": "٣ غرف نوم وتراس كبير بقلب البترون",
     "price": "$120 / night"
    }
   },
@@ -68,8 +63,7 @@
    "fx": 0.4,
    "text": {
     "type": "fact",
-    "en": "Room for big groups, up to 9 guests",
-    "ar": "لحد ٩ أشخاص، للشلل الكبيرة"
+    "en": "Room for big groups, up to 9 guests"
    }
   },
   {
@@ -79,8 +73,7 @@
    "text": {
     "type": "end",
     "name": "Le Grey Apartments",
-    "price": "From $80 / night",
-    "ar": "ابعتوا تواريخكن عالواتساب"
+    "price": "From $80 / night"
    }
   }
  ]

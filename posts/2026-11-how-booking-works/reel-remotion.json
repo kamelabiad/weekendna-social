@@ -10,8 +10,7 @@
    "framed": false,
    "text": {
     "type": "hook",
-    "en": "How booking through Weekendna works, in 30 seconds",
-    "ar": "كيف بتحجزو عبر ويكندنا، بـ٣٠ ثانية"
+    "en": "How booking through Weekendna works, in 30 seconds"
    }
   },
   {
@@ -21,8 +20,7 @@
    "framed": false,
    "text": {
     "type": "fact",
-    "en": "1. Pick your dates on the listing's calendar",
-    "ar": "١. نقّوا تواريخكن عالروزنامة"
+    "en": "1. Pick your dates on the listing's calendar"
    }
   },
   {
@@ -32,8 +30,7 @@
    "framed": false,
    "text": {
     "type": "fact",
-    "en": "2. Send a request: WhatsApp opens with your dates already written",
-    "ar": "٢. ابعتوا طلب، والواتساب بيفتح والتواريخ مكتوبة"
+    "en": "2. Send a request: WhatsApp opens with your dates already written"
    }
   },
   {
@@ -43,8 +40,7 @@
    "framed": true,
    "text": {
     "type": "fact",
-    "en": "3. The owner replies to you directly and confirms",
-    "ar": "٣. صاحب المحل بيردّ عليكن مباشرة وبيأكّد"
+    "en": "3. The owner replies to you directly and confirms"
    }
   },
   {
@@ -54,8 +50,7 @@
    "framed": false,
    "text": {
     "type": "fact",
-    "en": "4. No online payment, no booking fee",
-    "ar": "٤. ما في دفع أونلاين ولا رسوم حجز"
+    "en": "4. No online payment, no booking fee"
    }
   },
   {
@@ -65,8 +60,7 @@
    "framed": false,
    "text": {
     "type": "fact",
-    "en": "You agree the deposit with the owner: bank transfer, OMT/Whish or cash",
-    "ar": "العربون بتتفقو عليه مع صاحب المحل"
+    "en": "You agree the deposit with the owner: bank transfer, OMT/Whish or cash"
    }
   },
   {
@@ -76,8 +70,7 @@
    "framed": false,
    "text": {
     "type": "fact",
-    "en": "No reply in 48 hours? The request expires, so you can book another place",
-    "ar": "ما في ردّ بـ٤٨ ساعة؟ الطلب بيوقف وفيكن تحجزو غير محل"
+    "en": "No reply in 48 hours? The request expires, so you can book another place"
    }
   },
   {
@@ -87,8 +80,7 @@
    "text": {
     "type": "end",
     "name": "Weekendna",
-    "price": "weekendna.com",
-    "ar": "ابعتوا تواريخكن عالواتساب"
+    "price": "weekendna.com"
    }
   }
  ]

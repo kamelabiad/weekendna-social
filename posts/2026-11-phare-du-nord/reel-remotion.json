@@ -10,8 +10,7 @@
    "fy": 0.45,
    "text": {
     "type": "hook",
-    "en": "Your sunset wedding by the sea",
-    "ar": "لقينالك محل لعرسك عالبحر"
+    "en": "Your sunset wedding by the sea"
    }
   },
   {
@@ -22,7 +21,6 @@
    "text": {
     "type": "title",
     "name": "Phare du Nord",
-    "ar": "محل أعراس عالبحر بالبترون",
     "pill": "Wedding venue · Batroun"
    }
   },
@@ -33,8 +31,7 @@
    "fx": 0.5,
    "text": {
     "type": "fact",
-    "en": "Ceremony on site",
-    "ar": "الإكليل بنفس المحل"
+    "en": "Ceremony on site"
    }
   },
   {
@@ -43,8 +40,7 @@
    "move": "pan_up",
    "text": {
     "type": "fact",
-    "en": "Up to 450 seated guests",
-    "ar": "لحد ٤٥٠ ضيف قاعدين"
+    "en": "Up to 450 seated guests"
    }
   },
   {
@@ -54,8 +50,7 @@
    "framed": true,
    "text": {
     "type": "fact",
-    "en": "Bring the caterer of your choice",
-    "ar": "جيبو الكاترينغ يلّي بدكن ياه"
+    "en": "Bring the caterer of your choice"
    }
   },
   {
@@ -65,8 +60,7 @@
    "fx": 0.4,
    "text": {
     "type": "fact",
-    "en": "Bridal suite, dance floor, valet",
-    "ar": "جناح للعروس، دانس فلور وفاليه"
+    "en": "Bridal suite, dance floor, valet"
    }
   },
   {
@@ -76,8 +70,7 @@
    "text": {
     "type": "end",
     "name": "Phare du Nord",
-    "price": "Quote on WhatsApp",
-    "ar": "ابعتو التاريخ وعدد الضيوف عالواتساب"
+    "price": "Quote on WhatsApp"
    }
   }
  ]
