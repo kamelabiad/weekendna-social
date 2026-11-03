@@ -11,6 +11,7 @@ Before planning or building anything, check the date and Lebanon's season, and p
 - Check the weather for the coming weekend (use WebSearch for "Lebanon weather this weekend", or Beirut/Faraya forecasts) before each Thursday Weekend Edit and Friday Reel: cold or rain = cosy stays; sunny and warm = views, terraces, sea. Mention it in the caption hook only when it is confirmed (e.g. "Cold weekend ahead? ...").
 - Lebanese calendar: Christmas, New Year, Barbara (4 Dec), Independence Day (22 Nov), Easter, Eid, school holidays and long weekends. Plan a themed post 7-10 days before each.
 - No photo that contradicts the season (summer pool shot in winter). If the only photo is off-season, use another owner or a close detail shot.
+- **Wedding venues (Kamel, 3 Nov 2026): they may be posted in any season.** The earlier "wedding venues wait for spring" rule (here and in the collab priority and strategy notes) no longer applies. Still follow the other rules (owner order, 7-day spacing, one owner per post, facts checked against the site).
 - Log each item's season tag in posts/log.json ("season": "winter") and skip any item that does not fit the date it will be published.
 
 ## CITY GUIDES (Kamel, 2 Nov 2026, from the City Guides PDF) — fully automated, one guide per region, Wed carousel slot every 2-3 weeks
