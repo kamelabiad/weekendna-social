@@ -49,6 +49,10 @@ def slide1(photo, out, line1, line2, sub, ar_line, small, badge="Found on Weeken
         c0 = W - M - 20; d.line([(c0, 1268), (c0 + 12, 1280), (c0, 1292)], fill=WHITE, width=5, joint="curve")
     img.convert("RGB").save(out, quality=92)
 
+# Kamel, 3 Nov 2026: English only. Set WK_ARABIC=1 to bring the Arabic lines back.
+ARABIC = os.environ.get("WK_ARABIC") == "1"
+
+
 def last(out, place, benefit, benefit_ar, kw=None, main="comment", head=None):
     """head: optional (line1, line2) instead of ("Your <place>", "weekend starts here")."""
     img = Image.new("RGB", (W, H), RED); d = ImageDraw.Draw(img); logo(d, M, 64, accent=INK)
@@ -57,21 +61,21 @@ def last(out, place, benefit, benefit_ar, kw=None, main="comment", head=None):
     h1, h2 = head or (f"Your {place}", "weekend starts here")
     ctext(d, 270, h1, fit(d, h1, W - 2 * M, 800, 92), WHITE); ctext(d, 375, h2, fit(d, h2, W - 2 * M, 800, 72), WHITE)
     ctext(d, 480, benefit, fit(d, benefit, W - 2 * M, 500, 34), WHITE)
-    ctext(d, 536, benefit_ar, arfit(d, benefit_ar, W - 2 * M, 700, 38), WHITE, rtl=True)
+    if ARABIC: ctext(d, 536, benefit_ar, arfit(d, benefit_ar, W - 2 * M, 700, 38), WHITE, rtl=True)
     d.rounded_rectangle((90, 625, W - 90, 895), radius=36, fill=WHITE)
     if main == "save":
         ctext(d, 650, "Don't lose this one", jak(800, 44), RED)
         ctext(d, 725, "Save this for your", jak(800, 44), INK)
         ctext(d, 778, "next weekend", jak(800, 44), INK)
-        ctext(d, 842, "احفظوها لويكندكن الجاي", ar(600, 28), (90, 90, 90), rtl=True)
+        if ARABIC: ctext(d, 842, "احفظوها لويكندكن الجاي", ar(600, 28), (90, 90, 90), rtl=True)
     else:
         ctext(d, 650, "Want this place?", jak(800, 44), RED)
         ctext(d, 725, f"Comment {kw} and we'll", jak(800, 44), INK)
         ctext(d, 778, "check availability for you", jak(800, 44), INK)
-        ctext(d, 842, "بدك هالمكان؟ اكتبلنا بالتعليق وبنتأكدلك", ar(600, 28), (90, 90, 90), rtl=True)
+        if ARABIC: ctext(d, 842, "بدك هالمكان؟ اكتبلنا بالتعليق وبنتأكدلك", ar(600, 28), (90, 90, 90), rtl=True)
     big_button(d, W / 2, 940, "Follow @weekendna.lb", jak(800, 52), 118, INK, WHITE)
     ctext(d, 1085, "New places every week", jak(800, 54), WHITE)
-    ctext(d, 1160, "تابعونا، كل أسبوع محل جديد", ar(700, 36), WHITE, rtl=True)
+    if ARABIC: ctext(d, 1160, "تابعونا، كل أسبوع محل جديد", ar(700, 36), WHITE, rtl=True)
     ctext(d, 1265, "Request your dates on WhatsApp · nothing to pay yet · link in bio", jak(500, 25), (255, 228, 230))
     img.save(out, quality=92)
 
@@ -91,14 +95,15 @@ def story(photo, out, line1, line2, sub, ar_line, kw=None, cx=0.5, cy=0.5, main=
     f = fit(d, max(line1, line2, key=len), SW - 120, 800, 68)
     sc(1110, line1, f, WHITE); sc(1195, line2, f, WHITE)
     sc(1292, sub, fit(d, sub, SW - 120, 500, 32), WHITE)
-    sc(1346, ar_line, arfit(d, ar_line, SW - 120, 700, 42), WHITE, rtl=True)
+    if ARABIC: sc(1346, ar_line, arfit(d, ar_line, SW - 120, 700, 42), WHITE, rtl=True)
     d.rounded_rectangle((90, 1425, SW - 90, 1560), radius=32, fill=WHITE)
     if box: a, b = box
     elif main == "save": a, b = "Don't lose this one", "Save it for your next weekend"
     else: a, b = "Want this place?", f"Reply {kw} for availability"
     sc(1443, a, jak(800, 38), RED); sc(1505, b, fit(d, b, SW - 240, 700, 33), INK)
     big_button(d, SW / 2, 1595, "Follow @weekendna.lb", jak(800, 48), 112, RED, WHITE)
-    sc(1730, "New places every week", jak(700, 34), WHITE); sc(1785, "تابعونا، كل أسبوع محل جديد", ar(600, 32), WHITE, rtl=True)
+    sc(1730, "New places every week", jak(700, 34), WHITE)
+    if ARABIC: sc(1785, "تابعونا، كل أسبوع محل جديد", ar(600, 32), WHITE, rtl=True)
     sc(1850, "weekendna.com · link in bio", jak(500, 30), (225, 225, 225))
     img.save(out, quality=92)
 

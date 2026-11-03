@@ -9,6 +9,7 @@ import os, subprocess, sys, tempfile
 sys.path.insert(0, os.path.dirname(__file__))
 from brand import *
 args = sys.argv[1:]
+ARABIC = os.environ.get("WK_ARABIC") == "1"  # Kamel, 3 Nov 2026: English only unless WK_ARABIC=1
 SAVE = "--save" in args  # main action "Save this for your next weekend" (non-collab posts) instead of the comment keyword
 HEAD = args[args.index("--head") + 1].split("|") if "--head" in args else None  # e.g. --head "The Friday Drop|starts here"
 args = [a for i, a in enumerate(args) if a != "--save" and a != "--head" and (i == 0 or args[i - 1] != "--head")]
@@ -27,20 +28,22 @@ def fitf(t, w, wt, size):
     while size > 30 and d.textlength(t, font=jak(wt, size)) > w: size -= 2
     return jak(wt, size)
 sc(d, 410, h1, fitf(h1, SW - 140, 800, 110), WHITE); sc(d, 540, h2, fitf(h2, SW - 140, 800, 84), WHITE)
-sc(d, 680, benefit, fitf(benefit, SW - 140, 500, 40), WHITE); sc(d, 750, benefit_ar, ar(700, 46), WHITE, rtl=True)
+sc(d, 680, benefit, fitf(benefit, SW - 140, 500, 40), WHITE)
+if ARABIC: sc(d, 750, benefit_ar, ar(700, 46), WHITE, rtl=True)
 d.rounded_rectangle((80, 870, SW - 80, 1190), radius=44, fill=WHITE)
 if SAVE:
     sc(d, 900, "Don't lose this one", jak(800, 54), RED)
     sc(d, 990, "Save this for your", jak(800, 52), INK); sc(d, 1055, "next weekend", jak(800, 52), INK)
-    sc(d, 1128, "احفظوها لويكندكن الجاي", ar(600, 34), (90, 90, 90), rtl=True)
+    if ARABIC: sc(d, 1128, "احفظوها لويكندكن الجاي", ar(600, 34), (90, 90, 90), rtl=True)
 else:
     sc(d, 900, "Want this place?", jak(800, 54), RED)
     sc(d, 990, f"Comment {kw} and we'll", jak(800, 52), INK); sc(d, 1055, "check availability for you", jak(800, 52), INK)
-    sc(d, 1128, "بدك هالمكان؟ اكتبلنا بالتعليق وبنتأكدلك", ar(600, 34), (90, 90, 90), rtl=True)
+    if ARABIC: sc(d, 1128, "بدك هالمكان؟ اكتبلنا بالتعليق وبنتأكدلك", ar(600, 34), (90, 90, 90), rtl=True)
 f = jak(800, 62); t = "Follow @weekendna.lb"; w = d.textlength(t, font=f)
 d.rounded_rectangle(((SW - w) / 2 - 64, 1250, (SW + w) / 2 + 64, 1390), radius=70, fill=INK)
 bb = f.getbbox(t); d.text(((SW - w) / 2, 1250 + (140 - (bb[3] - bb[1])) / 2 - bb[1]), t, font=f, fill=WHITE)
-sc(d, 1440, "New places every week", jak(800, 64), WHITE); sc(d, 1530, "تابعونا، كل أسبوع محل جديد", ar(700, 46), WHITE, rtl=True)
+sc(d, 1440, "New places every week", jak(800, 64), WHITE)
+if ARABIC: sc(d, 1530, "تابعونا، كل أسبوع محل جديد", ar(700, 46), WHITE, rtl=True)
 sc(d, 1680, "Request your dates on WhatsApp · nothing to pay yet · link in bio", jak(500, 28), (255, 228, 230))
 im.save(f"{tmp}/end.png")
 tg = Image.new("RGBA", (SW, SH), (0, 0, 0, 0)); d = ImageDraw.Draw(tg)

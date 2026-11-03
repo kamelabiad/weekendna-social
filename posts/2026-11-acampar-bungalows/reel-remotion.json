@@ -9,8 +9,7 @@
    "fx": 0.7,
    "text": {
     "type": "hook",
-    "en": "Your fireplace weekend in Faraya, found for you",
-    "ar": "ويكند عالشومينيه بفاريا، لقيناه إلك"
+    "en": "Your fireplace weekend in Faraya, found for you"
    },
    "seconds": 3.227
   },
@@ -20,7 +19,6 @@
    "text": {
     "type": "title",
     "name": "Acampar Faraya",
-    "ar": "بنغلوهات خشب بفاريا",
     "pill": "Faraya · 45 min from Beirut"
    },
    "seconds": 3.227
@@ -32,7 +30,6 @@
     "type": "room",
     "name": "Studio bungalow",
     "en": "A fireplace, for 2",
-    "ar": "شومينيه، لشخصين",
     "price": "$80 / night"
    },
    "seconds": 3.227
@@ -44,7 +41,6 @@
     "type": "room",
     "name": "Studio bungalow",
     "en": "A fireplace, for up to 4",
-    "ar": "شومينيه، لحد ٤ أشخاص",
     "price": "$100 / night"
    },
    "seconds": 3.227
@@ -56,7 +52,6 @@
     "type": "room",
     "name": "New · One bedroom bungalow",
     "en": "A sofa bed, sleeps up to 4",
-    "ar": "جديد: غرفة نوم وكنباية، لحد ٤ أشخاص",
     "price": "$130 / night"
    },
    "seconds": 3.227
@@ -68,7 +63,6 @@
     "type": "room",
     "name": "New · Two bedroom bungalow",
     "en": "A fireplace, sleeps up to 6",
-    "ar": "جديد: غرفتين نوم وشومينيه، لحد ٦ أشخاص",
     "price": "$200 / night"
    },
    "seconds": 3.227
@@ -78,8 +72,7 @@
    "move": "zoom_in",
    "text": {
     "type": "fact",
-    "en": "Near the ski slopes",
-    "ar": "قريب من مسالك التزلج"
+    "en": "Near the ski slopes"
    },
    "seconds": 3.227
   },
@@ -89,8 +82,7 @@
    "text": {
     "type": "end",
     "name": "Acampar Faraya",
-    "price": "From $80 / night",
-    "ar": "ابعتوا تواريخكن عالواتساب"
+    "price": "From $80 / night"
    },
    "seconds": 4.202
   }

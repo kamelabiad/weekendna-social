@@ -109,7 +109,7 @@ const Pill: React.FC<{ children: React.ReactNode }> = ({ children }) => (
 );
 
 const Ar: React.FC<{ children: string; size: number; weight?: number; color?: string; style?: React.CSSProperties }> =
-  ({ children, size, weight = 700, color = WHITE, style }) => (
+  ({ children, size, weight = 700, color = WHITE, style }) => !children ? null : (
     <div dir="rtl" style={{ fontFamily: AR, fontWeight: weight, fontSize: size, color, lineHeight: 1.35, textAlign: "right", ...style }}>{children}</div>
   );
 
