@@ -2,6 +2,9 @@
 
 How @weekendna.lb posts are made and scheduled. Written for the weekly scheduled task, which starts with no memory of earlier chats.
 
+## CAPTIONS: ENGLISH ONLY (Kamel, 3 Nov 2026) — overrides every rule below that asks for an Arabic block
+Kamel doesn't like the Arabic wording (it is sometimes not accurate). Write every new caption in English only: no Lebanese Arabic block, no Arabic hashtags, no Arabic follow line. Old Arabic caption blocks were removed from all unpublished posts on 3 Nov 2026. On-screen Arabic in slide images and Reels is NOT changed yet (waiting for Kamel's decision); until he says, leave existing images and Reels as they are and do not add new Arabic text to new designs where an English-only version works.
+
 ## SEASON + WEATHER RULE (Kamel, 2 Nov 2026) — applies to every post, story and Reel
 Before planning or building anything, check the date and Lebanon's season, and pick content people want THIS weekend:
 - Nov-Mar (winter): lead with fireplaces, cosy bungalows, snow and ski areas (Faraya, Cedars, Laqlouq), city/hotel spa stays, food and indoor plans. Sea/pool/beach content only as "sea-view room / spa bath", never as swimming. Ski/snow claims only from Dec, and say "near the slopes", never promise snow.
