@@ -8,6 +8,9 @@ Arabic strings must not contain Latin letters. Run `source tools/setup.sh` first
 import os, sys
 sys.path.insert(0, os.path.dirname(__file__))
 from brand import *
+
+# Kamel, 3 Nov 2026: English only. Set WK_ARABIC=1 to bring the Arabic lines back.
+ARABIC = os.environ.get("WK_ARABIC") == "1"
 DARKB = (12, 12, 14)
 GREY = (215, 215, 215)
 
@@ -42,16 +45,12 @@ def slide1(photo, out, line1, line2, sub, ar_line, small, badge="Found on Weeken
     d.text((M, 892), line1, font=f, fill=WHITE)
     d.text((M, 984), line2, font=f, fill=WHITE)
     d.text((M, 1100), sub, font=fit(d, sub, W - 2 * M, 600, 34), fill=WHITE)
-    rtext(d, W - M, 1160, ar_line, arfit(d, ar_line, W - 2 * M, 700, 44), WHITE)
+    if ARABIC: rtext(d, W - M, 1160, ar_line, arfit(d, ar_line, W - 2 * M, 700, 44), WHITE)
     d.text((M, 1262), small, font=fit(d, small, W - 2 * M - 200, 500, 28, 20), fill=GREY)
     if swipe:
         sw = d.textlength("Swipe", font=jak(700, 30)); d.text((W - M - sw - 34, 1260), "Swipe", font=jak(700, 30), fill=WHITE)
         c0 = W - M - 20; d.line([(c0, 1268), (c0 + 12, 1280), (c0, 1292)], fill=WHITE, width=5, joint="curve")
     img.convert("RGB").save(out, quality=92)
-
-# Kamel, 3 Nov 2026: English only. Set WK_ARABIC=1 to bring the Arabic lines back.
-ARABIC = os.environ.get("WK_ARABIC") == "1"
-
 
 def last(out, place, benefit, benefit_ar, kw=None, main="comment", head=None):
     """head: optional (line1, line2) instead of ("Your <place>", "weekend starts here")."""
@@ -128,5 +127,5 @@ def place_slide(photo, out, num, total, name, where, facts, price, ar_line, cx=0
     for f in facts:
         d.ellipse((M, y + 14, M + 14, y + 28), fill=RED); d.text((M + 32, y), f, font=fit(d, f, W - 2 * M - 40, 600, 34), fill=WHITE); y += 58
     d.text((M, y + 22), price, font=fit(d, price, W - 2 * M, 800, 44), fill=RED)
-    rtext(d, W - M, 1265, ar_line, arfit(d, ar_line, W - 2 * M, 600, 34), (230, 230, 230))
+    if ARABIC: rtext(d, W - M, 1265, ar_line, arfit(d, ar_line, W - 2 * M, 600, 34), (230, 230, 230))
     img.save(out, quality=92)

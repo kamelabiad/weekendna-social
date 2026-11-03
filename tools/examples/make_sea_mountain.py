@@ -5,7 +5,7 @@ sys.path.insert(0, os.path.join(os.path.dirname(__file__), ".."))
 from hero import *
 ROOT = os.path.join(os.path.dirname(__file__), "..", ".."); OUT = f"{ROOT}/posts/2026-11-sea-or-mountain"
 P = lambda f: Image.open(f"{ROOT}/reels/public/photos/{f}.webp").convert("RGB")
-slide1(P("seamtn/23-03"), f"{OUT}/seamtn-1.jpg", "Sea or mountain?", "Your weekend, found", "2 by the sea, 2 in the mountains, from $80 a night",
+slide1(P("seamtn/23-03"), f"{OUT}/seamtn-1.jpg", "Sea or mountain?", "Your weekend, found for you", "2 by the sea, 2 in the mountains, from $80 a night",
        "بحر أو جبل؟ لقينالكن ويكندكن", "Byblos · Batroun · Faraya · Bcharre & the Cedars", cx=0.5)
 place_slide(P("seamtn/24-02"), f"{OUT}/seamtn-2.jpg", 1, 4, "Aqualand Hotel & Resort", "Sea · Batroun · 35 min from Beirut",
             ["Deluxe room with a sea-view terrace", "A spa bath in the room", "Beach access, for 2 guests"], "$180 a night",
