@@ -631,7 +631,7 @@
    "note": "City Guide #1 (PDF city-guides plan, 2 Nov 2026). Listing photos only; sights from sources.txt; no food slide until verified. Main CTA Save. Wed carousel slot. ON HOLD until Kamel approves the food slide (food names from a 2016 article, unverified). English only for now (Kamel, 2 Nov 2026): no Arabic on slides or caption for this guide. SHELVED by Kamel 2 Nov 2026 (not liked); no date."
   },
   {
-   "date": "2026-11-10",
+   "date": "2026-11-17",
    "owner": "Weekendna (owner online presence report)",
    "listing_ids": [],
    "instagram": null,
@@ -642,7 +642,21 @@
    "kind": "pure",
    "pinned": true,
    "season": "any",
-   "note": "Kamel's owner-facing post (3 Nov 2026): online presence report (price consistency, Google reviews grouped, website check, other presence), English only, all figures are labelled SAMPLE. PINNED to Tue 10 Nov (after the monitoring week); weekly planning must not move, redesign or re-caption it. Story = story.jpg. Next: the services carousel posts/2026-11-owner-services is NOT scheduled; Kamel suggested Tue 17 Nov."
+   "note": "Kamel's owner-facing post (3 Nov 2026): online presence report (price consistency, Google reviews grouped, website check, other presence), English only, all figures are labelled SAMPLE. PINNED to Tue 17 Nov (swapped 3 Nov 2026: the services carousel goes first on Tue 10 Nov); weekly planning must not move, redesign or re-caption it. Story = story.jpg. "
+  },
+  {
+   "date": "2026-11-10",
+   "owner": "Weekendna (owner services)",
+   "listing_ids": [],
+   "instagram": null,
+   "status": "scheduled",
+   "folder": "2026-11-owner-services",
+   "type": "carousel",
+   "story_status": "scheduled",
+   "kind": "pure",
+   "pinned": true,
+   "season": "any",
+   "note": "Kamel's owner-facing post (3 Nov 2026): 6 things Weekendna does for an owner's place, English only. PINNED to Tue 10 Nov (after the monitoring week); the online presence report carousel follows on Tue 17 Nov. Weekly planning must not move, redesign or re-caption it. Story = story.jpg."
   }
  ],
  "owners_without_instagram": [
