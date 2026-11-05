@@ -6,5 +6,9 @@ if [ ! -d fontsource-outfit-5.3.0 ]; then
   npm pack @fontsource/plus-jakarta-sans@5.3.0 @fontsource/outfit@5.3.0 @fontsource/ibm-plex-sans-arabic@5.3.0 --silent >/dev/null 2>&1
   for f in *.tgz; do tar xzf $f --wildcards '*/files/*'; mv package ${f%.tgz}; done
 fi
+if [ ! -d fontsource-cormorant-garamond-5.2.5 ]; then
+  npm pack @fontsource/cormorant-garamond@5.2.5 --silent >/dev/null 2>&1
+  tar xzf fontsource-cormorant-garamond-5.2.5.tgz --wildcards '*/files/cormorant-garamond-latin-*' && mv package fontsource-cormorant-garamond-5.2.5
+fi
 python3 -c "from PIL import features; assert features.check('raqm'), 'Pillow needs raqm for Arabic'" && echo "fonts ready in $WK_WORK/fonts"
 cd - >/dev/null
