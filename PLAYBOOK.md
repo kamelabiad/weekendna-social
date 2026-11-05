@@ -2,6 +2,14 @@
 
 **Marketing review (5 Nov 2026):** Read [MARKETING_DIRECTION.md](MARKETING_DIRECTION.md) for the latest insights-led creative brief and quality gate. This supplements, but does not replace, the rules in this playbook. Claude remains responsible for production and publishing; no separate ChatGPT renderer should publish.
 
+## BEFORE EVERY CONTENT SESSION (Kamel, 5 Nov 2026)
+ChatGPT is Weekendna's marketing strategist: it reviews insights daily and leaves recommendations in this repository. Claude stays responsible for content creation, video editing, scheduling and publishing.
+1. `git pull` main, then read PLAYBOOK.md, MARKETING_DIRECTION.md (latest strategy, insights and quality gate) and posts/log.json (published and scheduled posts, to prevent duplicates and owner saturation).
+2. Creative benchmark: Six Senses. Premium hospitality, elegant design, minimal typography, beautiful real property photography, professionally licensed music. No basic slideshows, excessive text overlays or generic animations.
+3. Photo gate: real listing photos or owner-authorised footage only. Check the resolution before choosing a format. If a listing has no premium-grade photos, prefer a refined 4:5 carousel, or hold the post and tell Kamel, over a mediocre Reel.
+4. Do not publish content that needs Kamel's approval until he approves it. Items already scheduled and approved keep publishing unless Kamel says hold.
+5. ChatGPT recommends only. It never publishes, and the review workflow `.github/workflows/acampar-review.yml` only renders a preview (no secrets, no Instagram access).
+
 How @weekendna.lb posts are made and scheduled. Written for the weekly scheduled task, which starts with no memory of earlier chats.
 
 ## PRECEDENCE (3 Nov 2026)
