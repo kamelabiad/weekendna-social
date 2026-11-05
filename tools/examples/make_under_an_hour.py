@@ -7,7 +7,7 @@ P = lambda f: Image.open(f"{ROOT}/reels/public/photos/{f}.webp").convert("RGB")
 slide1(P("ghosta/37-20"), f"{OUT}/hour-1.jpg", "Your weekend, under", "an hour from Beirut", "4 places, 15 to 45 min away, sea or mountain",
        "لقينالكن ويكند على أقل من ساعة من بيروت", "Metn · Jounieh hills · Batroun")
 place_slide(unbar(P("baabdat/32-05")), f"{OUT}/hour-2.jpg", 1, 4, "Bayt Baabdat", "Metn · 15 min from Beirut",
-            ["A fireplace, a garden and a barbecue", "Its own pool, day use or overnight", "2 bedrooms, up to 5 guests"], "$80 a night · $100 Fri & Sat",
+            ["A fireplace, a garden and a barbecue", "Its own private pool", "2 bedrooms, up to 5 guests"], "$80 a night · $100 Fri & Sat",
             "١٥ دقيقة عن بيروت، بالمتن")
 place_slide(P("ghosta/37-19"), f"{OUT}/hour-3.jpg", 2, 4, "Ghosta Guest House", "Above Jounieh · 25 min from Beirut",
             ["A 180° view from Beirut to Byblos", "5 bedrooms, up to 12 guests", "800 m above the sea"], "From $220 a night · about $18 each when 12 share",
