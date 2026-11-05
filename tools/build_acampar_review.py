@@ -13,7 +13,7 @@ photos=[]
 for lid in (39,40,41,42):
     slug={39:"acampar-faraya-studio-bungalow-faraya-mzaar-39",40:"acampar-faraya-studio-bungalow-faraya-mzaar-40",41:"acampar-faraya-one-bedroom-bungalow-faraya-mzaar-41",42:"acampar-faraya-two-bedroom-bungalow-faraya-mzaar-42"}[lid]
     html=get(f"{BASE}/en/stay/{slug}").decode("utf8","ignore")
-    paths=list(dict.fromkeys(re.findall(rf"/uploads/listings/{lid}/[a-zA-Z0-9_-]+-1600\\.webp",html)))
+    paths=list(dict.fromkeys(re.findall(rf"/uploads/listings/{lid}/[a-zA-Z0-9_-]+-1600[.]webp",html)))
     print(lid,len(paths),"images")
     for path in paths:
         try:
