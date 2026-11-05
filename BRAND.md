@@ -2,6 +2,12 @@
 
 Logo files are in `brand/`. Use them as they are; never redraw, recolour, stretch or add effects.
 
+## Where the logo lives (GitHub)
+The logo files are committed in this repo, folder `brand/` on the `main` branch of `kamelabiad/weekendna-social`:
+- https://github.com/kamelabiad/weekendna-social/tree/main/brand
+- Direct files: https://github.com/kamelabiad/weekendna-social/blob/main/brand/weekendna-logo-dark.png (same folder for the others listed below).
+They are the only approved logo files. Do not recreate the logo from text; use these PNGs (Kamel can also attach them directly in chat).
+
 | File | Use on |
 |---|---|
 | `brand/weekendna-logo-dark.png` | light or white backgrounds (ink "weekend" + red "نا") |
