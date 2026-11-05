@@ -20,18 +20,18 @@ for lid,slug in [(42,"acampar-faraya-two-bedroom-bungalow-faraya-mzaar-42"),(39,
         except Exception as e: print("Skipping",path,e)
 if len(photos)<8: raise RuntimeError("Need at least eight genuine listing images")
 (OUT/"sources.txt").write_text("\n".join(BASE+p for _,p,_ in photos))
-W,H=720,1280; fps=30; shot_s=2.8
+W,H=720,1280; fps=30; shot_s=3.1
 fontpath="/usr/share/fonts/truetype/dejavu/DejaVuSans-Bold.ttf"
 def font(n): return ImageFont.truetype(fontpath,n)
 shots=[
-("FARAYA IS CALLING","Your next cosy escape",42),
-("SLOW MORNINGS","Start somewhere special",39),
-("STAY A LITTLE LONGER","Unplug in the mountains",40),
-("THE WEEKEND RESET","Real places. Real moments.",41),
-("ACAMPAR FARAYA","Find your favourite corner",42),
-("AWAY FROM THE NOISE","Make room for a getaway",39),
-("SEND THIS TO","Your weekend person",40),
-("FOUND ON WEEKENDNA","Explore Acampar Faraya",41)]
+("","",42),
+("","",39),
+("","",40),
+("","",41),
+("","",42),
+("","",39),
+("","",40),
+("A LITTLE ESCAPE","FROM EVERYTHING",41)]
 used=set()
 for i,(heading,sub,lid) in enumerate(shots):
     candidates=[p for p in photos if p[0]==lid and p[1] not in used]
@@ -50,11 +50,11 @@ for i,(heading,sub,lid) in enumerate(shots):
     # subtle editorial gradients
     for yy in range(0,310,3): d.rectangle((0,yy,W,yy+3),fill=(0,0,0,int(115*(1-yy/310))))
     for yy in range(730,H,3): d.rectangle((0,yy,W,yy+3),fill=(0,0,0,int(170*(yy-730)/(H-730))))
-    d.text((44,65),"W E E K E N D N A",font=font(24),fill="white")
-    d.rounded_rectangle((44,890,174,897),radius=3,fill="#e0263b")
-    d.text((44,927),heading,font=font(36),fill="white",stroke_width=1,stroke_fill="#202020")
-    d.text((44,1005),sub,font=font(27),fill="white",stroke_width=1,stroke_fill="#202020")
-    d.text((44,1180),"LEBANON   /   @WEEKENDNA.LB",font=font(16),fill="white")
+    if i == 0 or i == len(shots)-1: d.text((44,65),"W E E K E N D N A",font=font(20),fill="white")
+    if heading: d.rounded_rectangle((44,904,126,908),radius=2,fill="#e0263b")
+    if heading: d.text((44,936),heading,font=font(30),fill="white",stroke_width=1,stroke_fill="#202020")
+    if sub: d.text((44,997),sub,font=font(27),fill="white",stroke_width=1,stroke_fill="#202020")
+    if i == len(shots)-1: d.text((44,1180),"ACAMPAR FARAYA  /  @WEEKENDNA.LB",font=font(16),fill="white")
     overlay.save(OUT/f"overlay{i:02d}.png")
     # animated crop plus title overlay, gentle fade on entry/exit
     n=int(shot_s*fps)
