@@ -1,6 +1,10 @@
 name: Acampar real-photo Reel preview
 on:
   workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - '.github/workflows/acampar-review.yml'
 jobs:
   render:
     runs-on: ubuntu-latest
