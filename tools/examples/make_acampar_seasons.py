@@ -24,7 +24,14 @@ pill(d, M, 905, "Found on Weekendna", jak(700, 22))
 d.text((M, 975), "Different seasons.", font=jak(800, 76), fill=WHITE)
 d.text((M, 1065), "Same escape.", font=jak(800, 76), fill=WHITE)
 d.text((M, 1190), "Acampar bungalows  ·  Faraya  ·  45 min from Beirut", font=jak(500, 27), fill=(235, 235, 235))
-d.text((M, 1240), "Save this for your next weekend", font=jak(700, 27), fill=WHITE)
+items = ["Fireplace", "Mountain views", "Near the slopes", "Barbecue"]
+cw = (W - 2 * M) / len(items); fy = jak(700, 24)
+d.line([(M, 1244), (W - M, 1244)], fill=(255, 255, 255), width=1)
+for i, s in enumerate(items):
+    cx = M + cw * i + cw / 2; tw = d.textlength(s, font=fy)
+    d.ellipse((cx - 6, 1262, cx + 6, 1274), fill=RED)
+    d.text((cx - tw / 2, 1286), s, font=fy, fill=WHITE)
+    if i: d.line([(M + cw * i, 1262), (M + cw * i, 1310)], fill=(255, 255, 255), width=1)
 img.save(f"{OUT}/seasons-1.jpg", quality=94)
 open(f"{OUT}/caption.txt", "w", encoding="utf-8").write("""Different seasons. Same escape.
 Found on Weekendna: Acampar Faraya, wooden bungalows near the ski slopes, 45 min from Beirut. Pick the one that suits your weekend: studios with a fireplace for two or four, a one bedroom bungalow, or a two bedroom bungalow for up to 6.
