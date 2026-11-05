@@ -100,7 +100,7 @@ for p in log["posts"]:
     if p.get("date") == TODAY and p.get("story_status") == "scheduled":
         jobs.append(("story", lambda: stories(folder, p["stories"]) if p.get("stories") else story(folder, p.get("story_video", "story.jpg"))))
     if p.get("reel_date") == TODAY and p.get("reel_status") == "scheduled":
-        jobs.append(("reel", lambda: reel(folder, "reel.mp4", collab, caption_of(folder), False)))
+        jobs.append(("reel", lambda: reel(folder, "reel.mp4", collab, caption_of(folder), p.get("status") != "published")))  # a Reel whose carousel is held is the day's feed post (one feed post per day)
     for kind, job in jobs:
         name = f"{p['owner']} ({kind})"
         if DRY: report.append(f"WOULD PUBLISH {name}"); continue
