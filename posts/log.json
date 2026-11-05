@@ -123,10 +123,10 @@
       "type": "carousel",
       "story_status": "published",
       "reel_date": "2026-11-19",
-      "reel_status": "scheduled",
+      "reel_status": "hold",
       "music": "upbeat-gear-mixkit.mp3",
       "permalink": "https://www.instagram.com/p/DfCzelZFO_r/",
-      "note": "Reel version rebuilt 30 Oct 2026 with Remotion + Weekendna-as-hero end card (keyword FARAYA) Re-slotted 2 Nov 2026 to the ORGANIC GROWTH PLAN. Reel is Thu 19 Nov (Weekend Edit).",
+      "note": "Reel version rebuilt 30 Oct 2026 with Remotion + Weekendna-as-hero end card (keyword FARAYA) Re-slotted 2 Nov 2026 to the ORGANIC GROWTH PLAN. Reel is Thu 19 Nov (Weekend Edit). HOLD by Kamel 5 Nov 2026: do not publish, move or re-slot until Kamel approves the reworked version (does not meet the 5 Nov quality gate). Reel was built from photos under 400 px wide.",
       "season": "winter"
     },
     {
@@ -637,28 +637,28 @@
       "owner": "Weekendna (owner online presence report)",
       "listing_ids": [],
       "instagram": null,
-      "status": "scheduled",
+      "status": "hold",
       "folder": "2026-11-owner-report",
       "type": "carousel",
-      "story_status": "scheduled",
+      "story_status": "hold",
       "kind": "pure",
       "pinned": true,
       "season": "any",
-      "note": "Kamel's owner-facing post (3 Nov 2026): online presence report (price consistency, Google reviews grouped, website check, other presence), English only, all figures are labelled SAMPLE. PINNED to Tue 17 Nov (swapped 3 Nov 2026: the services carousel goes first on Tue 10 Nov); weekly planning must not move, redesign or re-caption it. Story = story.jpg. "
+      "note": "Kamel's owner-facing post (3 Nov 2026): online presence report (price consistency, Google reviews grouped, website check, other presence), English only, all figures are labelled SAMPLE. PINNED to Tue 17 Nov (swapped 3 Nov 2026: the services carousel goes first on Tue 10 Nov); weekly planning must not move, redesign or re-caption it. Story = story.jpg.  HOLD by Kamel 5 Nov 2026: do not publish, move or re-slot until Kamel approves the reworked version (does not meet the 5 Nov quality gate)."
     },
     {
       "date": "2026-11-10",
       "owner": "Weekendna (owner services)",
       "listing_ids": [],
       "instagram": null,
-      "status": "scheduled",
+      "status": "hold",
       "folder": "2026-11-owner-services",
       "type": "carousel",
-      "story_status": "scheduled",
+      "story_status": "hold",
       "kind": "pure",
       "pinned": true,
       "season": "any",
-      "note": "Kamel's owner-facing post (3 Nov 2026): 6 things Weekendna does for an owner's place, English only. PINNED to Tue 10 Nov (after the monitoring week); the online presence report carousel follows on Tue 17 Nov. Weekly planning must not move, redesign or re-caption it. Story = story.jpg."
+      "note": "Kamel's owner-facing post (3 Nov 2026): 6 things Weekendna does for an owner's place, English only. PINNED to Tue 10 Nov (after the monitoring week); the online presence report carousel follows on Tue 17 Nov. Weekly planning must not move, redesign or re-caption it. Story = story.jpg. HOLD by Kamel 5 Nov 2026: do not publish, move or re-slot until Kamel approves the reworked version (does not meet the 5 Nov quality gate)."
     }
   ],
   "owners_without_instagram": [
