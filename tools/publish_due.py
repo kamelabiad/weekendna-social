@@ -87,6 +87,22 @@ def stories(folder, imgs):
 def save(log):
     with open(LOG, "w", encoding="utf-8") as f: json.dump(log, f, indent=2, ensure_ascii=False); f.write("\n")
 
+def _approvals():
+    """posts/approvals.json maps folder -> {date, reel_date} as approved by Kamel. Trusted only if its last commit was made by Claude
+    (ChatGPT/others commit as the repo owner), so a stray edit by another tool cannot approve or override anything."""
+    import subprocess
+    path = os.path.join(os.path.dirname(LOG), "approvals.json")
+    if not os.path.exists(path): return {}
+    try:
+        author = subprocess.run(["git", "log", "-1", "--format=%an", "--", path], cwd=os.path.dirname(LOG), capture_output=True, text=True).stdout.strip()
+    except Exception: author = ""
+    if author != "Claude": return {}
+    return json.load(open(path, encoding="utf-8"))
+APPROVALS = _approvals()
+def approved(p):
+    a = APPROVALS.get(p.get("folder"))
+    return bool(a) and a.get("date") == p.get("date") and a.get("reel_date") == p.get("reel_date")
+
 log = json.load(open(LOG, encoding="utf-8"))
 report, failed = [], False
 for p in log["posts"]:
@@ -94,9 +110,9 @@ for p in log["posts"]:
     if p.get("drop") and not p.get("drop_confirmed"):  # The Friday Drop goes out only after Kamel confirms (status stays "hold")
         if p.get("date") == TODAY: report.append(f"HELD {p['owner']}: Friday Drop not confirmed by Kamel")
         continue
-    if not p.get("approved"):  # Kamel, 5 Nov 2026: nothing is published until he approves it ("approved": true on the item)
+    if not approved(p):  # Kamel, 5 Nov 2026: nothing is published until he approves it (posts/approvals.json, written only by Claude)
         if TODAY in (p.get("date"), p.get("reel_date")) and "scheduled" in (p.get("status"), p.get("story_status"), p.get("reel_status")):
-            report.append(f"AWAITING APPROVAL {p.get('owner')}: not published, Kamel has not approved it")
+            report.append(f"AWAITING APPROVAL {p.get('owner')}: not published, Kamel has not approved it (or its date changed after approval)")
         continue
     jobs = []
     if p.get("date") == TODAY and p.get("status") == "scheduled":
