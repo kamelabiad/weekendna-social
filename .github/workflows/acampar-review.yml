@@ -1,0 +1,26 @@
+name: Acampar real-photo Reel preview
+on:
+  workflow_dispatch:
+jobs:
+  render:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: read
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - name: Install renderer
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y ffmpeg fonts-dejavu-core
+          python -m pip install pillow
+      - name: Render genuine Weekendna photos (no AI, no publishing)
+        run: python tools/build_acampar_review.py
+      - name: Upload approval MP4 and source manifest
+        uses: actions/upload-artifact@v4
+        with:
+          name: acampar-review-only
+          path: output/acampar/
+          retention-days: 14
