@@ -5,6 +5,7 @@ on:
     branches: [main]
     paths:
       - '.github/workflows/acampar-review.yml'
+      - 'tools/build_acampar_review.py'
 jobs:
   render:
     runs-on: ubuntu-latest
