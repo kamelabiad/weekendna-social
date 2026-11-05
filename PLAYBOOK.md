@@ -2,6 +2,9 @@
 
 **Marketing review (5 Nov 2026):** Read [MARKETING_DIRECTION.md](MARKETING_DIRECTION.md) for the latest insights-led creative brief and quality gate. This supplements, but does not replace, the rules in this playbook. Claude remains responsible for production and publishing; no separate ChatGPT renderer should publish.
 
+## APPROVAL GATE (Kamel, 5 Nov 2026): NOTHING IS PUBLISHED WITHOUT HIS APPROVAL
+`tools/publish_due.py` publishes an item only if it has `"approved": true` in `posts/log.json`. Before anything goes out, send Kamel the final post (slides or video plus caption) and wait for his yes; only then set `"approved": true` on that item (never earlier, never on his behalf). Items without it are reported as "AWAITING APPROVAL" and skipped; the daily task must not reschedule or approve items itself. Day-use prices: never quote one unless the website visibly shows it (the API `dayUsePrice` field alone is not enough; the Majestic "from $65" Reel of 30 Oct was wrong for this reason).
+
 ## BEFORE EVERY CONTENT SESSION (Kamel, 5 Nov 2026)
 ChatGPT is Weekendna's marketing strategist: it reviews insights daily and leaves recommendations in this repository. Claude stays responsible for content creation, video editing, scheduling and publishing.
 1. `git pull` main, then read PLAYBOOK.md, MARKETING_DIRECTION.md (latest strategy, insights and quality gate) and posts/log.json (published and scheduled posts, to prevent duplicates and owner saturation).

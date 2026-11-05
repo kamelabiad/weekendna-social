@@ -94,6 +94,10 @@ for p in log["posts"]:
     if p.get("drop") and not p.get("drop_confirmed"):  # The Friday Drop goes out only after Kamel confirms (status stays "hold")
         if p.get("date") == TODAY: report.append(f"HELD {p['owner']}: Friday Drop not confirmed by Kamel")
         continue
+    if not p.get("approved"):  # Kamel, 5 Nov 2026: nothing is published until he approves it ("approved": true on the item)
+        if TODAY in (p.get("date"), p.get("reel_date")) and "scheduled" in (p.get("status"), p.get("story_status"), p.get("reel_status")):
+            report.append(f"AWAITING APPROVAL {p.get('owner')}: not published, Kamel has not approved it")
+        continue
     jobs = []
     if p.get("date") == TODAY and p.get("status") == "scheduled":
         jobs.append(("post", lambda: reel(folder, p["video"], collab, caption_of(folder), True) if p.get("type") == "reel" else carousel(folder, collab)))
