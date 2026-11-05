@@ -1,5 +1,7 @@
 # Weekendna Instagram playbook
 
+**Marketing review (5 Nov 2026):** Read [MARKETING_DIRECTION.md](MARKETING_DIRECTION.md) for the latest insights-led creative brief and quality gate. This supplements, but does not replace, the rules in this playbook. Claude remains responsible for production and publishing; no separate ChatGPT renderer should publish.
+
 How @weekendna.lb posts are made and scheduled. Written for the weekly scheduled task, which starts with no memory of earlier chats.
 
 ## PRECEDENCE (3 Nov 2026)
