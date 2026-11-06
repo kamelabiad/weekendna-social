@@ -31,3 +31,32 @@ These figures are historical, not a live Instagram API connection. Do not claim 
 
 ## Quality gate
 Reject or request rework for poor-quality zoom slideshows, synthetic background music, busy overlays, weak first frames, unreadable text, unverifiable claims, unlicensed music, reused shots or content that contradicts November seasonality. For Reels, prefer real video footage; if none is available, prefer an excellent carousel over a mediocre Reel.
+
+
+## Daily advisory — Friday 6 November 2026 (reviewed 16:24 UK / 18:24 Beirut)
+**Status:** Advisory only. No publishing, scheduling, approval, asset or log changes authorised.
+
+### Today's publishing gate — important
+- `posts/log.json` currently lists **Acampar bungalows** (`posts/2026-11-acampar-bungalows`) as scheduled for **6 Nov**, with story scheduled. **`posts/approvals.json` is currently `{}`**. Under the 5 Nov PLAYBOOK approval gate, Claude must **not publish** this item without Kamel's explicit approval of the final asset and caption. Do not insert approval automatically, do not change the date, and do not bypass the gate.
+- Acampar already had a carousel published **24 Oct** and a Reel **25 Oct**; another Acampar discovery Reel is scheduled **16 Nov**. Avoid audience fatigue and duplicative photo sequences. Distinguish the two new bungalows (listing IDs 41/42) only with verified imagery and facts. Do not reuse the rejected automated Acampar slideshow as a polished Reel.
+- Tomorrow **7 Nov** and Sunday **8 Nov** are story-only slots, currently scheduled. Both still require explicit approval under the gate; do not silently substitute feed posts.
+
+### Concrete brief to Claude for next item requiring approval: Acampar bungalows (6 Nov)
+**Audience/goal:** Lebanese couples and small groups planning a cosy November mountain escape; inspire **saves and shares**, not comments or unverified bookings.
+**Creative concept:** “The kind of weekend you wish lasted longer.” Six Senses-inspired *quiet luxury*, not an imitation of Six Senses branding.
+**First frame (0–2s):** Use the most compelling **genuine, high-resolution** photograph/owner-approved clip of a warm fireplace or beautifully composed bungalow interior from listings 41/42. Inspect the actual asset before choosing; do not claim a specific image was inspected here.
+**Sequence:** (1) warm interior detail as hook, (2) widest tasteful room composition, (3) one contrasting authentic angle, (4) restrained property/region identifier, (5) minimal Weekendna sign-off. For stills, use an editorial **4:5 carousel** rather than repetitive artificial zooms if there is no genuine high-quality video.
+**Typography:** Only small, legible English copy; no prices or multiple badges on the visual. Preserve authentic Weekendna logo/brand rules in BRAND.md.
+**Sound:** For video, only properly licensed, professionally produced atmospheric instrumental music with verifiable usage rights; never synthetic placeholder audio or unlicensed tracks.
+**Caption direction:** “Some weekends are made for slowing down. Discover Acampar in Faraya, found on Weekendna. Save this for your next mountain escape.” Verify all property names, locations and amenities on current Weekendna listings before use. One primary CTA: **Save this for your next weekend.**
+**Quality decision:** If the available photos/video cannot support a premium execution, show Kamel a stronger still-photo carousel for approval or hold; do not publish the rejected version.
+**Risk:** No explicit approval in approvals.json at review time; therefore publishing is blocked. Do not alter the gate.
+
+### Next scheduled feed item: 9 November
+`posts/2026-11-how-booking-works` is scheduled as a Reel. The content must accurately explain the **request/enquiry** process (not imply confirmed booking), use real property visuals, and lead with a guest benefit, not a text-only explainer. Request Kamel's approval of final Reel + caption before publishing.
+
+### Evidence and data gaps
+No new verified Instagram performance figures were found in the reviewed repository files today. Continue using **3 Nov screenshots (30 days through 2 Nov)** as the historical baseline: Aqualand 2.3K views, Acampar carousel 1.6K, sea-view Reel 1K, text-only cards 9–35, comments zero. **Missing:** current reach, shares, saves, follower delta, profile visits, story retention, DMs and booking enquiries. Missing is not zero. Test one variable at a time (e.g., real-photo editorial carousel versus a properly filmed Reel) and evaluate **saves per reach** when data is available.
+
+### Timing
+At this review, UK is GMT (UTC+0), Beirut EET (UTC+2). **15:30 UK = 17:30 Beirut**; Claude's reported **19:24 Beirut** task is 17:24 UK, a **1h54m nominal gap**. This review occurred around 16:24 UK / 18:24 Beirut, later than the preferred 18:24 Beirut completion target; no schedule was changed. UK/Lebanon daylight-saving transition dates may differ briefly in spring/autumn.
