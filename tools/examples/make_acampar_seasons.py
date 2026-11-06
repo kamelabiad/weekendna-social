@@ -43,3 +43,25 @@ Request your dates on WhatsApp, nothing to pay yet: weekendna.com (link in bio) 
 
 #Weekendna #Faraya #Mzaar #LebanonChalets #Lebanon #WinterInLebanon
 """)
+
+# slide 2: fireplace interior
+img = cover(P("42-02"), W, H, cx=0.45); img = shade(img, 700, 225, 1.5); d = ImageDraw.Draw(img)
+logo(d, M, 60, WHITE, 40)
+pill(d, M, 905, "Two bedroom bungalow", jak(700, 22))
+d.text((M, 975), "Fireplace evenings,", font=jak(800, 76), fill=WHITE)
+d.text((M, 1065), "mountain mornings.", font=jak(800, 76), fill=WHITE)
+d.text((M, 1190), "Fireplace  ·  up to 6 guests  ·  near the slopes", font=jak(500, 27), fill=(235, 235, 235))
+dots(d, 3, 1); img.save(f"{OUT}/seasons-2.jpg", quality=94)
+
+# slide 3: closing, brand red
+img = Image.new("RGB", (W, H), RED); d = ImageDraw.Draw(img)
+logo(d, M, 60, WHITE, 40, accent=WHITE)
+img.paste(cover(P("40-03"), W - 2 * M, 520), (M, 160))
+d.text((M, 735), "Save this for", font=jak(800, 76), fill=WHITE)
+d.text((M, 825), "your next weekend.", font=jak(800, 76), fill=WHITE)
+d.text((M, 960), "Acampar Faraya  ·  from $80 a night", font=jak(700, 32), fill=WHITE)
+d.text((M, 1010), "Studios for 2 to a two bedroom bungalow for 6.", font=jak(500, 28), fill=(255, 225, 229))
+d.text((M, 1080), "Request your dates on WhatsApp, nothing to pay yet.", font=jak(500, 26), fill=(255, 225, 229))
+d.text((M, 1120), "weekendna.com  ·  link in bio", font=jak(500, 26), fill=(255, 225, 229))
+button(d, 1200, "Follow @weekendna.lb", jak(800, 32), bg=WHITE, fg=RED)
+dots(d, 3, 2); img.save(f"{OUT}/seasons-3.jpg", quality=94)
