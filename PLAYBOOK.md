@@ -7,6 +7,9 @@
 
 Brand kit, logo files and colours: see `BRAND.md` and `brand/`.
 
+## NEW CLIENTS GO FIRST (Kamel, 7 Nov 2026)
+When Kamel adds new clients (listings on weekendna.com not yet in any post), they take the next posting slots, one new client per day starting today, even on story-only days; then the schedule continues with the older clients and everything else shifts back. Each new-client post is a collab with the owner's handle (ask Kamel for it) and still needs his approval in posts/approvals.json before it goes out. The weekly task checks the site's listings for new clients each run.
+
 ## NO DAY-USE CONTENT (Kamel, 5 Nov 2026)
 Never mention day use, day-use prices or "day use or overnight" in any post, caption, slide, Reel or story (an owner objected to the Arabic day-use wording). Skip day-use as a theme and leave the API `dayUsePrice` field out of everything public. Overnight stays and nightly prices only.
 

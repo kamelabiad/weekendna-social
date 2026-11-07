@@ -661,6 +661,23 @@
       "pinned": true,
       "season": "any",
       "note": "Kamel's owner-facing post (3 Nov 2026): 6 things Weekendna does for an owner's place, English only. PINNED to Tue 10 Nov (after the monitoring week); the online presence report carousel follows on Tue 17 Nov. Weekly planning must not move, redesign or re-caption it. Story = story.jpg. HOLD by Kamel 5 Nov 2026: do not publish, move or re-slot until Kamel approves the reworked version (does not meet the 5 Nov quality gate)."
+    },
+    {
+      "date": "2026-11-07",
+      "owner": "Casa Verde Guest House",
+      "listing_ids": [
+        60
+      ],
+      "instagram": "casaverde.bcharre",
+      "status": "scheduled",
+      "folder": "2026-11-casa-verde",
+      "type": "carousel",
+      "story_status": "scheduled",
+      "reel_date": null,
+      "reel_status": null,
+      "kind": "collab",
+      "season": "winter",
+      "note": "NEW CLIENT priority slot (Kamel 7 Nov 2026: new clients go in the next posting slots, one per day). Handle from Kamel 7 Nov. Needs Kamel's approval in posts/approvals.json before it publishes."
     }
   ],
   "owners_without_instagram": [
