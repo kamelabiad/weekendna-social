@@ -669,15 +669,16 @@
         60
       ],
       "instagram": "casaverde.bcharre",
-      "status": "scheduled",
+      "status": "published",
       "folder": "2026-11-casa-verde",
       "type": "carousel",
-      "story_status": "scheduled",
+      "story_status": "published",
       "reel_date": null,
       "reel_status": null,
       "kind": "collab",
       "season": "winter",
-      "note": "NEW CLIENT priority slot (Kamel 7 Nov 2026: new clients go in the next posting slots, one per day). Handle from Kamel 7 Nov. Needs Kamel's approval in posts/approvals.json before it publishes."
+      "note": "NEW CLIENT priority slot (Kamel 7 Nov 2026: new clients go in the next posting slots, one per day). Handle from Kamel 7 Nov. Needs Kamel's approval in posts/approvals.json before it publishes.",
+      "permalink": "https://www.instagram.com/p/DfcuAR9IHT4/"
     }
   ],
   "owners_without_instagram": [
