@@ -16,7 +16,7 @@ def slide(i, photo, kicker, l1, l2, foot, cy=0.5):
     d.text((M, 975), l1, font=jak(800, 76), fill=WHITE); d.text((M, 1065), l2, font=jak(800, 76), fill=WHITE)
     d.text((M, 1190), foot, font=jak(500, 27), fill=(235, 235, 235)); dots(d, N, i)
     img.save(f"{OUT}/casaverde-{i+1}.jpg", quality=94)
-slide(0, P("03"), "New on Weekendna", "Lights on,", "mountain air.", "Casa Verde Guest House  ·  Bcharre & the Cedars", cy=0.6)
+slide(0, P("03"), "New on Weekendna", "Lights on,", "mountain air.", "Casa Verde Guest House  ·  from $120 a night", cy=0.6)
 slide(1, P("06"), "Fireplace  ·  wood ceilings", "Warm wood,", "room to gather.", "Up to 4 guests  ·  2 bedrooms", cy=0.45)
 slide(2, P("01"), "Your own garden", "A garden for", "slow afternoons.", "Bcharre & the Cedars  ·  near the slopes")
 slide(3, P("11"), "Power all day", "Cosy inside,", "mountain outside.", "Generator included  ·  fireplace", cy=0.5)
