@@ -1,0 +1,21 @@
+{
+ "music": "music/oud-alexmorgan.mp3",
+ "musicStart": 12,
+ "bpm": 130,
+ "shots": [
+  {"photo": "photos/casaverde/60-03.webp", "seconds": 2.608, "move": "zoom_in", "fy": 0.55,
+   "text": {"type": "hook", "en": "Independence weekend, up near the Cedars"}},
+  {"photo": "photos/casaverde/60-06.webp", "seconds": 2.608, "move": "pan_right",
+   "text": {"type": "title", "name": "Casa Verde", "pill": "Bcharre · 100 min from Beirut"}},
+  {"photo": "photos/casaverde/60-11.webp", "seconds": 2.608, "move": "zoom_in", "fy": 0.5,
+   "text": {"type": "fact", "en": "A fireplace, heating and power all day"}},
+  {"photo": "photos/casaverde/60-04.webp", "seconds": 2.608, "move": "pan_left",
+   "text": {"type": "fact", "en": "A private garden with a barbecue"}},
+  {"photo": "photos/casaverde/60-07.webp", "seconds": 2.608, "move": "pan_up",
+   "text": {"type": "room", "name": "Casa Verde", "en": "2 bedrooms and a full kitchen, up to 4 guests", "price": "$180 / night"}},
+  {"photo": "photos/casaverde/60-10.webp", "seconds": 2.608, "move": "zoom_out",
+   "text": {"type": "fact", "en": "10 to 15 min from the Cedars, the slopes and Hasroun"}},
+  {"photo": "photos/casaverde/60-05.webp", "seconds": 4.915, "move": "zoom_out",
+   "text": {"type": "end", "name": "Casa Verde", "price": "From $180 / night"}}
+ ]
+}
