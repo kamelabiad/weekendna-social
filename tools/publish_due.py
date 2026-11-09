@@ -93,10 +93,20 @@ def _approvals():
     import subprocess
     path = os.path.join(os.path.dirname(LOG), "approvals.json")
     if not os.path.exists(path): return {}
+    cwd = os.path.dirname(LOG)
+    def last_author():
+        return subprocess.run(["git", "log", "-1", "--format=%an", "--", path], cwd=cwd, capture_output=True, text=True).stdout.strip()
     try:
-        author = subprocess.run(["git", "log", "-1", "--format=%an", "--", path], cwd=os.path.dirname(LOG), capture_output=True, text=True).stdout.strip()
+        author = last_author()
+        # A fresh shallow clone only sees its tip commit (9 Nov 2026: that was ChatGPT's advisory, so every approval was ignored and nothing was published).
+        # Fetch enough history to see the commit that really last changed the file.
+        if author != "Claude":
+            subprocess.run(["git", "fetch", "-q", "--deepen=100", "origin"], cwd=cwd, capture_output=True, text=True, timeout=120)
+            author = last_author()
     except Exception: author = ""
-    if author != "Claude": return {}
+    if author != "Claude":
+        print(f"WARNING: posts/approvals.json not trusted (last commit by {author or 'unknown'}); nothing will be published")
+        return {}
     return json.load(open(path, encoding="utf-8"))
 APPROVALS = _approvals()
 def approved(p):
