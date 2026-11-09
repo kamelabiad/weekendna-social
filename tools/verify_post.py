@@ -16,7 +16,12 @@ def check(folder, quiet=False):
     log = json.load(open(os.path.join(ROOT, "posts", "log.json"), encoding="utf-8"))
     post = next((p for p in log["posts"] if p.get("folder") == folder), None)
     if not post or not post.get("listing_ids"): return []
-    items = get("listings?limit=200")["items"]; slugs = {i["id"]: i["slug"] for i in items}
+    items, page = [], 1  # the API pages 24 listings at a time
+    while True:
+        r = get(f"listings?limit=200&page={page}"); items += r["items"]
+        if not r["items"] or len(items) >= r.get("total", 0): break
+        page += 1
+    slugs = {i["id"]: i["slug"] for i in items}
     allowed, facts = set(), []
     for lid in post["listing_ids"]:
         if lid not in slugs: return [f"listing {lid} not found on the site"]
