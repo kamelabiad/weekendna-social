@@ -2,13 +2,10 @@
 
 **Marketing review (5 Nov 2026):** Read [MARKETING_DIRECTION.md](MARKETING_DIRECTION.md) for the latest insights-led creative brief and quality gate. This supplements, but does not replace, the rules in this playbook. Claude remains responsible for production and publishing; no separate ChatGPT renderer should publish.
 
-## APPROVAL GATE (Kamel, 5 Nov 2026): NOTHING IS PUBLISHED WITHOUT HIS APPROVAL
-`tools/publish_due.py` publishes an item only if `posts/approvals.json` lists its folder with the same `date` and `reel_date` as in `posts/log.json` (moving an item cancels its approval). Send Kamel the final post (slides or video plus caption) and wait for his yes; only then add it: `{"<folder>": {"date": "...", "reel_date": ...}}`. Only Claude writes this file, committing as "Claude" (the publisher ignores the file if its last commit was by anyone else). ChatGPT and other tools may recommend in MARKETING_DIRECTION.md but must never edit `posts/approvals.json`, `tools/publish_due.py`, this section, or approve, move, unhold or publish items. Unapproved items are reported "AWAITING APPROVAL" and skipped; the daily task must not approve or reschedule items.
-
-Brand kit, logo files and colours: see `BRAND.md` and `brand/`.
-
-## NEW CLIENTS GO FIRST (Kamel, 7 Nov 2026)
-When Kamel adds new clients (listings on weekendna.com not yet in any post), they take the next posting slots, one new client per day starting today, even on story-only days; then the schedule continues with the older clients and everything else shifts back. Each new-client post is a collab with the owner's handle (ask Kamel for it) and still needs his approval in posts/approvals.json before it goes out. The weekly task checks the site's listings for new clients each run.
+## APPROVAL GATE (Kamel, 5 Nov 2026; WEEKLY APPROVAL from 9 Nov 2026)
+**Weekly rhythm (Kamel, 9 Nov 2026):** the weekly plan is prepared and sent to Kamel on Sunday night (the whole coming week: every post, Reel and story with its caption). Once he approves the plan, Claude posts each day's items WITHOUT asking again. Claude records the weekly approval by adding every approved item to `posts/approvals.json`. Items he changes or rejects stay out until fixed; held items stay held.
+`tools/publish_due.py` publishes an item only if `posts/approvals.json` lists its folder with the same `date` and `reel_date` as in `posts/log.json` (moving an item cancels its approval). Only Claude writes this file, committing as "Claude" (the publisher fetches enough git history to check the last author; it ignores the file if that was anyone else). ChatGPT and other tools may recommend in MARKETING_DIRECTION.md but must never edit `posts/approvals.json`, `tools/publish_due.py`, this section, or approve, move, unhold or publish items. Unapproved items are reported "AWAITING APPROVAL" and skipped; the daily task must not approve or reschedule items itself.
+**Daily check:** after the daily publish time (17:00 UK), confirm the day's post is live (Instagram or `posts/log.json` marked published); if it is not, publish it at once and tell Kamel why.
 
 ## NO DAY-USE CONTENT (Kamel, 5 Nov 2026)
 Never mention day use, day-use prices or "day use or overnight" in any post, caption, slide, Reel or story (an owner objected to the Arabic day-use wording). Skip day-use as a theme and leave the API `dayUsePrice` field out of everything public. Overnight stays and nightly prices only.
