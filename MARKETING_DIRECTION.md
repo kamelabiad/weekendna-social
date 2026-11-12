@@ -197,3 +197,37 @@ As of 10 Nov, UK is GMT (UTC+0) and Beirut EET (UTC+2): **15:30 UK = 17:30 Beiru
 - **No new verified Instagram Insights** in reviewed repository files. Historical baseline only (3 Nov screenshots, 30 days to 2 Nov): Aqualand ~2,300 views; Acampar fireplace carousel ~1,600; sea-view Reel ~1,000; text-only 9–35; comments zero; followers 20 on 27 Oct and 26 on 3 Nov. **Unknown, not zero:** current reach, saves, shares, follows, profile visits, DMs, enquiries, and performance of 6–10 Nov content. Need a dated Instagram Insights export for meaningful daily optimization.
 - **Timing correction:** UK is GMT (UTC+0), Beirut EET (UTC+2): 15:30 UK = 17:30 Beirut; 16:16 UK = 18:16 Beirut; requested 18:24 Beirut cutoff = 16:24 UK. The **current PLAYBOOK states publishing at 17:00 UK / 19:00 Beirut**, superseding the automation prompt's old 19:24 Beirut claim. No schedules were altered.
 - This review changes **only MARKETING_DIRECTION.md**. posts/log.json, approvals, PLAYBOOK, scripts, assets and publishing workflows remain untouched.
+
+
+## Thursday advisory — 12 November 2026 (16:09 UK / 18:09 Beirut)
+
+**Sources inspected read-only:** current PLAYBOOK.md, posts/log.json, posts/approvals.json, and caption drafts for Le Grey (12 Nov), Gray House (13 Nov), and Faraya discovery (16 Nov). Prior 11 Nov guidance and the documented 3 Nov Insights baseline were checked. This review has not verified live Instagram Insights, current listing prices, raw media resolution, or music licence documentation.
+
+### Publishing status and today's highest-priority issue
+- **11 Nov:** The “Under an Hour from Beirut” guide is now marked **published** in posts/log.json (permalink: https://www.instagram.com/p/Dfm-3pclXpE/). Its earlier unverified 15/25/35/45-minute driving-time claims were flagged before publication; the log alone does **not** establish whether Claude corrected or substantiated them. Claude should audit the *live published caption and slides* and, if misleading, propose an owner-approved correction. Do not republish it or alter its approval/log here.
+- **12 Nov:** Le Grey Apartments' **Reel** is scheduled today, while its carousel remains on hold. The exact reel-date approval exists in posts/approvals.json. The caption describes Le Grey Haven (listing 48) and Grandpa's Apartment (31), both Batroun, with $80/4 guests and $120/9 guests, plus several amenities. These are **unverified live**. It leads with “Comment BATROUN” despite the Nov 3 baseline of zero comments. Claude must check current listing facts, photo/footage quality, music licensing for `warm-acoustic-atlasaudio.mp3`, and that the actual Reel is genuinely cinematic rather than a low-resolution zoom slideshow. Preserve approval; request renewed approval for any caption/creative change. The reel is *not* confirmed published at review time.
+- **13 Nov:** The Gray House Reel is scheduled and has a matching reel-date approval. Its caption claims **45 minutes from Beirut**, $130/night, five guests, 220 m² and specific amenities. Verify all against the live listing and a route source; do not publish an unverified 45-minute promise. Request fresh approval for any correction. No Instagram collaborator handle is on file; do not invent one.
+
+### Concrete creative brief for Claude — Le Grey Weekend Edit, 12 Nov
+**Objective:** earn saves and qualified date enquiries for a November Batroun overnight escape without duplicating yesterday's Le Grey inclusion in the roundup.
+
+**Opening 0–2 seconds:** start on the single strongest *genuine high-resolution* sea-view living-room or warm interior shot, not a logo or summer beach. Proposed hook for an approved revision: **“Batroun, from the comfort of your own apartment.”** Follow with a purposeful contrast between Le Grey Haven (intimate four-guest escape) and Grandpa's Apartment (larger family/group stay), only if verified. Keep the reel short and editorial, inspired by Six Senses' restraint but without copying brand assets. Use authentic Weekendna logo and prescribed brand typography/colours; no AI-generated visuals, no generic pan/zoom-only slideshow. If high-quality motion footage is unavailable, hold and seek approval for a refined carousel rather than publish a mediocre Reel.
+
+**November angle:** cosy interiors, terrace and sea views, quiet evenings; no swimming or summer-beach promise. Avoid yesterday's identical Le Grey hero image. Show one verified difference between the two apartments; don't clutter frames with price arithmetic.
+
+**CTA for an owner-approved revision:** “Save this Batroun escape for your next weekend” (or a single WhatsApp date-enquiry CTA). The current approved “Comment BATROUN” caption remains untouched until renewed approval.
+
+**Music:** confirm the exact audio file's licence covers commercial/branded Instagram distribution and preserve evidence; do not infer licence from a filename. Check any story music separately. If rights are uncertain, Claude should seek an approved, licensed replacement.
+
+**Quality/fact gate:** verify listing IDs 48 and 31 against current Weekendna records (nightly prices, guest counts, amenities, location); verify the final export is sharp, has readable English overlays, and is not recycled from the 11 Nov guide. If any approved asset needs modification, route the revision through Kamel's existing weekly approval process.
+
+### Next-up checks
+- **13 Nov Gray House:** lead with genuine balcony-to-mountain view and warm interiors; November-appropriate, no unverified snow or travel time. For an approved revision: “A mountain hideaway in Ghineh” and “Send this to your weekend partner.” Verify price/capacity/amenities and audio licence.
+- **16 Nov Faraya discovery:** caption currently says “ski slopes, 45 min from Beirut” and uses a snowflake hook. Verify the route/time; “near the slopes” is acceptable only if location supports it, but do **not** imply November snow or operational skiing. Acampar already appeared on 24 Oct and 6 Nov; avoid a third near-identical fireplace/bungalow montage. Show a distinctly new Faraya-region angle with authentic assets and seek approval for any changed copy.
+
+### Verified data and timing
+**New performance metrics:** none independently verified in the inspected repository sources. Historical baseline only, screenshots dated 3 Nov (30 days to 2 Nov): Aqualand ~2,300 views; Acampar fireplace carousel ~1,600; sea-view Reel ~1,000; text-only graphics 9–35; zero comments; followers 20 (27 Oct) to 26 (3 Nov). **Missing, not zero:** current reach, saves, shares, follows, profile visits, video watch time, story completion, DMs and booking enquiries. Request a dated export; compare saves and shares per reached account by format, not view totals alone.
+
+**Timezone:** 12 Nov UK GMT (UTC+0), Beirut EET (UTC+2). The planned 15:30 UK review corresponds to 17:30 Beirut, but this review was completed after 16:09 UK (18:09 Beirut). The older automation instruction cites 19:24 Beirut publishing; the current PLAYBOOK explicitly says **17:00 UK / 19:00 Beirut**, so follow the playbook and do not alter either schedule. At 16:09 UK, the stated 19:00 Beirut publishing slot is 51 minutes away.
+
+**Strict boundary:** This is advice only. No modifications to PLAYBOOK.md, posts/log.json, posts/approvals.json, scripts, workflows, assets, content schedules or publishing. Only MARKETING_DIRECTION.md may be updated.
