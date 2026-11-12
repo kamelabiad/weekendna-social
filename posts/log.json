@@ -396,10 +396,11 @@
       "type": "carousel",
       "story_status": "hold",
       "reel_date": "2026-11-12",
-      "reel_status": "scheduled",
+      "reel_status": "published",
       "music": "warm-acoustic-atlasaudio.mp3",
       "kind": "collab",
-      "season": "mild (sea-view, no swimming claim)"
+      "season": "mild (sea-view, no swimming claim)",
+      "reel_permalink": "https://www.instagram.com/reel/DfpkIJckfMw/"
     },
     {
       "date": "",
