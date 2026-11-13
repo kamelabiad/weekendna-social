@@ -539,12 +539,13 @@
       ],
       "status": "hold",
       "story_status": "hold",
-      "reel_status": "scheduled",
+      "reel_status": "published",
       "video": "reel.mp4",
       "music": "calm-acoustic-andriig.mp3 @0s",
       "kind": "collab",
       "note": "New listing found 2 Nov 2026 (Ghineh, 45 min from Beirut). No Instagram handle on file: posted without a collaborator until Kamel gives one (whatsapp.txt asks the owner for it). Slotted into the first free day (Mon 16 Nov) and Sat 21 Nov for the Reel; the weekly task can re-slot it earlier. Re-slotted 2 Nov 2026 to the ORGANIC GROWTH PLAN. Carousel on hold; its Reel is Fri 13 Nov (property/experience).",
-      "season": "autumn-winter"
+      "season": "autumn-winter",
+      "reel_permalink": "https://www.instagram.com/reel/DfsIXY9iAiC/"
     },
     {
       "folder": "2026-11-stories-03",
