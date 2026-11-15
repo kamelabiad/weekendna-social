@@ -278,3 +278,29 @@ No new verified Instagram Insights export was available in these reviewed files.
 On 14 Nov, UK is GMT and Beirut is EET: **15:30 UK = 17:30 Beirut**, **16:00 UK = 18:00 Beirut**, and **18:24 Beirut = 16:24 UK**. A 16:00 UK review would leave just 24 minutes before the advisory cutoff; the existing 15:30 UK schedule leaves 54 minutes. PLAYBOOK states publishing **17:00 UK / 19:00 Beirut**, whereas the older task prompt says 19:24 Beirut; flag this discrepancy but preserve all schedules. This advisory was completed before the 18:24 Beirut cutoff.
 
 **Authority boundary:** advice only, written solely to MARKETING_DIRECTION.md. No publishing, approval, log, workflow, schedule, script, media or asset changes.
+
+
+## Sunday advisory and verified weekly scorecard — 15 November 2026
+
+**Read-only inputs:** PLAYBOOK.md, MARKETING_DIRECTION.md, posts/log.json, posts/approvals.json, and the 16 Nov Faraya caption draft. No new dated Instagram Insights export was found in the inspected repository sources. Publication counts below are *log-recorded*, not independently audited on Instagram.
+
+### Weekly scorecard: 9–15 November (as recorded at review)
+- **4 feed publications recorded as published:** 9 Nov How Booking Works carousel; 11 Nov Under an Hour carousel; 12 Nov Le Grey Reel; 13 Nov Gray House Reel. **2 carousels, 2 Reels**. No claim of additional feed posts.
+- **Stories:** 9 Nov and 11 Nov feed-associated stories, and 10 Nov story-only item, are recorded published. 14 and 15 Nov story-only items still show *scheduled*, not published, so do not count them as completed. Other story coverage cannot be inferred.
+- **Follower start/end, net follows, accounts reached, non-follower reach %, profile visits, saves, shares, Reel watch time, collabs, DMs/enquiries, confirmed bookings, and profile-visit-to-follow conversion:** **unavailable/unverified** for this week; never report missing as zero. No defensible best-performing post or saves/reach comparison without post-level data.
+- **Historical reference only (3 Nov screenshots, not this week's results):** Aqualand ~2,300 views; Acampar fireplace carousel ~1,600; sea-view Reel ~1,000; text-only graphics 9–35; zero comments; followers 20 on 27 Oct and 26 on 3 Nov. Request dated account and post-level Instagram Insights for the week before performance conclusions.
+
+### Immediate next approved content: Sunday 15 Nov story
+- `2026-11-stories-15` is **scheduled**, with matching approval; do not substitute a feed post or change its approved content. Verify actual `story.mp4` playback, crisp authentic imagery, and the branded/commercial Instagram rights for `calm-acoustic-andriig.mp3 @60s`; a track filename is not a licence. Verify publication later via publisher-owned evidence.
+
+### Monday 16 Nov Faraya discovery Reel — priority recommendation to Claude
+- `2026-11-discovery-faraya` is **scheduled in the log but ABSENT from posts/approvals.json** as reviewed. **Do not publish without owner approval**; advisory does not approve, hold, reschedule or change content.
+- **Strongest opening (0–2 s):** authentic sharp Faraya mountain/cabin establishing image, then a warm bungalow interior and a distinctive region detail. Suggested *new approval-dependent* hook: **“A slower weekend in the Faraya mountains.”** Six Senses-inspired quiet-luxury pacing, minimal English-only type, real Weekendna logo, no stock/AI imagery or low-resolution still-photo zoom montage. If premium assets are insufficient, request approval for a restrained photo carousel or hold.
+- **Season and accuracy:** current draft says “ski slopes, 45 min from Beirut,” shows snowflake emoji and claims “from $80/night,” 2–6 guests and fireplaces. Independently verify route/time, current listing rates, guest capacity, fireplaces and proximity before use. Do not suggest November snow or operational skiing. Remove unsupported claims *only through renewed owner approval*; do not silently edit approved copy.
+- **Duplicate/owner saturation:** Acampar already featured on 24 Oct, 6 Nov and a recent roundup. Compare exact opening imagery with those posts; make this genuinely about Faraya discovery rather than a repeat Acampar fireplace tour.
+- **CTA:** the draft already asks viewers to send it to a companion; retain one primary **share** CTA or propose “Save this Faraya escape for later” for approval. Do not revert to comment-keyword prompts without evidence.
+- **Audio:** `warm-acoustic-atlasaudio.mp3 @40s` requires documented commercial/branded Instagram usage rights, or an approved licensed replacement. Do not infer rights from its presence in the repository.
+- **Next:** 18 Nov sea-or-mountain carousel must avoid summer beach/swimming or snow claims; 19 Nov Casa Verde Reel must resolve the previously recorded $120 versus $180 nightly price inconsistency and use distinct visuals from 7 Nov; 20 Nov Phare du Nord Reel needs its own matching approval and media/music checks.
+
+### Time and scope
+On Sunday 15 Nov, UK is GMT (UTC+0), Beirut EET (UTC+2). **16:00 London = 18:00 Beirut**, leaving 24 minutes until the 18:24 Beirut advisory target. The older instruction cites 19:24 Beirut publishing, but current PLAYBOOK explicitly records **17:00 UK / 19:00 Beirut** after the 8 Nov owner change. Flag the mismatch; **do not alter schedules or approvals**. Advice only; no publishing or workflow actions. Only MARKETING_DIRECTION.md is updated.
