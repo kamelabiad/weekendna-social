@@ -618,7 +618,7 @@
       "type": "reel",
       "owner": "Acampar Faraya (Faraya discovery Reel)",
       "date": "2026-11-16",
-      "status": "scheduled",
+      "status": "published",
       "video": "reel.mp4",
       "listing_ids": [
         39,
@@ -629,7 +629,8 @@
       "music": "warm-acoustic-atlasaudio.mp3 @40s",
       "kind": "discovery",
       "note": "Mon Discovery Reel (ORGANIC GROWTH PLAN): region-led angle (Faraya in winter). No collaborator tag (Acampar tagged 24 Oct and 4 Nov plan removed).",
-      "season": "winter"
+      "season": "winter",
+      "permalink": "https://www.instagram.com/reel/Dfz3ljQiCHv/"
     },
     {
       "date": "",
