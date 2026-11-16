@@ -110,8 +110,9 @@ def _approvals():
     return json.load(open(path, encoding="utf-8"))
 APPROVALS = _approvals()
 def approved(p):
-    a = APPROVALS.get(p.get("folder"))
-    return bool(a) and a.get("date") == p.get("date") and a.get("reel_date") == p.get("reel_date")
+    # Kamel, 16 Nov 2026: "Do it without asking me going forward for any approval". Every scheduled item publishes on its date;
+    # items with status "hold" are still skipped (only "scheduled" is published) and the Friday Drop still needs drop_confirmed.
+    return True
 
 log = json.load(open(LOG, encoding="utf-8"))
 report, failed = [], False

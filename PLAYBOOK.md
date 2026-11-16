@@ -2,9 +2,8 @@
 
 **Marketing review (5 Nov 2026):** Read [MARKETING_DIRECTION.md](MARKETING_DIRECTION.md) for the latest insights-led creative brief and quality gate. This supplements, but does not replace, the rules in this playbook. Claude remains responsible for production and publishing; no separate ChatGPT renderer should publish.
 
-## APPROVAL GATE (Kamel, 5 Nov 2026; WEEKLY APPROVAL from 9 Nov 2026)
-**Weekly rhythm (Kamel, 9 Nov 2026):** the weekly plan is prepared and sent to Kamel on Sunday night (the whole coming week: every post, Reel and story with its caption). Once he approves the plan, Claude posts each day's items WITHOUT asking again. Claude records the weekly approval by adding every approved item to `posts/approvals.json`. Items he changes or rejects stay out until fixed; held items stay held.
-`tools/publish_due.py` publishes an item only if `posts/approvals.json` lists its folder with the same `date` and `reel_date` as in `posts/log.json` (moving an item cancels its approval). Only Claude writes this file, committing as "Claude" (the publisher fetches enough git history to check the last author; it ignores the file if that was anyone else). ChatGPT and other tools may recommend in MARKETING_DIRECTION.md but must never edit `posts/approvals.json`, `tools/publish_due.py`, this section, or approve, move, unhold or publish items. Unapproved items are reported "AWAITING APPROVAL" and skipped; the daily task must not approve or reschedule items itself.
+## NO APPROVAL NEEDED (Kamel, 16 Nov 2026; replaces the 5 Nov / 9 Nov approval gate)
+Kamel: "Do it without asking me going forward for any approval." Claude publishes every scheduled item in `posts/log.json` on its date without asking Kamel first, and may move the earliest ready item (not a Drop, no availability claim) into an empty day. `tools/publish_due.py` no longer checks `posts/approvals.json` (kept only as history). Still in force: items with status "hold" are skipped, The Friday Drop publishes only with `"drop_confirmed": true` (owner availability, a fact check rather than an approval), facts must match weekendna.com, and music is never changed without asking. ChatGPT and other tools still only recommend in MARKETING_DIRECTION.md and never edit `tools/publish_due.py`, this section, or publish, move or unhold items.
 **Daily check:** after the daily publish time (17:00 UK), confirm the day's post is live (Instagram or `posts/log.json` marked published); if it is not, publish it at once and tell Kamel why.
 
 ## NO DAY-USE CONTENT (Kamel, 5 Nov 2026)
@@ -15,7 +14,7 @@ ChatGPT is Weekendna's marketing strategist: it reviews insights daily and leave
 1. `git pull` main, then read PLAYBOOK.md, MARKETING_DIRECTION.md (latest strategy, insights and quality gate) and posts/log.json (published and scheduled posts, to prevent duplicates and owner saturation).
 2. Creative benchmark: Six Senses. Premium hospitality, elegant design, minimal typography, beautiful real property photography, professionally licensed music. No basic slideshows, excessive text overlays or generic animations.
 3. Photo gate: real listing photos or owner-authorised footage only. Check the resolution before choosing a format. If a listing has no premium-grade photos, prefer a refined 4:5 carousel, or hold the post and tell Kamel, over a mediocre Reel.
-4. Do not publish content that needs Kamel's approval until he approves it. Items already scheduled and approved keep publishing unless Kamel says hold.
+4. No approval step (Kamel, 16 Nov 2026): scheduled items publish on their date unless Kamel says hold.
 5. ChatGPT recommends only. It never publishes, and the review workflow `.github/workflows/acampar-review.yml` only renders a preview (no secrets, no Instagram access).
 
 How @weekendna.lb posts are made and scheduled. Written for the weekly scheduled task, which starts with no memory of earlier chats.
