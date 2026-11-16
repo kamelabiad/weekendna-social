@@ -304,3 +304,24 @@ On 14 Nov, UK is GMT and Beirut is EET: **15:30 UK = 17:30 Beirut**, **16:00 UK 
 
 ### Time and scope
 On Sunday 15 Nov, UK is GMT (UTC+0), Beirut EET (UTC+2). **16:00 London = 18:00 Beirut**, leaving 24 minutes until the 18:24 Beirut advisory target. The older instruction cites 19:24 Beirut publishing, but current PLAYBOOK explicitly records **17:00 UK / 19:00 Beirut** after the 8 Nov owner change. Flag the mismatch; **do not alter schedules or approvals**. Advice only; no publishing or workflow actions. Only MARKETING_DIRECTION.md is updated.
+
+
+## Daily advisory — Monday 16 November 2026
+
+**Read-only review:** PLAYBOOK.md, MARKETING_DIRECTION.md, posts/log.json and posts/approvals.json on the connected repository. The 15 Nov story is now log-recorded **published** (yesterday's scorecard correctly did not count it while still scheduled). The 14 Nov story still reads **scheduled**, not confirmed published. These are log states, not independent Instagram verification.
+
+**Urgent next post / approval gate:** `2026-11-discovery-faraya` remains **scheduled for 16 Nov**, but **has no matching entry in posts/approvals.json** at this review. Claude must not publish without Kamel's explicit approval under the weekly gate; do not infer approval from scheduling. Keep all existing content and schedule untouched pending the publisher's own approval checks.
+
+**Specific creative recommendation for Claude (requires approval for any revisions):** Make the first 0–2 seconds an authentic, sharp Faraya mountain/cabin establishing shot; follow with a warm, distinct interior and an atmospheric mountain detail. Proposed line: **“A slower weekend in the Faraya mountains.”** Use Six Senses-inspired quiet luxury (deliberate cuts, elegant pacing, sparse English-only type, authentic Weekendna logo), not copied branding, AI/stock imagery or a repetitive slideshow. If there are no premium-quality original listing photos/owner-approved clips, request a different creative direction or hold for approval. Avoid Acampar fireplace imagery already used in October, the 2 Nov roundup and 6 Nov Reel; compare actual frames before selecting the hook.
+
+**Accuracy / season:** Independently verify listing identity, rate (draft's “from $80/night”), occupancy, fireplace and mountain location from live listing data before asserting them. The draft's “45 min from Beirut,” “ski slopes,” snow imagery/emoji and skiing implication are risky for mid-November; do not use without defensible evidence and renewed approval for corrections. Do not imply guaranteed availability or confirmed booking. Use one save/share CTA: **“Send this to your weekend partner”** (already aligned with the draft) or propose **“Save this Faraya escape for later”** for owner approval.
+
+**Audio:** `warm-acoustic-atlasaudio.mp3 @40s` is listed, but the filename does **not** prove commercial/branded Instagram licensing. Claude must check rights for the exact audio and retain evidence, or obtain approval for a licensed alternative. Check actual playback and export quality.
+
+**Upcoming:** 17 Nov story-only is scheduled (check its approval; not present in the approvals file reviewed). 18 Nov sea-or-mountain carousel is scheduled but not yet approved; avoid swimming, beach-day and premature snow claims, and avoid repeated imagery. 19 Nov Casa Verde Weekend Edit is scheduled but unapproved; resolve the previously flagged $120 versus $180 rate inconsistency using live listing facts. 20 Nov Phare du Nord Reel requires matching approval and verified owner media/audio rights. No automatic publishing or substitutions.
+
+**Insights:** No newly verified dated Instagram Insights export was present in the reviewed sources. Use **3 Nov historical baseline only**: Aqualand ~2.3K views; Acampar fireplace carousel ~1.6K; sea-view Reel ~1K; text-only graphics 9–35; comments zero; followers 20 (27 Oct) to 26 (3 Nov). Current reach, saves, shares, Reel retention, follower growth, profile visits, DMs, booking enquiries and conversions are **missing/unverified, not zero**. Request a dated Instagram account/post/story export to determine what truly drives saves and enquiries.
+
+**Timing mismatch:** On 16 Nov, London is GMT and Beirut EET (+2 hours). The specified 16:00 London review = 18:00 Beirut, just **24 minutes** before 18:24 Beirut cutoff. The PLAYBOOK documents publisher time **17:00 London / 19:00 Beirut**, while the older user task says **19:24 Beirut**. Flag the conflict; preserve actual publisher schedule and approvals without edits.
+
+**Boundary:** This is advisory only. Do not edit PLAYBOOK.md, posts/log.json, approvals, scripts, assets, schedules or workflows; do not create, approve or publish any content.
