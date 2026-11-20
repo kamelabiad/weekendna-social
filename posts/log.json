@@ -507,7 +507,7 @@
    "note": "new listing (wedding venue); first post for this owner; redesigned 30 Oct 2026 (Weekendna-as-hero), moved to Tue 10 Nov (wedding venues have no seasonal wait) Re-slotted 1 Nov 2026 (weekly task) to the weekly pattern after the 1 Nov Aqualand insert had shifted everything by a day. Re-slotted 2 Nov 2026 to the ORGANIC GROWTH PLAN.  Released 3 Nov 2026 by Kamel: wedding venues can post in any season (carousel + story Fri 20 Nov, Reel version Sat 21 Nov). Re-slotted 8 Nov 2026 (weekly task): Fri = property/experience Reel and Sat is story-only, so the Reel goes out Fri 20 Nov and the carousel is on hold (same as Le Grey). | 20 Nov 2026: Reel missed 20 Nov (usage limit), re-slotted to Mon 23 Nov (collab, pharedunord).",
    "type": "carousel",
    "story_status": "hold",
-   "reel_date": "2026-11-24",
+   "reel_date": "2026-11-25",
    "reel_status": "scheduled",
    "music": "lounge-aurec.mp3 @16s",
    "kind": "collab",
@@ -767,6 +767,23 @@
    "season": "winter",
    "music": "upbeat-gear-mixkit.mp3 @0s",
    "note": "NEW CLIENT (listings 65-68, found on site 20 Nov 2026). Handle soliteresuites (408 followers) sent by Kamel 20 Nov. Mon 23 Nov collab Reel; 30-day growth plan item. Facts from listings 65-68 (Cozy Studio $58, King Studio $90, flats $135/$165 up to 4, Jbeil 35 min from Beirut)."
+  },
+  {
+   "folder": "2026-11-kaslik-chalet",
+   "type": "carousel",
+   "owner": "Chaleh 70 m2, Kaslik & Jounieh",
+   "listing_ids": [
+    62
+   ],
+   "instagram": "dj_michka",
+   "date": "2026-11-24",
+   "status": "scheduled",
+   "story_status": "scheduled",
+   "story_video": "story.mp4",
+   "story_music": "lounge-aurec.mp3 @16s",
+   "kind": "collab",
+   "season": "winter",
+   "note": "NEW CLIENT (listing 62, found on site 20 Nov 2026). Handle dj_michka sent by the owner (Michel K.) on WhatsApp, Kamel: use it (20 Nov). Tue 24 Nov carousel + story. No beach content in November; facts from listing 62 ($65, up to 3 guests, 70 m2, sea view balcony, heating/AC, 40 min from Beirut as shown). Built tools/examples/make_kaslik_chalet.py."
   }
  ],
  "owners_without_instagram": [
