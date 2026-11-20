@@ -1,0 +1,21 @@
+{
+ "music": "music/upbeat-gear-mixkit.mp3",
+ "musicStart": 0,
+ "bpm": 126,
+ "shots": [
+  {"photo": "photos/solitere/65-04.webp", "seconds": 2.2, "move": "zoom_in", "fy": 0.5,
+   "text": {"type": "hook", "en": "Studios in Byblos from $58 a night"}},
+  {"photo": "photos/solitere/65-01.webp", "seconds": 2.2, "move": "pan_right",
+   "text": {"type": "title", "name": "Solitere Suites", "pill": "Byblos · 35 min from Beirut"}},
+  {"photo": "photos/solitere/65-03.webp", "seconds": 2.2, "move": "zoom_in", "fy": 0.5,
+   "text": {"type": "room", "name": "Cozy Studio", "en": "Queen bed, private bathroom, kitchenette", "price": "$58 / night"}},
+  {"photo": "photos/solitere/66-02.webp", "seconds": 2.2, "move": "pan_left",
+   "text": {"type": "room", "name": "King Studio", "en": "King or twin beds, lounge area", "price": "$90 / night"}},
+  {"photo": "photos/solitere/68-01.webp", "seconds": 2.2, "move": "zoom_out", "fy": 0.5,
+   "text": {"type": "room", "name": "One-bedroom flat", "en": "Furnished, with a balcony, up to 4 guests", "price": "$165 / night"}},
+  {"photo": "photos/solitere/65-14.webp", "seconds": 2.2, "move": "zoom_out", "framed": true,
+   "text": {"type": "fact", "en": "Sea view, terrace and free parking"}},
+  {"photo": "photos/solitere/65-02.webp", "seconds": 3.2, "move": "zoom_out", "fy": 0.5,
+   "text": {"type": "end", "name": "Solitere Suites", "price": "From $58 / night"}}
+ ]
+}

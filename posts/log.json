@@ -507,7 +507,7 @@
    "note": "new listing (wedding venue); first post for this owner; redesigned 30 Oct 2026 (Weekendna-as-hero), moved to Tue 10 Nov (wedding venues have no seasonal wait) Re-slotted 1 Nov 2026 (weekly task) to the weekly pattern after the 1 Nov Aqualand insert had shifted everything by a day. Re-slotted 2 Nov 2026 to the ORGANIC GROWTH PLAN.  Released 3 Nov 2026 by Kamel: wedding venues can post in any season (carousel + story Fri 20 Nov, Reel version Sat 21 Nov). Re-slotted 8 Nov 2026 (weekly task): Fri = property/experience Reel and Sat is story-only, so the Reel goes out Fri 20 Nov and the carousel is on hold (same as Le Grey). | 20 Nov 2026: Reel missed 20 Nov (usage limit), re-slotted to Mon 23 Nov (collab, pharedunord).",
    "type": "carousel",
    "story_status": "hold",
-   "reel_date": "2026-11-23",
+   "reel_date": "2026-11-24",
    "reel_status": "scheduled",
    "music": "lounge-aurec.mp3 @16s",
    "kind": "collab",
@@ -747,6 +747,26 @@
    "note": "Story-only day (ORGANIC GROWTH PLAN); plain image, questions answered by reply/DM. Sun recap: Happy Independence Day + quiz answer + where next? Built by tools/examples/make_stories_nov17_22.py.",
    "story_video": "story.mp4",
    "story_music": "warm-acoustic-atlasaudio.mp3 @60s"
+  },
+  {
+   "folder": "2026-11-solitere-suites",
+   "type": "reel",
+   "owner": "Solitere Suites",
+   "listing_ids": [
+    65,
+    66,
+    67,
+    68
+   ],
+   "instagram": "soliteresuites",
+   "date": "2026-11-23",
+   "status": "scheduled",
+   "video": "reel.mp4",
+   "kind": "collab",
+   "track": "stay",
+   "season": "winter",
+   "music": "upbeat-gear-mixkit.mp3 @0s",
+   "note": "NEW CLIENT (listings 65-68, found on site 20 Nov 2026). Handle soliteresuites (408 followers) sent by Kamel 20 Nov. Mon 23 Nov collab Reel; 30-day growth plan item. Facts from listings 65-68 (Cozy Studio $58, King Studio $90, flats $135/$165 up to 4, Jbeil 35 min from Beirut)."
   }
  ],
  "owners_without_instagram": [
