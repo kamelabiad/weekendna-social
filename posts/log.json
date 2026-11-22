@@ -850,6 +850,24 @@
       "story_video": "story.mp4",
       "story_music": "warm-acoustic-atlasaudio.mp3 @20s",
       "note": "Sun recap + 'Where should we explore next?' (reply NORTH, METN or BEKAA). Built by tools/examples/make_stories_nov24_29.py."
+    },
+    {
+      "folder": "2026-12-aqualand-winter",
+      "type": "reel",
+      "owner": "Aqualand Hotel & Resort",
+      "listing_ids": [
+        18,
+        24
+      ],
+      "instagram": "aqualandbatroun",
+      "date": "2026-12-04",
+      "status": "scheduled",
+      "video": "reel.mp4",
+      "kind": "collab",
+      "track": "stay",
+      "season": "winter",
+      "music": "lounge-aurec.mp3 @60s",
+      "note": "Fri 4 Dec property Reel, collab aqualandbatroun (29.3K). Kamel 22 Nov 2026: 'Sure do it' (use top-audience owners). Winter angle: sea views from the bed and spa bath, no swimming/pool. Listing photos 24-01..03 (960px, framed) + 18-01. Facts: standard room 30 m2 full sea view $150; deluxe double spa bath + sea-view terrace (no price shown). CTA comment DETAILS / DM dates. If Aqualand sends their own vertical video by Wed 2 Dec (whatsapp.txt asks), rebuild the Reel with it first. Next weekly task: don't give Thu 3 Dec's Reel the lounge track."
     }
   ],
   "owners_without_instagram": [
@@ -872,8 +890,8 @@
   "owner_kits": {
     "_about": "Monthly kit tracking (Kamel, 27 Oct 2026): each owner gets one new-angle post a month. last_published and next_scheduled are the feed post dates; the weekly task updates them when it plans posts.",
     "Aqualand Hotel & Resort": {
-      "last_published": "2026-10-22",
-      "next_scheduled": "2026-11-01"
+      "last_published": "2026-11-01",
+      "next_scheduled": "2026-12-04"
     },
     "Moobs House": {
       "last_published": "2026-10-18",
@@ -892,8 +910,9 @@
       "next_scheduled": "2026-11-26"
     },
     "Acampar": {
-      "last_published": "2026-11-06",
-      "next_scheduled": "2026-11-16"
+      "last_published": "2026-11-16",
+      "next_scheduled": null,
+      "note": "Kamel 22 Nov 2026: plan an Acampar ski-season collab Reel for mid-December once Acampar sends new clips (request in posts/2026-12-acampar-request.txt). Listing photos are used up."
     },
     "Bayt Baabdat": {
       "last_published": "2026-10-26",

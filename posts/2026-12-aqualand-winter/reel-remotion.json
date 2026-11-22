@@ -1,0 +1,17 @@
+{
+ "music": "music/lounge-aurec.mp3",
+ "musicStart": 60,
+ "bpm": 99,
+ "shots": [
+  {"photo": "photos/aqualand/24-02.webp", "seconds": 2.724, "move": "zoom_in", "framed": true,
+   "text": {"type": "hook", "en": "Winter sea, seen from your bed"}},
+  {"photo": "photos/aqualand/24-01.webp", "seconds": 2.724, "move": "pan_right", "framed": true,
+   "text": {"type": "title", "name": "Aqualand Hotel & Resort", "pill": "Batroun · 35 min from Beirut"}},
+  {"photo": "photos/aqualand/24-03.webp", "seconds": 2.724, "move": "zoom_out", "framed": true,
+   "text": {"type": "fact", "en": "A spa bath and a terrace facing the sea"}},
+  {"photo": "photos/aqualand/18-01.webp", "seconds": 2.724, "move": "pan_up",
+   "text": {"type": "room", "name": "Standard room", "en": "30 m², full sea view", "price": "$150 / night"}},
+  {"photo": "photos/aqualand/24-02.webp", "seconds": 3.936, "move": "zoom_out", "framed": true,
+   "text": {"type": "end", "name": "Aqualand Hotel & Resort", "price": "From $150 / night"}}
+ ]
+}
