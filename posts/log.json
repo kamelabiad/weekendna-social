@@ -411,7 +411,7 @@
       "instagram": null,
       "status": "hold",
       "folder": "2026-10-ghosta-guest-house",
-      "note": "Ghosta has NO Instagram (Kamel confirmed 1 Nov 2026): posted without a collaborator; don't ask for a handle again. Week 2 Wed property Reel framed as a Weekendna discovery (carousel slides kept in the folder, not used). Keyword GHOSTA. Re-slotted 1 Nov 2026 (weekly task) to the weekly pattern. Re-slotted 2 Nov 2026 to the ORGANIC GROWTH PLAN. On hold (no Instagram handle; reschedule as a Fri property Reel when a slot is free).",
+      "note": "Ghosta has NO Instagram (Kamel confirmed 1 Nov 2026): posted without a collaborator; don't ask for a handle again. Week 2 Wed property Reel framed as a Weekendna discovery (carousel slides kept in the folder, not used). Keyword GHOSTA. Re-slotted 1 Nov 2026 (weekly task) to the weekly pattern. Re-slotted 2 Nov 2026 to the ORGANIC GROWTH PLAN. On hold (no Instagram handle; reschedule as a Fri property Reel when a slot is free). | 22 Nov 2026: superseded by 2026-11-weekend-edit-ghosta (new English-only Reel, Thu 26 Nov). Keep this item on hold.",
       "type": "reel",
       "story_status": "hold",
       "music": "calm-acoustic-andriig.mp3",
@@ -504,10 +504,10 @@
       "instagram": "pharedunord",
       "status": "hold",
       "folder": "2026-11-phare-du-nord",
-      "note": "new listing (wedding venue); first post for this owner; redesigned 30 Oct 2026 (Weekendna-as-hero), moved to Tue 10 Nov (wedding venues have no seasonal wait) Re-slotted 1 Nov 2026 (weekly task) to the weekly pattern after the 1 Nov Aqualand insert had shifted everything by a day. Re-slotted 2 Nov 2026 to the ORGANIC GROWTH PLAN.  Released 3 Nov 2026 by Kamel: wedding venues can post in any season (carousel + story Fri 20 Nov, Reel version Sat 21 Nov). Re-slotted 8 Nov 2026 (weekly task): Fri = property/experience Reel and Sat is story-only, so the Reel goes out Fri 20 Nov and the carousel is on hold (same as Le Grey). | 20 Nov 2026: Reel missed 20 Nov (usage limit), re-slotted to Mon 23 Nov (collab, pharedunord).",
+      "note": "new listing (wedding venue); first post for this owner; redesigned 30 Oct 2026 (Weekendna-as-hero), moved to Tue 10 Nov (wedding venues have no seasonal wait) Re-slotted 1 Nov 2026 (weekly task) to the weekly pattern after the 1 Nov Aqualand insert had shifted everything by a day. Re-slotted 2 Nov 2026 to the ORGANIC GROWTH PLAN.  Released 3 Nov 2026 by Kamel: wedding venues can post in any season (carousel + story Fri 20 Nov, Reel version Sat 21 Nov). Re-slotted 8 Nov 2026 (weekly task): Fri = property/experience Reel and Sat is story-only, so the Reel goes out Fri 20 Nov and the carousel is on hold (same as Le Grey). | 20 Nov 2026: Reel missed 20 Nov (usage limit), re-slotted to Mon 23 Nov (collab, pharedunord). | 22 Nov 2026 (weekly task): Reel moved Wed 25 -> Fri 27 Nov (Fri = property/experience Reel, CTA comment PHARE; Wed is the carousel slot). Fixes the 23-vs-25 contradiction in the note above.",
       "type": "carousel",
       "story_status": "hold",
-      "reel_date": "2026-11-25",
+      "reel_date": "2026-11-27",
       "reel_status": "scheduled",
       "music": "lounge-aurec.mp3 @16s",
       "kind": "collab",
@@ -777,14 +777,79 @@
         62
       ],
       "instagram": "dj_michka",
-      "date": "2026-11-24",
+      "date": "2026-11-25",
       "status": "scheduled",
       "story_status": "scheduled",
       "story_video": "story.mp4",
       "story_music": "lounge-aurec.mp3 @16s",
       "kind": "collab",
       "season": "winter",
-      "note": "NEW CLIENT (listing 62, found on site 20 Nov 2026). Handle dj_michka sent by the owner (Michel K.) on WhatsApp, Kamel: use it (20 Nov). Tue 24 Nov carousel + story. No beach content in November; facts from listing 62 ($65, up to 3 guests, 70 m2, sea view balcony, heating/AC, 40 min from Beirut as shown). Built tools/examples/make_kaslik_chalet.py."
+      "note": "NEW CLIENT (listing 62, found on site 20 Nov 2026). Handle dj_michka sent by the owner (Michel K.) on WhatsApp, Kamel: use it (20 Nov). Tue 24 Nov carousel + story. No beach content in November; facts from listing 62 ($65, up to 3 guests, 70 m2, sea view balcony, heating/AC, 40 min from Beirut as shown). Built tools/examples/make_kaslik_chalet.py. | 22 Nov 2026 (weekly task): moved Tue 24 -> Wed 25 Nov (Tue is story-only in the growth plan; Wed is the carousel slot). whatsapp.txt now says Wednesday."
+    },
+    {
+      "folder": "2026-11-stories-24",
+      "type": "stories",
+      "owner": "Weekendna (stories)",
+      "date": "2026-11-24",
+      "story_status": "scheduled",
+      "kind": "stories",
+      "season": "winter",
+      "story_video": "story.mp4",
+      "story_music": "calm-acoustic-andriig.mp3 @45s",
+      "note": "Tue story-only (ORGANIC GROWTH PLAN): 'How many are you this weekend?' on a Le Grey balcony photo; answers by reply/DM. Built by tools/examples/make_stories_nov24_29.py."
+    },
+    {
+      "folder": "2026-11-weekend-edit-ghosta",
+      "type": "reel",
+      "owner": "Ghosta Guest House (The Weekend Edit)",
+      "listing_ids": [
+        37
+      ],
+      "instagram": null,
+      "date": "2026-11-26",
+      "status": "scheduled",
+      "video": "reel.mp4",
+      "kind": "discovery",
+      "track": "weekend-edit",
+      "season": "winter",
+      "music": "warm-acoustic-atlasaudio.mp3 @0s",
+      "note": "Thu 26 Nov THE WEEKEND EDIT (weekly task 22 Nov). Forecast 23-28 Nov: dry and mild on the coast (Beirut 21-24 C), so a view/balcony pick (season rule: sunny = views, terraces); weather not in the hook. Ghosta never posted (no Instagram, so no collaborator). Facts from listing 37: 400 m2, 800 m up, 180 view Beirut to Byblos, 5 bedrooms, 3 bathrooms, up to 12 guests, $220/night, 25 min from Beirut (listing figure). 13.5 s, main CTA Save, Follow last."
+    },
+    {
+      "folder": "2026-11-stories-26",
+      "type": "stories",
+      "owner": "Weekendna (stories)",
+      "date": "2026-11-26",
+      "story_status": "scheduled",
+      "kind": "stories",
+      "season": "winter",
+      "story_video": "story.mp4",
+      "story_music": "oud-alexmorgan.mp3 @40s",
+      "note": "Thu teaser story for the Weekend Edit (Ghosta balcony). Built by tools/examples/make_stories_nov24_29.py."
+    },
+    {
+      "folder": "2026-11-stories-28",
+      "type": "stories",
+      "owner": "Weekendna (stories)",
+      "date": "2026-11-28",
+      "story_status": "scheduled",
+      "kind": "stories",
+      "season": "winter",
+      "story_video": "story.mp4",
+      "story_music": "lounge-aurec.mp3 @40s",
+      "note": "Sat story-only FAQ: 'Do I pay to request dates?' (wording from weekendna.com/en/how-it-works via the 9 Nov post). Built by tools/examples/make_stories_nov24_29.py."
+    },
+    {
+      "folder": "2026-11-stories-29",
+      "type": "stories",
+      "owner": "Weekendna (stories)",
+      "date": "2026-11-29",
+      "story_status": "scheduled",
+      "kind": "stories",
+      "season": "winter",
+      "story_video": "story.mp4",
+      "story_music": "warm-acoustic-atlasaudio.mp3 @20s",
+      "note": "Sun recap + 'Where should we explore next?' (reply NORTH, METN or BEKAA). Built by tools/examples/make_stories_nov24_29.py."
     }
   ],
   "owners_without_instagram": [
@@ -824,7 +889,7 @@
     },
     "Ghosta Guest House": {
       "last_published": null,
-      "next_scheduled": null
+      "next_scheduled": "2026-11-26"
     },
     "Acampar": {
       "last_published": "2026-11-06",
@@ -848,7 +913,7 @@
     },
     "Phare du Nord Venue": {
       "last_published": null,
-      "next_scheduled": "2026-11-20"
+      "next_scheduled": "2026-11-27"
     },
     "Le Grey Apartments": {
       "last_published": null,
@@ -859,12 +924,20 @@
       "next_scheduled": null
     },
     "Casa Verde Guest House": {
-      "last_published": "2026-11-07",
-      "next_scheduled": "2026-11-19"
+      "last_published": "2026-11-21",
+      "next_scheduled": null
     },
     "The Gray House": {
       "last_published": null,
       "next_scheduled": "2026-11-13"
+    },
+    "Solitere Suites": {
+      "next_scheduled": "2026-11-23",
+      "last_published": null
+    },
+    "Chaleh 70 m2, Kaslik & Jounieh": {
+      "next_scheduled": "2026-11-25",
+      "last_published": null
     }
   },
   "parked": [

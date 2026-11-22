@@ -1,0 +1,17 @@
+{
+ "music": "music/warm-acoustic-atlasaudio.mp3",
+ "musicStart": 0,
+ "bpm": 100,
+ "shots": [
+  {"photo": "photos/ghosta/37-26.webp", "seconds": 2.7, "move": "zoom_in", "fy": 0.5,
+   "text": {"type": "hook", "en": "Your weekend view: Beirut to Byblos"}},
+  {"photo": "photos/ghosta/37-19.webp", "seconds": 2.7, "move": "pan_right",
+   "text": {"type": "title", "name": "Ghosta Guest House", "pill": "Above Jounieh · 25 min from Beirut"}},
+  {"photo": "photos/ghosta/37-14.webp", "seconds": 2.7, "move": "zoom_out",
+   "text": {"type": "fact", "en": "800 m up, a 180° view of the coast"}},
+  {"photo": "photos/ghosta/37-18.webp", "seconds": 2.7, "move": "pan_left",
+   "text": {"type": "room", "name": "400 m² for the whole group", "en": "5 bedrooms, 3 bathrooms, up to 12 guests", "price": "$220 / night"}},
+  {"photo": "photos/ghosta/37-35.webp", "seconds": 3.9, "move": "zoom_out",
+   "text": {"type": "end", "name": "Ghosta Guest House", "price": "From $220 / night"}}
+ ]
+}
