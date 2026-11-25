@@ -777,15 +777,16 @@
       "listing_ids": [
         62
       ],
-      "instagram": "dj_michka",
       "date": "2026-11-25",
-      "status": "scheduled",
-      "story_status": "scheduled",
+      "status": "published",
+      "story_status": "published",
       "story_video": "story.mp4",
       "story_music": "lounge-aurec.mp3 @16s",
       "kind": "collab",
       "season": "winter",
-      "note": "NEW CLIENT (listing 62, found on site 20 Nov 2026). Handle dj_michka sent by the owner (Michel K.) on WhatsApp, Kamel: use it (20 Nov). Tue 24 Nov carousel + story. No beach content in November; facts from listing 62 ($65, up to 3 guests, 70 m2, sea view balcony, heating/AC, 40 min from Beirut as shown). Built tools/examples/make_kaslik_chalet.py. | 22 Nov 2026 (weekly task): moved Tue 24 -> Wed 25 Nov (Tue is story-only in the growth plan; Wed is the carousel slot). whatsapp.txt now says Wednesday."
+      "note": "NEW CLIENT (listing 62, found on site 20 Nov 2026). Handle dj_michka sent by the owner (Michel K.) on WhatsApp, Kamel: use it (20 Nov). Tue 24 Nov carousel + story. No beach content in November; facts from listing 62 ($65, up to 3 guests, 70 m2, sea view balcony, heating/AC, 40 min from Beirut as shown). Built tools/examples/make_kaslik_chalet.py. | 22 Nov 2026 (weekly task): moved Tue 24 -> Wed 25 Nov (Tue is story-only in the growth plan; Wed is the carousel slot). whatsapp.txt now says Wednesday. | 25 Nov 2026 (daily task): Instagram rejected @dj_michka as collaborator/tag ('Invalid user id'); carousel published without collaborator so the day isn't empty. Kamel to confirm the owner's real handle.",
+      "instagram_rejected": "dj_michka",
+      "permalink": "https://www.instagram.com/p/DgLClorFV88/"
     },
     {
       "folder": "2026-11-stories-24",
